@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 15px sans-serif;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: #FF00FF;
+  stroke-width: 2.0px;
+}
+
+</style>
+
+
+<body>
+  <h1>2014년도 음주운전 교통사고 건수</h1>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<!-- <form>
+   <select id="year">
+   <option value="2008">2008년</option>
+   <option value="2009">2009년</option>
+   <option value="2010">2010년</option>
+   <option value="2011">2011년</option>
+   <option value="2012">2012년</option>
+   <option value="2013">2013년</option>
+   <option value="2014">2014년</option>
+ </select>
+</form> -->
+
+<script>
+
+var width = 960,
+    height = 600,
+    radius = Math.min(width, height) / 2;
+
+var color = d3.scale.ordinal()
+    .range(["#4160D6", "#526ED8", "#6B85D7", "#8EA2DC", "#A5BCFF", "#0B4391"]);
+
+var arc = d3.svg.arc()
+    .outerRadius(radius - 10)
+    .innerRadius(radius - 120);
+
+var pie = d3.layout.pie()
+    .sort(null)
+    .value(function(d) { return d.events; });
+
+var svg1 = d3.select("body").append("svg").attr("id", "PieGraph")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+function drawPie(fname){
+  d3.tsv(fname, function(error, data) {
+  data.forEach(function(d) {
+    d.year = +d.year;
+    d.killed = +d.killed;
+    d.injured = +d.injured;
+    d.events = +d.events;
+  });
+
+  var g = svg1.selectAll(".arc")
+      .data(pie(data))
+    .enter().append("g")
+      .attr("class", "arc");
+
+  g.append("path")
+      .attr("d", arc)
+      .style("fill", function(d) { return color(d.data.region); });
+
+  g.append("text")
+      .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+      .attr("dy", ".35em")
+      .style("text-anchor", "middle")
+      .text(function(d) { return d.data.region; });
+
+  });
+}
+
+// d3.select("#year").on("change", function() {
+//   d3.select("#PieGraph").selectAll("*").remove()
+//   drawPie("data/" + this.value + ".tsv", this.value)
+// })
+
+drawPie("data/2014.tsv")
+
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>2008년 - 2014년 음주운전 교통사고 부상자 수</h1>
+<script>
+
+// Line Graph
+
+
+var svg2 = d3.select("body").append("svg").attr("id", "LineGraph")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + 70 + "," + 60 + ")");
+
+var margin = {top: 100, right: 50, bottom: 30, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var parseDate = d3.time.format("%Y").parse;
+
+var x = d3.time.scale().range([0, width])
+var y = d3.scale.linear().range([height, 0])
+var xAxis = d3.svg.axis().scale(x).orient("bottom")
+var yAxis = d3.svg.axis().scale(y).orient("left")
+var line = d3.svg.line()
+           .x(function(d) { return x(d.year) })
+           .y(function(d) { return y(d.injured) })
+
+
+d3.tsv("data/linedata.tsv", function(error, data) {
+  data.forEach(function(d) {
+    d.year = parseDate(d.year);
+    d.injured = +d.injured;
+    console.log(d.injured)
+})
+
+    x.domain(d3.extent(data, function(d) { return d.year }))
+    y.domain(d3.extent(data, function(d) { return d.injured }))
+
+  svg2.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis)
+    .append("text")
+    .attr("")
+
+  svg2.append("g")
+    .attr("class", "y axis")
+    .call(yAxis)
+     .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 6)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("부상자 수(명)");
+
+  svg2.append("path")
+    .datum(data)
+    .attr("class", "line")
+    .attr("d", line)
+})
+
+</script>
+</body>
+

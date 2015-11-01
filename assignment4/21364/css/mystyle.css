@@ -1,0 +1,146 @@
+body {
+	font: 10px sans-serif;
+}
+
+h1 {
+	font-family: "돋움", Arial, sans-serif;
+	font-size: 28px;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.x.axis path {
+	display: none;
+}
+
+.line {
+	fill: none;
+	stroke: orangered;
+	stroke-width: 1.5px;
+}
+
+/*labels*/
+path.slice{
+	stroke-width:2px;
+}
+
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}
+
+div#pieChart {
+	margin: 0 0 40px 0;
+}
+
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, "돋움", sans-serif;
+	font-size: 10px;
+	text-align: left;
+	line-height: 10px;
+	z-index: 1;
+}
+
+/*p:nth-child(2) {
+	top: 80px;
+}
+
+p:nth-child(3) {
+	top: 100px;
+}
+
+p:nth-child(4) {
+	top: 120px;
+}
+
+p:nth-child(5) {
+	top: 140px;
+}
+
+p:nth-child(6) {
+	top: 160px;
+}
+
+p:nth-child(7) {
+	top: 180px;
+}
+
+p:nth-child(8) {
+	top: 200px;
+}
+
+p:nth-child(9) {
+	top: 220px;
+}
+
+p:nth-child(10) {
+	top: 240px;
+}
+*/
+div#legend {
+	position: absolute;
+	left: 800px;
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+div#g1 {
+	width: 10px;
+	height: 10px;
+	background-color: #00a99d;
+}
+
+div#g2 {
+	width: 10px;
+	height: 10px;
+	background-color: #09929b;
+}
+
+div#g3 {
+	width: 10px;
+	height: 10px;
+	background-color: #0e849a;
+}
+
+div#g4 {
+	width: 10px;
+	height: 10px;
+	background-color: #1c6097;
+}
+
+div#g5 {
+	width: 10px;
+	height: 10px;
+	background-color: #2e3192;
+}
+
+div#g6 {
+	width: 10px;
+	height: 10px;
+	background-color: #572e76;
+}
+
+div#g7 {
+	width: 10px;
+	height: 10px;
+	background-color: #892b54;
+}
+
+div#g8 {
+	width: 10px;
+	height: 10px;
+	background-color: #9d2a46;
+}
+
+div#g9 {
+	width: 10px;
+	height: 10px;
+	background-color: #c1272d;
+}

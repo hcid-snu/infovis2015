@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="utf-8" http-equiv="encoding">
+		<title>car accidents in Seoul</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<!--<script src="d3.min.js"></script>-->
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+	</head>
+	<body>
+		<h1>Car Accidents in Seoul</h1>
+		<p>지난 10년간 서울시내 교통사고 사망자 수를 살펴보면 다음과 같습니다. [자료=서울통계] </p>
+		<svg id="myGraph"></svg>
+		<script src="js/mycode.js"></script>
+		<p>2009년에 가장 많은 사망자를 낸 뒤 이후 감소 추세에 접어든 것을 볼 수 있습니다.</p>
+		<p>그렇다면 2009년과 2014년, 사망자 가운데 연령대 비율은 어떨까요? 색이 짙어질수록 연령대가 올라갑니다.</p>
+		<p>범위 : 20세 이하 | 21~40세 | 41~60세 | 61세 이상  (단위: 명) </p>
+		<form>
+			<select id="year">
+				<option value = "2009">2009년</option>
+				<option value = "2014">2014년</option>
+			</select>
+		</form>
+		<svg id="myGraph1"></svg>
+		<script src="js/mycode1.js"></script>
+		<p>높은 연령대가 사망률에서 높은 비율을 차지하는 건 5년 전이나 지금이나 마찬가지네요.</p>
+		<p>그렇다면 아이들(20세 이하)이 사망 사고를 가장 많이 당하는 지역은 어디일까요?</p> 
+		<svg id="myGraph2"></svg>
+		<script src="js/mycode5.js"></script>
+		<p>초기엔 송파구(보라색)에서 많은 수를 보였지만, 갈수록 마포-영등포-강서구(붉은색)에서도 많은 사망자가 나오고 있습니다.</p>
+		<p>이들의 바로 윗 세대(21~40세) 데이터를 입혀봤더니 다음과 같은 결과가 나옵니다.</p>
+		<svg id="myGraph3"></svg>
+		<script src="js/mycode6.js"></script>
+		<p>오히려 강남구(노란색)에서 젊은이들의 사망사고가 많았네요.</p>
+		<p>아이들과 동선이 다르다보니 그래프 패턴도 다르게 나오는 걸 볼 수 있습니다.</p>
+	</body>
+</html>
+

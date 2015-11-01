@@ -1,0 +1,21 @@
+svg { 
+	width: 600px; 
+	height: 600px; 
+	border: 1px 
+	solid black; 
+}
+
+.pie {
+	stroke: white;
+	stroke-width: 1px;
+}
+
+.total {
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.pieNum {
+	font: bold 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}

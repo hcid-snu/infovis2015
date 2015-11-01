@@ -1,0 +1,78 @@
+svg { 
+  width : 600px;
+  height : 200px;
+  border: 1px white; 
+}
+
+.bar { fill: #C31C0B;}
+.barNum {
+  font-size: 9px;
+  text-anchor: middle;
+}
+
+body {
+  font: 12px sans-serif;
+}
+.axis text {
+  font-family: sans-serif;
+  font-size: 9px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis_x line {
+  fill: none;
+  stroke: red;
+}
+
+.barName {
+  font-size: 9px;
+  text-anchor: middle;
+}
+
+.total { 
+  font-size:9px;
+  color: red;
+}
+.pieNum { 
+  font-size: 9px;
+  text-anchor: middle;
+  stroke: white;
+}
+
+.line {fill: none; stroke: black; }
+.axis_text {
+  font-family: sans-serif;
+  font-size: 9px;
+}
+
+.itemA{ stroke: #E3D1E8 ;}
+.itemB{ stroke: #E3D1E8 ;}
+.itemC{ stroke: #E3D1E8 ;}
+.itemD{ stroke: #E3D1E8 ;}
+.itemE{ stroke: #E3D1E8 ;}
+.itemF{ stroke: #E3D1E8 ;}
+.itemG{ stroke: #E3D1E8 ;}
+.itemH{ stroke: #E3D1E8 ;}
+.itemI{ stroke: #E3D1E8 ;}
+.itemJ{ stroke: #E3D1E8 ;}
+.itemK{ stroke: #E3D1E8 ;}
+.itemL{ stroke: #E3D1E8 ;}
+.itemM{ stroke: #E3D1E8 ;}
+.itemN{ stroke: #A40000 ;}
+.itemO{ stroke: #E3D1E8 ;}
+.itemP{ stroke: #A40000 ;}
+.itemQ{ stroke: #E3D1E8 ;}
+.itemR{ stroke: #E3D1E8 ;}
+.itemS{ stroke: #A40000 ;}
+.itemT{ stroke: #E3D1E8 ;}
+.itemU{ stroke: #E3D1E8 ;}
+.itemV{ stroke: #E3D1E8 ;}
+.itemW{ stroke: #FFB214 ;}
+.itemX{ stroke: #A400BA ;}
+.itemY{ stroke: #E3D1E8 ;}
+

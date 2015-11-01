@@ -1,0 +1,8 @@
+[
+	{ "year" : 2009, "Seocho" : 75, "Gangnam" : 94, "Songpa" : 128 },
+	{ "year" : 2010, "Seocho" : 68, "Gangnam" : 79, "Songpa" : 151 },
+	{ "year" : 2011, "Seocho" : 72, "Gangnam" : 77, "Songpa" : 114 },
+	{ "year" : 2012, "Seocho" : 68, "Gangnam" : 101, "Songpa" : 149 },
+	{ "year" : 2013, "Seocho" : 65, "Gangnam" : 75, "Songpa" : 117 },
+	{ "year" : 2014, "Seocho" : 78, "Gangnam" : 96, "Songpa" : 138 }
+]

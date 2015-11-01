@@ -1,0 +1,47 @@
+#myGraph { 
+	width: 640px; 
+	height: 480px; 
+}
+
+.pie {
+	stroke : white;
+	stroke-width : 1px;
+}
+
+g {
+	stroke : gray;
+}
+
+g.arc {
+	stroke : white;
+	stroke-width : 1px;
+}
+
+body {
+  font: 12px black sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+span {
+	color : red ;
+}
+
+p {
+	font-size: 15px;
+}

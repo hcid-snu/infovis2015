@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+	  <meta charset="utf-8">
+	  <title> Assignment 4. Making Pie Chart & Line Graph </title>
+	  <script src="http://d3js.org/d3.v3.min.js" charset = "utf-8"> </script>
+	  
+	  <style>
+	  svg { width: 550px; height: 550px; border: 1px solid black; }
+	  .pie { fill: gray; stroke: white; stroke-width: 2px; }
+	  .total { font-family: sans-serif; font-size: 11pt; font-weight: bold; text-anchor: middle; }
+	  .pieNum { font-family: sans-serif; font-size: 10pt; text-anchor: middle; }
+	  </style>
+	</head>
+
+	<body>
+	  <h1> <text style="font-family=sans-serif; font-size:30pt; font-weight=bold; fill:black"> Children' Car Accidents in Gangnam 3-gu, <br>
+	  Using Pie Chart </text> </h1>
+	  <svg id="myGraph"> </svg>
+	  <form>
+	   <select id="year">
+ 	    <option value="2009"> 2009 Report </option>
+	    <option value="2010"> 2010 Report </option>
+		<option value="2011"> 2011 Report </option>
+		<option value="2012"> 2012 Report </option>
+		<option value="2013"> 2013 Report </option>
+		<option value="2014"> 2014 Report </option>
+	   </select>
+	  </form>
+	  <script src="mycode.js"> </script>
+	</body>
+
+  
+  	<head>
+	  <meta charset="utf-8">
+	  <title> </title>
+	  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+	  <style>
+	  svg { width: 550px; height: 550px; border: 1px solid black; }
+	  .line { fill: none; stroke: red; }
+	  .axis text {
+	  font-family: sans-serif; font-size: 11px; }
+	  .axis path,
+	  .axis line { fill: none; stroke: black; }
+	  .areaA { stroke: "E69083"; }
+	  .areaB { stroke: "DB4C64"; }
+	  .areaC { stroke: "84755F"; }
+	  </style>
+	</head>
+
+	<body>
+	  <h1> <text style="font-family=sans-serif; font-size:30pt; font-weight=bold; fill:black"> Children' Car Accidents in Gangnam 3-gu, <br>
+	  Using Line Graph </text> <br>
+	  <text style="font-family=sans-serif; font-size:15pt; font-weight=bold; fill:black"> (The Highest: Songpa, The Middle: Gangnam, The Lowest: Seocho) </text> </h1>
+	  <svg id="myGraph2"> </svg>
+	  <script src="mycode2.js"> </script>
+	</body>
+ </html>

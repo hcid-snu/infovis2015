@@ -1,0 +1,28 @@
+svg { 
+}
+
+#myGraphLineWrapper {
+  display: inline; 
+}
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  stroke: #000;
+}
+
+.line {
+  fill: none;
+  stroke: #98abc5;
+  stroke-width: 3px;
+}
+

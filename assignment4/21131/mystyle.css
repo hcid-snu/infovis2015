@@ -1,0 +1,32 @@
+svg { 
+	width: 1000px; 
+	height: 1000px; 
+	border: 1px 
+	solid black; 
+}
+
+.pie {
+	stroke: white;
+	stroke-width: 1px;
+}
+
+.total {
+	font: 20pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.pieNum {
+	font: bold 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+path.slice{
+	stroke-width:2px;
+}
+
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}

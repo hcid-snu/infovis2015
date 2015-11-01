@@ -1,0 +1,99 @@
+svg { 
+	border: 1px 
+	solid black; 
+}
+
+body {
+  	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.x.axis path {
+  stroke: #000;
+}
+
+.y.axis text 
+{   font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    fill: #5C6161;	
+}
+.x.axis text 
+{  font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+   fill: #5C6161;	
+}
+
+
+.line1 {
+   fill: none;
+   stroke: #DC381F;
+   stroke-width: 5px;
+}
+.line1_text {
+   font:bold 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+   fill: #DC381F;
+   stroke: #5C6161;
+   stroke-width: 0.2px;
+}
+
+.line2 {	
+   fill: none;
+   stroke: #1FC2DB;
+   stroke-width: 1px;
+}
+
+.line2_text {
+   font: 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+   fill: #1FC2DB;
+   stroke: #5C6161;
+   stroke-width: 0.1px;
+}
+
+
+.tick line{
+  opacity: 0.1;
+}
+
+.lineNum {
+	   font: 8.5pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+     font-weight: bold;
+	   text-anchor: middle;
+      fill: #800000;
+  }
+
+
+.legend {                                                  
+  font-size: 12px;   
+  fill: #5C6161;                                       
+}                                                           
+.rect {                                                     
+  stroke-width: 2;                                           
+}  
+
+
+.pie {
+  stroke: white;
+  stroke-width: 1px;
+}
+
+.total {
+  font: bold 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  fill: #5C6161;
+  text-anchor: middle;
+}
+
+.pieNum {
+  font: bold 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  fill: #5C6161;
+  text-anchor: middle;
+ }
+
+.pieLabel
+ {
+   font:  8pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+   fill: #5C6161;
+    text-anchor: middle;
+  }

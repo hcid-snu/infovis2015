@@ -1,0 +1,15 @@
+svg { 
+	width: 400px; 
+	height: 300px; 
+}
+
+.total {
+	font: bold 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.pieNum {
+	font: 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+	fill: white;
+}

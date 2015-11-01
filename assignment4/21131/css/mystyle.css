@@ -1,0 +1,43 @@
+svg { 
+	width: 900px; 
+	height: 600px; 
+	border: 1px 
+	solid black; 
+}
+
+.pie {
+	stroke: white;
+	stroke-width: 1px;
+}
+
+.total {
+	font: 14pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	stroke-width: 3px;
+	text-anchor: middle;
+}
+
+.pieNum {
+	font: bold 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.region {
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: start;
+}
+
+.info {
+	font: 8pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: end;
+}
+
+path.slice{
+	stroke-width:2px;
+}
+
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}

@@ -1,0 +1,42 @@
+svg { 
+	width: 600px; 
+	height: 400px; 
+	border: 1px 
+	solid black; 
+}
+
+body {
+  font: 10px sans-serif;
+}
+
+.pie {
+	stroke: white;
+	stroke-width: 1px;
+}
+
+.total {
+	font: 7pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.pieNum {
+	font: bold 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  stroke: #000;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1px;
+}

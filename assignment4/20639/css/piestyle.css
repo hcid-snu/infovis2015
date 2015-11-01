@@ -1,0 +1,45 @@
+#myGraphPieWrapper {
+  display: inline-block;
+}
+
+#myGraphPie { 
+	width: 450px; 
+  height: 450px; 
+  border: 1px 
+}
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  stroke: #000;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1px;
+}
+
+.pie {
+  stroke: white;
+  stroke-width: 1px;
+}
+
+.total {
+  font: 8pt "Helvetica Neue" Arial Helvetica Geneva sans-serif;
+  text-anchor: middle;
+}
+
+.pieLab {
+  font: bold 6pt "Helvetica Neue" Arial Helvetica Geneva sans-serif;
+  text-anchor: middle;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment</title>
+		<script type="text/javascript" src="d3.v3.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<h1>자동차 사고 데이터를 이용한 시각화</h1>
+		<h2>서울대학교 융합과학기술대학원 <br>디지털융합전공 <br>2015-26040 <br>정정민</h2>
+		<div>
+		<p>아래의 option을 선택해서 원하는 연도를 선택해 보세요</p>
+			<form>
+				<select id = "year">
+					<option value = "2005">2005년</option>
+					<option value = "2006">2006년</option>
+					<option value = "2007">2007년</option>
+					<option value = "2008" onclick="sample(this)">2008년</option>
+					<option value = "2009" onclick="sample(this)">2009년</option>
+					<option value = "2010" onclick="sample(this)">2010년</option>
+					<option value = "2011" onclick="sample(this)">2011년</option>
+					<option value = "2012" onclick="sample(this)">2012년</option>
+					<option value = "2013" onclick="sample(this)">2013년</option>
+					<option value = "2014" onclick="sample(this)">2014년</option>
+				</select>
+			</form>
+		</div>
+		<p>아래의 '구'를 선택하면 원하는 구에 해당하는 pie chart가 그려집니다.<br> 복수 선택 가능하며 복수 선택시 원하는 pie차트가 값 비율에 맞춰 그려집니다.</p>
+		<div>
+			<form name = "myForm">
+				<input id = "checkbox" type = "checkbox" value = "jongnogu" 		onclick="Clicked(this)"> 종로구
+				<input id = "checkbox" type = "checkbox" value = "junggu" 			onclick="Clicked(this)"> 중구
+				<input id = "checkbox" type = "checkbox" value = "yongsangu" 		onclick="Clicked(this)"> 용산구
+				<input id = "checkbox" type = "checkbox" value = "sungdonggu" 		onclick="Clicked(this)"> 성동구	
+				<input id = "checkbox" type = "checkbox" value = "gwangjingu" 		onclick="Clicked(this)"> 광진구
+				<input id = "checkbox" type = "checkbox" value = "dongdaemungu" 	onclick="Clicked(this)"> 동대문구
+				<input id = "checkbox" type = "checkbox" value = "junglanggu" 		onclick="Clicked(this)"> 중랑구
+				<input id = "checkbox" type = "checkbox" value = "sungbukgu" 		onclick="Clicked(this)"> 성북구
+				<input id = "checkbox" type = "checkbox" value = "gangbukgu" 		onclick="Clicked(this)"> 강북구
+				<input id = "checkbox" type = "checkbox" value = "dobonggu" 		onclick="Clicked(this)"> 도봉구
+				<input id = "checkbox" type = "checkbox" value = "nowongu" 			onclick="Clicked(this)"> 노원구
+				<input id = "checkbox" type = "checkbox" value = "enpyunggu" 		onclick="Clicked(this)"> 은평구
+				<input id = "checkbox" type = "checkbox" value = "sudaemungu" 		onclick="Clicked(this)"> 서대문구
+				<input id = "checkbox" type = "checkbox" value = "mapogu" 			onclick="Clicked(this)"> 마포구
+				<input id = "checkbox" type = "checkbox" value = "yangchungu" 		onclick="Clicked(this)"> 양천구
+				<input id = "checkbox" type = "checkbox" value = "gangsugu" 		onclick="Clicked(this)"> 강서구
+				<input id = "checkbox" type = "checkbox" value = "gulogu" 			onclick="Clicked(this)"> 구로구
+				<input id = "checkbox" type = "checkbox" value = "gemchungu" 		onclick="Clicked(this)"> 금천구
+				<input id = "checkbox" type = "checkbox" value = "yeongdeungpogu" 	onclick="Clicked(this)"> 영등포구
+				<input id = "checkbox" type = "checkbox" value = "dongjakgu" 		onclick="Clicked(this)"> 동작구
+				<input id = "checkbox" type = "checkbox" value = "gwanakgu" 		onclick="Clicked(this)"> 관악구
+				<input id = "checkbox" type = "checkbox" value = "suchogu" 			onclick="Clicked(this)"> 서초구
+				<input id = "checkbox" type = "checkbox" value = "gangnamgu"	 	onclick="Clicked(this)"> 강남구
+				<input id = "checkbox" type = "checkbox" value = "songpagu" 		onclick="Clicked(this)"> 송파구
+				<input id = "checkbox" type = "checkbox" value = "gangdonggu" 		onclick="Clicked(this)"> 강동구
+			</form>
+		</div>
+		<p>아래 pie chart에서 <br><span>안쪽 pie</span>는 해당 년과 해당 구에서 발생한 자동차 사고로 인해 <span>부상 당한 사람의 수</span>이며 <br> <span>밖의 pie</span>는 <span>사망한 사람의 수</span>입니다.<br> 브라우저 상황에따라 한글이 오류 날 경우가 있어서 영어로 지역을 표시한 부분 이해해 주세요. </p>
+		<svg id="myGraph"></svg>
+		<p>다음 line graph는 매 년마다 증감하는 사망자의 수를 구별로 그려본 것입니다.</p>
+		<script src="mycode.js"></script>
+	</body>
+</html>

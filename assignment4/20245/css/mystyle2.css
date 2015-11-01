@@ -1,0 +1,39 @@
+svg { 
+	width: 900px; 
+	height: 450px; 
+	border: 1px
+	solid black;
+}
+	
+.line { 
+	fill: none; 
+	stroke: black; 
+}
+
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis_x line {
+	fill: none;
+	stroke: black;
+}
+
+.itemA { stroke: #1f77b4; }
+.itemB { stroke: #ff7f0e; }
+.itemC { stroke: #2ca02c; }
+.itemD { stroke: #d62728; }
+.itemE { stroke: #9467bd; }
+.itemF { stroke: #8c564b; }
+.itemG { stroke: #e377c2; }
+.itemH { stroke: #7f7f7f; }
+.itemI { stroke: #bcbd22; }
+.itemJ { stroke: #17becf; }

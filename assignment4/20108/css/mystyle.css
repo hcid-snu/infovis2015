@@ -1,0 +1,51 @@
+svg {
+  width: 830px;
+  height: 450px;
+  border: 1px
+	stroke: none;
+}
+
+body {
+	font: 11px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  stroke: #black;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 18px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.datapoint: hover {
+  fill: steelblue;
+}
+
+.pie {
+  stroke: white;
+  stroke-width: 1px;
+}
+
+.pieNum {
+  font: bold 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  text-anchor: middle;
+}

@@ -1,0 +1,44 @@
+svg {
+	width: 1200px;
+	height: 500px;
+	border: 2px solid #dedede;
+}
+.pie {
+	stroke: white;
+	stroke-width: 1px;
+}
+.total {
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+	dominant-baseline: middle;
+}
+.pieNum {
+	font: 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+	dominant-baseline: middle;
+}
+.titleBorough {
+	font: 18pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+	font-weight: 700;
+}
+.titleChart {
+	font: 15pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+	font-weight: 700;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+.x.axis path {
+	stroke: #000;
+}
+.line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 2px;
+}
+
