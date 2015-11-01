@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>과제2</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<h1>과제2 D3와 SVG를 활용한 애니메이션 그리기</h1>
+		
+		
+
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+		<div class="contain-demo">
+		  <svg width="620" height="200">
+		    <defs>
+		        <path id="testPath" d="M33.858,150.079
+		    c11.975-4.27,24.203-7.505,36.886-9.269c36.049-5.015,72.766,0.364,108.379,5.91c40.242,6.267,80.697,9.723,121.433,9.69
+		    c36.672-0.03,77.969-1.382,112.804-13.971c16.76-6.057,30.847-15.648,38.949-32.09c15.894-32.258-12.098-67.663-44.498-72.831
+		    c-27.709-4.42-63.533,24.213-53.21,54.99c5.929,17.669,29.09,11.549,41.399,5.908" />
+		    </defs>
+		    <desc>Purple text moving along curved path.</desc>
+		    <text x="2" y="20%" fill="#765373" font-size="25" font-family="'Lato', sans-serif">
+		      <textPath class="please" xlink:href="#testPath">I love Mickey Mouse So Much!
+		        <animate attributeName="startOffset" values="0;.5;1" dur="8s" repeatCount="indefinite" keyTimes="0;.5;1" />
+		      </textPath> 
+		    </text> 
+		  </svg>
+		</div>
+	
+
+		  <svg id="myGraph"></svg>
+		  
+
+		<script src="js/mycode.js"></script>
+	</body>
+</html>

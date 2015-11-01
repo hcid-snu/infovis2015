@@ -1,0 +1,27 @@
+svg {
+	border : 1px solid black;
+}
+
+.bar {
+	fill : rgb(10, 10, 70);
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgb(100, 0, 200);
+  color: white;
+  border-radius: 7px;
+}
+
+rect:hover{
+	fill: rgb(100, 0, 200);
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}

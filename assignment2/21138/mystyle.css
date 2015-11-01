@@ -1,0 +1,11 @@
+#myGraph line {
+	stroke: rgb(255, 0, 0);;
+	stroke-width: 1.5px;
+	
+}
+
+svg {
+	width: 500px;
+	height: 500px;
+	border: 1px solid black;	
+}

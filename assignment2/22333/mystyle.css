@@ -1,0 +1,20 @@
+#canvas rect {
+	stroke: black;
+	stroke-width: 2px;
+}
+
+circle {
+	stroke: black;
+	stroke-width: 2px;
+}
+
+ellipse {
+	stroke: black;
+	stroke-width: 2px;
+}
+
+svg {
+	width: 550px;
+	height: 450px;
+	border: 2px solid red;	
+}

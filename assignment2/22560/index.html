@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>assignment2_YongseokJoo</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<svg id="bonobono" height="350" width="450">
+		    <g style="fill:blue">
+			    <ellipse cx="160" cy="350" rx="100" ry="200" />
+				<circle cx="160" cy="120" r="100" />
+				<ellipse cx="200" cy="250" rx="20" ry="40" transform="rotate(45, 200, 250)" style="stroke:black" />
+		    </g>
+			<g style="fill:white">
+				<ellipse cx="210" cy="15" rx="20" ry="30" transform="rotate(45)" />
+				<ellipse cx="15" cy="240" rx="20" ry="30" transform="rotate(-45)" />
+			</g>
+			<g style="fill:black">
+				<circle cx="160" cy="140" r="15" />
+				<circle cx="80" cy="80" r="5" />
+				<circle cx="240" cy="80" r="5" />
+			</g>
+			<g style="stroke:black;stroke-width:1">
+            	<line x1="95" y1="153" x2="120" y2="155" />
+            	<line x1="97.5" y1="168" x2="120" y2="165" />
+            	<line x1="100" y1="183" x2="122" y2="175" />
+				<line x1="225" y1="153" x2="200" y2="155" />
+            	<line x1="222.5" y1="168" x2="200" y2="165" />
+            	<line x1="220" y1="183" x2="198" y2="175" />
+            </g>
+		</svg>
+		<script src="bonobono.js"></script>
+	</body>
+</html>

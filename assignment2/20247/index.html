@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--HONG NAHI 2015-20247-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>InfoVis2015-02:Assignment02</title>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<h1>
+            <span style="font-family:Verdana;font-size:40px;font-style:normal;font-weight:normal;text-decoration:none;text-transform:none;font-variant:small-caps;letter-spacing:8px;color:990099;">Rethinking Mondrian</span>
+                  <span style="font-family:Verdana;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-transform:none;font-variant:small-caps;color:990099;">by Nahi Hong</span>  
+            </h1>
+
+     
+        <h2>   
+            <marquee behavior="scroll" width = "600px" scrollamount="7">
+                 <span style="font-family:Helvetica;font-size:25px;font-style:normal;font-weight:normal;text-decoration:none;text-transform:none;font-variant:small-caps;color:990099;">Move Your Mouse Over the Rectangles!</span>
+            </marquee>
+        </h2>
+		<svg id="color" width="2000" height = "2000">
+        <g transform="scale(0.6)">
+            <!--캔버스-->
+            <rect x="10" y="10" width="1000" height="1000" fill="none" stroke= "black" stroke-width= "0.3" />
+            
+            <!--세로줄-->
+            <path d="M150 1010 L150 10"  fill="none" stroke="black" stroke-width= "10" />
+            <path d="M250 1010 L250 10"  fill="none" stroke="black" stroke-width= "10" />
+            <path d="M320 1010 L320 10"  fill="none" stroke="black" stroke-width= "10" />
+            <path d="M370 1010 L370 10"  fill="none" stroke="black" stroke-width= "10" />
+            <path d="M605 1010 L605 10"  fill="none" stroke="black" stroke-width= "17" />
+            <path d="M830 1010 L830 10"  fill="none" stroke="black" stroke-width= "15" />
+            <path d="M890 1010 L890 10"  fill="none" stroke="black" stroke-width= "10" />
+            <path d="M970 1010 L970 10"  fill="none" stroke="black" stroke-width= "10" />
+
+            <!--가로-->
+            <path d="M10 250 L1010 250"  fill="none" stroke="black" stroke-width= "17" />
+            <path d="M10 410 L1010 410"  fill="none" stroke="black" stroke-width= "10" />
+            <path d="M10 530 L1010 530"  fill="none" stroke="black" stroke-width= "10" />
+            <path d="M10 720 L1010 720"  fill="none" stroke="black" stroke-width= "10" />
+            <path d="M605 900 L890 900"  fill="none" stroke="black" stroke-width= "21" />
+            <path d="M605 990 L890 990"  fill="none" stroke="black" stroke-width= "10" />
+            </g>
+        </svg>
+        <script src="js/mycode.js">
+        </script>
+        <script src="js/event.js">
+        </script>
+
+	</body>
+</html>

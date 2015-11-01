@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>JOON YOUNG LEE-Assignment #2</title>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    </head>
+  <body>
+    <h1>
+        <span style="font-family:Lucida Console; font-size:40px; color:rgb(255,174,185); font-style:normal; font-weight:normal; text-decoration:none; text-transfrom:none; letter-spacing:8px;">
+        Blush</span> <span style="font-family:Lucida Console; font-size:40px; color:rgb(238,130,238); font-style:normal; font-weight:normal; text-decoration:none; text-transfrom:none; letter-spacing:8px;">Blush!</span>
+            <span style="font-family:Lucida Console; font-size:20px; font-style:normal; font-weight:normal; text-decoration:none; text-transform:none; color:rgb(205,193,197);">by JOON YOUNG LEE
+            </span>
+    </h1>
+    
+    <svg id="colors" width="1000" height="1000">
+        <!--canvas-->
+        <rect x="10" y="10" width="400" height="400" fill="none" stroke="none" />
+
+        <!--graph paper canvas-->
+        <!--horizontal lines-->
+        <path stroke="none" d="M0 0 l500 0" />
+        <path stroke="none" d="M0 15 l500 0" />
+        <path stroke="none" d="M0 30 l500 0" />
+        <path stroke="none" d="M0 45 l500 0" />
+        <path stroke="none" d="M0 60 l500 0" />
+        <path stroke="none" d="M0 75 l500 0" />
+        <path stroke="none" d="M0 90 l500 0" />
+        <path stroke="none" d="M0 105 l500 0" />
+        <path stroke="none" d="M0 120 l500 0" />
+        <path stroke="none" d="M0 135 l500 0" />
+        <path stroke="none" d="M0 150 l500 0" />
+        <path stroke="none" d="M0 165 l500 0" />
+        <path stroke="none" d="M0 180 l500 0" />
+        <path stroke="none" d="M0 195 l500 0" />
+        <path stroke="none" d="M0 210 l500 0" />
+        <path stroke="none" d="M0 225 l500 0" />
+        <path stroke="none" d="M0 240 l500 0" />
+        <path stroke="none" d="M0 255 l500 0" />
+        <path stroke="none" d="M0 270 l500 0" />
+        <path stroke="none" d="M0 285 l500 0" />
+        <path stroke="none" d="M0 300 l500 0" />
+        <path stroke="none" d="M0 315 l500 0" />
+        <path stroke="none" d="M0 330 l500 0" />
+        <path stroke="none" d="M0 345 l500 0" />
+        <path stroke="none" d="M0 360 l500 0" />
+        <path stroke="none" d="M0 375 l500 0" />
+        <path stroke="none" d="M0 390 l500 0" />
+        <path stroke="none" d="M0 405 l500 0" />
+        <path stroke="none" d="M0 420 l500 0" />
+        <path stroke="none" d="M0 435 l500 0" />
+        <path stroke="none" d="M0 450 l500 0" />
+        <path stroke="none" d="M0 465 l500 0" />
+        <path stroke="none" d="M0 480 l500 0" />
+        <path stroke="none" d="M0 495 l500 0" />
+
+        <!--vertical lines-->
+        <path stroke="none" d="M0 0 l0 500" />
+        <path stroke="none" d="M15 0 l0 500" />
+        <path stroke="none" d="M30 0 l0 500" />
+        <path stroke="none" d="M45 0 l0 500" />
+        <path stroke="none" d="M60 0 l0 500" />
+        <path stroke="none" d="M75 0 l0 500" />
+        <path stroke="none" d="M90 0 l0 500" />
+        <path stroke="none" d="M105 0 l0 500" />
+        <path stroke="none" d="M120 0 l0 500" />
+        <path stroke="none" d="M135 0 l0 500" />
+        <path stroke="none" d="M150 0 l0 500" />
+        <path stroke="none" d="M165 0 l0 500" />
+        <path stroke="none" d="M180 0 l0 500" />
+        <path stroke="none" d="M195 0 l0 500" />
+        <path stroke="none" d="M210 0 l0 500" />
+        <path stroke="none" d="M225 0 l0 500" />
+        <path stroke="none" d="M240 0 l0 500" />
+        <path stroke="none" d="M255 0 l0 500" />
+        <path stroke="none" d="M270 0 l0 500" />
+        <path stroke="none" d="M285 0 l0 500" />
+        <path stroke="none" d="M300 0 l0 500" />
+        <path stroke="none" d="M315 0 l0 500" />
+        <path stroke="none" d="M330 0 l0 500" />
+        <path stroke="none" d="M345 0 l0 500" />
+        <path stroke="none" d="M360 0 l0 500" />
+        <path stroke="none" d="M375 0 l0 500" />
+        <path stroke="none" d="M390 0 l0 500" />
+        <path stroke="none" d="M405 0 l0 500" />
+        <path stroke="none" d="M420 0 l0 500" />
+        <path stroke="none" d="M435 0 l0 500" />
+        <path stroke="none" d="M450 0 l0 500" />
+        <path stroke="none" d="M465 0 l0 500" />
+        <path stroke="none" d="M480 0 l0 500" />
+        <path stroke="none" d="M495 0 l0 500" />
+
+        <!--fill-ins-->
+        <!--y=30-->
+        <rect x="60" y="30" width="60" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="285" y="30" width="60" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="285" y="30" width="60" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="45" y="45" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="60" y="45" width="60" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="120" y="45" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="270" y="45" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="285" y="45" width="60" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="345" y="45" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=60-->    
+        <rect x="30" y="60" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="45" y="60" width="15" height="15" style="fill:rgb(255,153,153); stroke-width:1; stroke:rgb(255,153,153)"/>
+        <rect x="60" y="60" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="90" y="60" width="45" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="135" y="60" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="255" y="60" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="270" y="60" width="45" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="315" y="60" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="345" y="60" width="15" height="15" style="fill:rgb(255,153,153); stroke-width:1; stroke:rgb(255,153,153)"/>
+        <rect x="360" y="60" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=75-->
+        <rect x="30" y="75" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="45" y="75" width="45" height="15" style="fill:rgb(255,153,153); stroke-width:1; stroke:rgb(255,153,153)"/>
+        <rect x="90" y="75" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="105" y="75" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="135" y="75" width="135" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="270" y="75" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="300" y="75" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="315" y="75" width="45" height="15" style="fill:rgb(255,153,153); stroke-width:1; stroke:rgb(255,153,153)"/>
+        <rect x="360" y="75" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=90-->
+        <rect x="30" y="90" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="45" y="90" width="45" height="15" style="fill:rgb(255,153,153); stroke-width:1; stroke:rgb(255,153,153)"/>
+        <rect x="90" y="90" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="105" y="90" width="195" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="300" y="90" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="315" y="90" width="45" height="15" style="fill:rgb(255,153,153); stroke-width:1; stroke:rgb(255,153,153)"/>
+        <rect x="360" y="90" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=105-->
+        <rect x="30" y="105" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="45" y="105" width="30" height="15" style="fill:rgb(255,153,153); stroke-width:1; stroke:rgb(255,153,153)"/>
+        <rect x="75" y="105" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="90" y="105" width="150" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="315" y="105" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="105" width="30" height="15" style="fill:rgb(255,153,153); stroke-width:1; stroke:rgb(255,153,153)"/>
+        <rect x="360" y="105" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=120-->    
+        <rect x="45" y="120" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="75" y="120" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="105" y="120" width="45" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="150" y="120" width="45" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="255" y="120" width="45" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="120" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=135-->
+        <rect x="60" y="135" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="75" y="135" width="15" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="90" y="135" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="150" y="135" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="240" y="135" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="285" y="135" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="135" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=150-->
+        <rect x="60" y="150" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="75" y="150" width="15" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="90" y="150" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="150" y="150" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="240" y="150" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="285" y="150" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="150" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=165-->    
+        <rect x="45" y="165" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="60" y="165" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="90" y="165" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="120" y="165" width="45" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="240" y="165" width="45" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="300" y="165" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="345" y="165" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=180-->
+        <rect x="45" y="180" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="105" y="180" width="45" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="195" y="180" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="255" y="180" width="45" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="180" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=195-->
+        <rect x="45" y="195" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="345" y="195" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=210-->
+        <rect x="45" y="210" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="150" y="210" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>  
+        <rect x="195" y="210" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="240" y="210" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="210" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=225-->
+        <rect x="45" y="225" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="165" y="225" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="210" y="225" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="345" y="225" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=240-->
+        <rect x="60" y="240" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="240" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=255-->
+        <rect x="60" y="255" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="90" y="255" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="285" y="255" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="315" y="255" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=270-->
+        <rect x="60" y="270" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="75" y="270" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="135" y="270" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="255" y="270" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="300" y="270" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="330" y="270" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=285-->
+        <rect x="60" y="285" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="75" y="285" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="120" y="285" width="30" height="15" style="fill:rgb(255,228,196); stroke-width:1; stroke:rgb(255,228,196)"/>
+        <rect x="150" y="285" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="240" y="285" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="255" y="285" width="30" height="15" style="fill:rgb(255,228,196); stroke-width:1; stroke:rgb(255,228,196)"/>
+        <rect x="300" y="285" width="30" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="330" y="285" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=300-->
+        <rect x="60" y="300" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="75" y="300" width="15" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="105" y="300" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="120" y="300" width="30" height="15" style="fill:rgb(255,228,196); stroke-width:1; stroke:rgb(255,228,196)"/>
+        <rect x="150" y="300" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="240" y="300" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="255" y="300" width="30" height="15" style="fill:rgb(255,228,196); stroke-width:1; stroke:rgb(255,228,196)"/>
+        <rect x="285" y="300" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="315" y="300" width="15" height="15" style="fill:rgb(153,76,0); stroke-width:1; stroke:rgb(153,76,0)"/>
+        <rect x="330" y="300" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=315-->
+        <rect x="60" y="315" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="120" y="315" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="255" y="315" width="30" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="315" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=330-->
+        <rect x="60" y="330" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="330" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="60" y="330" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="330" y="330" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=345-->
+        <rect x="75" y="345" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="315" y="345" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+
+        <!--y=360-->
+        <rect x="90" y="360" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>
+        <rect x="300" y="360" width="15" height="15" style="fill:black; stroke-width:1; stroke:black"/>        
+    </svg>
+    <script src="js/jycode.js">
+    </script>
+    </body>
+    </html>

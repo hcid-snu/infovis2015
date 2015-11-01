@@ -1,0 +1,37 @@
+svg { 
+	width: 2110px; 
+	height: 200px; 
+	border: 1px 
+	fill:;	background-color: #f6eceb
+}
+
+.bar { 
+	fill : #bababa; 
+}
+
+.barNum {
+	font: 6pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 15px;
+	text-anchor: middle;
+	white-space: normal;
+}
+
+.axis text {
+	font: 8pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+}
+
+.barName {
+	font: 7pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 15px;
+	text-anchor: middle;
+	white-space: normal;
+}
+
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>과제 2: SVG와 d3.js 를 이용한 간단한 그림 그리기</title>
+		<style>
+			svg {
+				width : 400px;
+				height : 450px;
+				border : 1px solid black;
+				fill: black;
+			}
+
+			rect {
+				fill : black;
+			}
+
+			circle{
+				fill: #FFFFFF;
+			}
+
+			.eye {
+				fill: black;
+			}
+
+			.lip {
+				stroke: black;
+				stroke-width="10";
+			}
+
+			.nose {
+				fill: #FE2EF7;
+			}
+
+			text {
+				style="font-family: Times New Roman;
+               font-size  : 24;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<h1>SVG와 d3.js 를 이용한 간단한 그림 그리기</h1>
+		<svg>
+			<rect x="0" y="0" width="400" height="450" />
+
+		<g class = "face">
+			<circle cx="200" cy="200" r="100" />
+			<circle cx="100" cy="200" r="30" />
+			<circle cx="110" cy="148" r="30" />
+			<circle cx="150" cy="120" r="30" />
+			<circle cx="200" cy="100" r="30" />
+			<circle cx="250" cy="120" r="30" />
+			<circle cx="275" cy="160" r="30" />
+			<circle cx="300" cy="200" r="30" />
+			<circle cx="280" cy="245" r="30" />
+			<circle cx="250" cy="280" r="30" />
+			<circle cx="200" cy="300" r="30" />
+			<circle cx="150" cy="280" r="30" />
+			<circle cx="120" cy="250" r="30" />
+		</g>
+
+			<circle cx="160" cy="190" r="10" class = "eye"/>
+			<circle cx="240" cy="190" r="10" class = "eye"/>
+
+
+			<path d = "M200,225 q -10 20 -20 0" fill="none" stroke-width="3" class = "lip"/>
+			<path d = "M200,225 q 10 20 20 0" fill="none" stroke-width="3" class = "lip"/>
+
+			<rect x = "190" y = "215" width = "20" height = "10" rx = "5" ry = "5" class = "nose"/>
+
+			<text x="50" y="400" fill= "#FE2EF7" font-family = "Times New Roman" font-size= "47">WOOF WOOF</text>
+
+
+
+		</svg>
+	</body>
+</html>

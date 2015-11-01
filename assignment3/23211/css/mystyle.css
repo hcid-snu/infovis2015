@@ -1,0 +1,68 @@
+svg { 
+/*	width: 320px; 
+	height: 280px; */
+	border: 1px 
+	solid black; 
+}
+
+.bar { 
+	fill : #ccc; 
+}
+
+.barNum {
+	font: 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+			/* 앞에서부터 설치된 글꼴을 가져다가 사용해라*/
+	text-anchor: middle;	
+}
+
+.axis text{
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.yAxis path,
+.yAxis line{
+	fill: none;
+	stroke: black;
+}
+
+.xAxis path,
+.xAxis line{
+  fill: none;
+  stroke: black;
+}
+
+.barNum {
+	font: 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+label {
+  /*position: absolute;
+  top: 10px;
+  right: 200px;*/
+}

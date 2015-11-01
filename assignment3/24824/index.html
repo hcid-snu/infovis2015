@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 1300px;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.northeurope {
+  fill: red ! important;
+  
+}
+
+.southeurope {
+  fill: orange ! important;
+  
+}
+
+.westeurope {
+  fill: purple! important;
+}
+
+.easteurope {
+  fill: yellow! important;
+  
+}
+
+.asia {
+  fill: green! important;
+}
+.northamerica {
+  fill: blue! important;
+}
+
+.bar {
+  fill: black ;
+}
+
+.x.axis path {
+  display: none;
+}
+
+label {
+  top: 10px;
+  right: 10px;
+}
+
+</style>
+<label><input type="checkbox"> Sort values</label>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script>
+
+var margin = {top: 20, right: 20, bottom: 100, left: 40},
+    width = 1300 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var formatPercent = d3.format("0.0");
+
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], .1, .5);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickFormat(formatPercent);
+
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+d3.csv("bardata.csv", function(error, data) {
+
+  data.forEach(function(d) {
+    d.value = +d.value;
+  });
+
+  x.domain(data.map(function(d) { return d.country; }));
+  y.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(5," + height + ")")
+      .call(xAxis)
+      .selectAll("text")  
+      .style("text-anchor", "end")
+      .attr("dx", "-.8em")
+      .attr("dy", ".15em")
+      .attr("transform", function(d) {
+         return "rotate(-65)" 
+      });
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("GDP 대비 복지 지출액");
+
+  svg.append("text")
+    .attr("x", (width / 2))
+    .attr("y", 0 - (margin.top / 2))
+    .attr("text-anchor", "middle")
+    .style("font-size", "10px")
+    .style("text-decoration", "underline")
+    .text("OECD 회원국의 2014년 GDP 대비 사회복 지출 규모");
+
+
+  svg.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", function(d) { return "bar " + d.continent; })
+      .attr("x", function(d) { return x(d.country); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.value); })
+      .attr("height", function(d) { return height - y(d.value); });
+
+  d3.select("input").on("change", change);
+
+  var sortTimeout = setTimeout(function() {
+    d3.select("input").property("checked", true).each(change);
+  }, 2000);
+
+  function change() {
+    clearTimeout(sortTimeout);
+
+    // Copy-on-write since tweens are evaluated after a delay.
+    var x0 = x.domain(data.sort(this.checked
+        ? function(a, b) { return b.value - a.value; }
+        : function(a, b) { return d3.ascending(a.country, b.country); })
+        .map(function(d) { return d.country; }))
+        .copy();
+
+    svg.selectAll(".bar")
+        .sort(function(a, b) { return x0(a.country) - x0(b.country); });
+
+    var transition = svg.transition().duration(750),
+        delay = function(d, i) { return i * 50; };
+
+    transition.selectAll(".bar")
+        .delay(delay)
+        .attr("x", function(d) { return x0(d.country); });
+
+    transition.select(".x.axis")
+        .attr("class", "x axis")
+        .attr("transform", "translate(5," + height + ")")
+        .call(xAxis)
+        .selectAll("text")  
+        .style("text-anchor", "end")
+        .attr("dx", "-.8em")
+        .attr("dy", ".15em")
+        .attr("transform", function(d) {
+           return "rotate(-65)" 
+        })
+        .delay(delay);
+  }
+
+  /** legend **/
+  var legenddata = [{country: 'North Europe', color: 'red'},{country: 'South Europe', color: 'orange'},{country: 'East Europe', color: 'yellow'},{country: 'West Europe', color: 'purple'},{country: 'North America', color: 'blue'},{country: 'Asia', color: 'green'},{country: 'OECD-Total', color: 'black'}, ];
+
+
+
+  var legend = svg.selectAll(".legend")
+      .data(legenddata)
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 15)
+      .attr("width", 15)
+      .attr("height", 15)
+      .style("fill", function(d) { return d.color; });
+
+  legend.append("text")
+      .attr("x", width - 20)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d.country; });
+});
+
+</script>

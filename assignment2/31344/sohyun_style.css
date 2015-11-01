@@ -1,0 +1,14 @@
+h1 {
+	font-family: Helvetica; 
+	color: black;
+}
+
+#mySVG rect {
+	fill-opacity: 0.3;
+}
+
+svg {
+	width: 750px;
+	height: 480px;
+	border: 1px solid black;
+}

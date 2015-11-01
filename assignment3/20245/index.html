@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Homework3</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<style>
+			svg { width: 1700px; height: 400px; border: 1px solid black; }
+		  .bar { fill : orange; }
+		  .barNum {
+				font-size: 10pt;
+				text-anchor : middle;
+			}
+
+		  .axis text {
+				font-family: sans-serif;
+				font-size: 11px;
+			}
+
+		  .axis path,
+		  .axis line {
+				fill: none;
+				stroke: black;
+			}
+		  .axis_x line {
+				fill: none;
+				stroke: black;
+			}
+		  .barName {
+				font-size: 10pt;
+				text-anchor : middle;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Social Expenditure of OECD Countries (in % of GDP, 2014)</h1>
+		<form>
+			<input type="checkbox" id="dataSort">Sort values</input>
+		</form>
+		<svg id="myGraph"></svg>
+		<script src="js/mycode.js"></script>
+	</body>
+</html>

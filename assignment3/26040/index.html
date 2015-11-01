@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment_3</title>
+		<script type="text/javascript" src="d3.v3.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+
+	<body>
+		<div id="tooltip" class="hidden">
+			<p><span id="value">Here value</span>%</p>
+		</div>
+		<div class = "container" >
+			<h3>local로 연결해서 봐주시면 감사하겠습니다</h3>
+			<h2>원하는 연도를 누르면 그 해 OECD국가들의 <br> GDP대비 사회복지지출비율을 볼 수 있습니다.</h2>
+			<div class = "buttons">
+				<input type="button" value="1980" onclick="getVal(this.value)">
+				<input type="button" value="1985" onclick="getVal(this.value)">
+				<input type="button" value="1990" onclick="getVal(this.value)">
+				<input type="button" value="1995" onclick="getVal(this.value)">
+				<input type="button" value="2000" onclick="getVal(this.value)">
+				<input type="button" value="2005" onclick="getVal(this.value)">
+				<input type="button" value="2009" onclick="getVal(this.value)">
+				<input type="button" value="2010" onclick="getVal(this.value)">
+				<input type="button" value="2011" onclick="getVal(this.value)">
+				<input type="button" value="2012" onclick="getVal(this.value)">
+				<input type="button" value="2013" onclick="getVal(this.value)">
+				<input type="button" value="2014" onclick="getVal(this.value)">
+			</div>
+			</p>Bar를 클릭하면 오름차순 그래프와 내림차순 그래프를 번갈아 볼 수 있습니다.</p>
+			<div class = "graphs">
+				<svg> </svg>
+			</div>
+			<p id='name'><br>융합과학기술대학원<br>디지털융합전공<br>정정민<br>2015-26040</p>
+		</div>
+		
+		<script src="mycode.js"></script>
+	</body>
+</html>

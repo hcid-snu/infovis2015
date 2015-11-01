@@ -1,0 +1,23 @@
+#myBasketball rect {
+	stroke: gray;
+	stroke-width: 2px;
+	fill: black;
+}
+
+circle {
+	stroke: dimgray;
+	stroke-width: 4px;
+	fill: chocolate;
+}
+
+path {
+	stroke: dimgray;
+	stroke-width: 4px;
+	fill: none;
+}
+
+svg {
+	width: 320px;
+	height: 360px;
+	border: 1px solid black;	
+}

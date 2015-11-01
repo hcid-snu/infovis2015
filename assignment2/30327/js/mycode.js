@@ -1,0 +1,28 @@
+d3.select("#myGraph")
+	.append("svg")
+	.append("rect")
+	.style("fill","orange")
+	.attr("x", 10)
+	.attr("y", 50)
+	.attr("height", 150)
+	.attr("width", 150)
+
+
+d3.select("#myGraph")
+	.append("svg")
+	.append("rect")
+	.style("fill","blue")
+	.attr("x",10)
+	.attr("y",50)
+	.attr("height",75)
+	.attr("width",75)
+	
+d3.select("#myGraph")
+	.append("svg")
+	.append("rect")
+	.style("fill","green")
+	.attr("x",10)
+	.attr("y",50)
+	.attr("height",37.5)
+	.attr("width",37.5)
+	

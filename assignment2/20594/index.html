@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Eunchan Kim Assignment 2</title>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <style>
+    svg {
+        width: 800px;
+        height: 900px;
+    }
+    </style>
+</head>
+
+<body>
+    <svg id="myHeart">
+        <rect class="center"></rect>
+        <path id="BigHeart" d="M-300,200
+			a50,50 0 0,1 180,0
+			a50,50 0 0,1 180,0
+			q0,80 -180,180
+			q-180,-80 -180,-180" stroke="red" x='0' y='0' stroke-width="2" fill="white" />
+        <!--g transform="rotate(10, 200, 300)">
+				<path id="SmallHeart1" d="M250,300
+				a20,20 0 0,1 50,0
+				a20,20 0 0,1 50,0
+				q0,20 -50,40
+				q-50,-20 -50,-40"
+				stroke="pink" stroke-width="2" fill="pink"/>
+			</g-->
+        <!--g transform="rotate(-20, 200, 300)">
+				<path id="SmallHeart2" d="M50,250
+				a20,20 0 0,1 50,0
+				a20,20 0 0,1 50,0
+				q0,20 -50,40
+				q-50,-20 -50,-40"
+				stroke="purple" stroke-width="2" fill="purple" />
+			</g-->
+        <!-- <path id="textPath" d="M80,200
+			a50,50 0 0,1 120,0
+			a50,50 0 0,1 120,0" stroke="none" fill="none" />
+        <use xlink:href="#textPath" fill="none" stroke="black" />
+        <text style="font=family:Arial; font-size:20pt; fill:black">
+            <textPath xlink:href="#textPath"> I Love You </textPath>
+        </text> -->
+    </svg>
+    <script src="js/mycode.js"></script>
+</body>
+
+</html>

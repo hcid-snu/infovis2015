@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>Homework3</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+	</head>
+	<body>
+        <h1>OECD 회원국의 2014년 GDP 대비 사회복지지출규모(%)</h1>
+        <label><input type="checkbox"> Sort values</label>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script>
+
+            var margin = {top: 20, right: 20, bottom: 50, left: 40},
+                width = 960 - margin.left - margin.right,
+                height = 520 - margin.top - margin.bottom;
+
+            var x = d3.scale.ordinal()
+                .rangeRoundBands([0, width], .1, 1);
+
+            var y = d3.scale.linear()
+                .range([height, 0]);
+
+            var xAxis = d3.svg.axis()
+                .scale(x)
+                .orient("bottom");
+
+            var yAxis = d3.svg.axis()
+                .scale(y)
+                .orient("left");
+
+            var svg = d3.select("body").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            var tip = d3.tip()
+              .attr('class', 'd3-tip')
+              .offset([-10, 0])
+              .html(function(d) {
+                return "<strong>Value:</strong> <span style='color:red'>" + d.value +"%" +"</span>";
+              })
+
+            svg.call(tip);
+
+            d3.csv("bar_chart_Assign1.csv", function(error, data) {
+
+              data.forEach(function(d) {
+                d.value = +d.value;
+              });
+
+              x.domain(data.map(function(d) { return d.country; }));
+              y.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+//              mean=math.round(d3.mean(data,function(d){return d.value;}));
+//               window.alert(mean);
+
+              svg.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform", "translate(0," + height + ")")
+                  .call(xAxis)
+                  .selectAll("text")
+                  .attr("transform","rotate(-30)")
+                  .style("text-anchor","end");
+
+              svg.append("g")
+                  .attr("class", "y axis")
+                  .call(yAxis)
+                  .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("y", 6)
+                  .attr("dy", ".71em")
+                  .style("text-anchor", "end")
+                  .text("Value(%)");
+
+
+              d3.select("input").on("change", change);
+
+                svg.selectAll(".bar")
+                        .data(data)
+                        .enter()
+                        .append("rect")
+                        .attr("class", "bar")
+                        .attr("x", function(d) { return x(d.country); })
+                        .attr("width", x.rangeBand())
+                        .attr("y", function(d) { return y(d.value); })
+                        .attr("height", function(d) { return height - y(d.value); })
+                        .on('mouseover', tip.show)
+                        .on('mouseout', tip.hide)
+                ;
+
+              var sortTimeout = setTimeout(function() {
+                d3.select("input").property("checked", true).each(change);
+              }, 50000);
+
+              function change() {
+//                  data.pop(21.638);
+                clearTimeout(sortTimeout);
+
+                // Copy-on-write since tweens are evaluated after a delay.
+                var x0 = x.domain(data.sort(this.checked
+                    ? function(a, b) { return b.value - a.value; }
+                    : function(a, b) { return d3.ascending(a.country, b.country); })
+                    .map(function(d) { return d.country; }))
+                    .copy();
+
+                svg.selectAll(".bar")
+                    .sort(function(a, b) { return x0(a.country) - x0(b.country); });
+
+                var transition = svg.transition().duration(750),
+                    delay = function(d, i) { return i * 50; };
+
+                transition.selectAll(".bar")
+                    .delay(delay)
+                    .attr("x", function(d) { return x0(d.country); });
+
+                transition.select(".x.axis")
+                    .call(xAxis)
+                    .selectAll("g")
+                    .selectAll("text")
+                    .attr("transform","rotate(-30)")
+                    .style("text-anchor","end")
+              }
+            });
+
+            </script>
+        <!--<svg id="myGraph"></svg>-->
+		<!--<script src="js/mycode2.js"></script>-->
+	</body>
+</html>

@@ -1,0 +1,30 @@
+svg { 
+	width: 1850px; 
+	height: 500px; 
+	border: 1px 
+	solid black; 
+}
+
+.bar { 
+	fill : #ccc; 
+}
+
+.barNum {
+	font: 9pt "Poiret One", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.axis text {
+	font: 10pt "Poiret One", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+}
+
+.barName {
+	font: 7.3pt "Poiret One", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}

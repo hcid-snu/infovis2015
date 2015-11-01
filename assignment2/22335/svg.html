@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Assignment2. Drawing National Flags, using SVG </title>
+	  <style>
+	    svg {
+			width: 700px;
+			height: 800px;
+			border: 2px solid black;
+			}
+      </style>
+  </head>
+
+  <body>
+    <h1><text style="font-family=Lucida; font-size:35pt; font-weight=bold; fill:black"> European Countries </text></h1>
+	  <svg>
+	  <rect x="30" y="30" width="150" height="300" style="stroke:black; stroke-width:1px; fill:blue"/>
+	  <rect x="180" y="30" width="150" height="300" style="stroke:black; stroke-width:1px; fill:white"/>
+	  <rect x="330" y="30" width="150" height="300" style="stroke:black; stroke-width:1px; fill:red"/>
+	  <text x="500" y="180" text-align="right" style="font-family=Lucida; font-size:30pt; font-style:italic; fill:gray"> FRANCE </text>
+	  
+      <rect x="30" y="360" width="450" height="150" style="stroke:black; stroke-width:1px; fill:white"/>
+	  <rect x="30" y="510" width="450" height="150" style="stroke:black; stroke-width:1px; fill:red"/>
+	  <path d="M30 360 L225 510 L30 660 Z" style="stroke:black; stroke-width:1px; fill:blue"/> 
+      <text x="500" y="510" text-align="right" style="font-family:Lucida; font-size:30pt; font-style:italic; fill:gray"> CZECH </text>
+      </svg>
+
+    <h2><text style="font-family=Lucida; font-size:35pt; font-weight=bold; fill:black"> Asian Countries </text></h2>
+	  <svg>
+	  <rect x="30" y="30" width="450" height="75" style="stroke:black; stroke-width:1px; fill:red"/>
+      <rect x="30" y="105" width="450" height="150" style="stroke:black; stroke-width:1px; fill:blue"/>
+      <rect x="30" y="255" width="450" height="75" style="stroke:black; stroke-width:1px; fill:red"/>
+      <circle cx="255" cy="180" r="65" style="stroke:black; stroke-width:1px; fill:white"/>
+	  <text x="500" y="180" text-align="right" style="font-family=Lucida; font-size:30pt; font-style:italic; fill:gray"> LAOS </text>
+	 
+	  <rect x="30" y="360" width="450" height="300" style="stroke:black; stroke-width:1px; fill:red"/>
+	  <path d="M255 580 L239 532 L188 532 L230 502 L214 453 L255 483 L296 453 L280 502 L321 532 L271 532 Z" transform="rotate(180, 255, 510)" style="stroke:black; stroke-width:1px; fill:yellow"/>
+	  <text x="500" y="510" text-align="right" style="font-family:Lucida; font-size:30pt; font-style:italic; fill:gray"> VIETNAM </text>
+	  </svg>
+      </body>
+</html>

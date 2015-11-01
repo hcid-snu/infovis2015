@@ -1,0 +1,22 @@
+#myPic rect {
+	fill:rgb(234,235,226);
+}
+
+#myPic circle {
+	fill:rgb(247,248,244);
+	stroke-width: 10px;
+	stroke:rgb(219,126,106);
+}
+
+#myPic line {
+	stroke-width: 10px;
+	stroke:rgb(219,126,106);
+}
+
+#myPic {
+	background: rgb(120,180,190);
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;    
+}
+

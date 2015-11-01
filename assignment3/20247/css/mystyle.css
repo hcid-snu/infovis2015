@@ -1,0 +1,51 @@
+/*add by nahi*/
+body {
+      font: 11px sans-serif;
+    }
+
+.y.axisRight text {
+   font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    fill: #008080;
+          }
+.y.axisLeft text {
+   font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    fill: #800000;
+          }
+
+.axis path,
+
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+        }
+
+.bar1 {
+    fill: #800000;
+    }
+.bar2 {
+    fill: #008080;
+    }
+
+/*
+.x.axis path {
+  display: none;
+}
+*/
+
+.x.axis text {
+      font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  }
+
+.barNum {
+	   font: 8.5pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+     font-weight: bold;
+	   text-anchor: middle;
+      fill: #800000;
+  }
+  .barNum1 {
+     font: 8.5pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif, bold;
+     font-weight: bold;
+     text-anchor: middle;
+      fill: #800000;
+  }

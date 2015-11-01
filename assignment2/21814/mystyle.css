@@ -1,0 +1,22 @@
+#myPacman rect {
+	stroke: gray;
+	stroke-width: 2px;
+	fill: black;
+}
+
+circle {
+	stroke: white;
+	stroke-width: 1px;
+}
+
+path {
+	stroke: dimgray;
+	stroke-width: 1px;
+	fill: none;
+}
+
+svg {
+	width: 600px;
+	height: 300px;
+	border: 1px solid black;	
+}

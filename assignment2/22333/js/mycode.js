@@ -1,0 +1,51 @@
+
+var recspeed = Math.floor(Math.random() * 3500) + 1000
+var cirspeed = Math.floor(Math.random() * 3500) + 1000
+var ellspeed = Math.floor(Math.random() * 3500) + 1000
+
+
+d3.select('#canvas')
+    .append('svg')
+    .append('rect')
+    .attr('width', 50)
+    .attr('height',50)
+    .attr('x',30)
+    .attr('y',50)
+    .attr('fill-opacity','0.1')
+    .style('fill','blue')
+    .transition()
+    .duration(recspeed)
+    .attr('x',475)
+    .attr('fill-opacity','0.9')
+
+d3.select('#canvas')
+    .append('svg')
+    .append('circle')
+    .attr('r', 25)
+    .attr('cx',50)
+    .attr('cy',200)
+    .style('fill','red')
+    .attr('fill-opacity','0.1')
+    .transition()
+    .duration(cirspeed)
+    .attr('cx',500)
+    .attr('fill-opacity','0.9')
+
+d3.select('#canvas')
+    .append('svg')
+    .append('ellipse')
+    .attr('rx', 35)
+    .attr('ry',25)
+    .attr('cx',50)
+    .attr('cy',350)
+    .style('fill','green')
+    .attr('fill-opacity','0.1')
+    .transition()
+    .duration(ellspeed)
+    .attr('cx',500)
+    .attr('fill-opacity','0.9')
+
+d3.select('#canvas')
+    .append('text').text("* 도형 속도는 랜덤하게 설정되어있습니다.")
+    .attr('x', 20)
+    .attr('y', 425)

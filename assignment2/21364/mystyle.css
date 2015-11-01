@@ -1,0 +1,11 @@
+body {
+	width: 100%;
+	margin: 15% auto;
+	position: relative;
+}
+
+#myDrawing {
+	width:400px;
+	margin: auto;
+	display: block;
+}

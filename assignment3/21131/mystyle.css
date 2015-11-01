@@ -1,0 +1,45 @@
+svg { 
+	width: 1200px; 
+	height: 450px; 
+	border: 1px 
+	solid black; 
+}
+
+.bar {
+	fill: orange;
+}
+
+.barNum {
+	font: 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.axis text {
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+}
+
+.barName {
+	font: 8pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.average {
+	fill: blue;
+	stroke: blue;
+}
+
+.average_axis {
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	stroke: blue;
+}
+
+.top_3 {
+	fill: firebrick;
+	stroke: firebrick;
+}

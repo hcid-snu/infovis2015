@@ -1,0 +1,1117 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>OECD.Stat</Author>
+  <Created>2015-10-23T10:49:45Z</Created>
+  <Company>OECD</Company>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9888</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m271266672">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m271266692">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m271266712">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m271266732">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m271266752">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m125682216">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m125682236">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m125682256">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m125682276">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m125682296">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m125682316">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000080"
+    ss:Bold="1" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Underline="Single"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s97">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#F0F8FF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="OECD.Stat export">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="45" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.2">
+   <Column ss:AutoFitWidth="0" ss:Width="144" ss:Span="1"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="13.2"/>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s62" ss:Formula="=DotStatQuery(RC[1])"><Data ss:Type="Error">#NAME?</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;WebTableParameter xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://stats.oecd.org/OECDStatWS/2004/03/01/&quot;&gt;&lt;DataTable Code=&quot;SOCX_AGG&quot; HasMetadata=&quot;true&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Social Expenditure - Aggregated data&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Dépenses sociales - Données agrégées&lt;/Name&gt;&lt;Dimension Code=&quot;SOURCE&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Source&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Source&lt;/Name&gt;&lt;Member Code=&quot;10&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Public&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Publiques&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;20&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Mandatory private&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Privées obligatoires&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;10_20&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Public and mandatory private&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Publiques et privées obligatoires&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;30&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Voluntary private&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Privées volontaires&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;20_30&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Private (Mandatory and Voluntary)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Privées (obligatoires et volontaires)&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;40&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Net Public&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Publiques nettes&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;50&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Net Total&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Total nettes&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;BRANCH&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Branch&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Branche&lt;/Name&gt;&lt;Member Code=&quot;1&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Old age&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Vieillesse&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Survivors&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Survie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;3&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Incapacity related&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations liées à l'incapacité&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;4&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Health&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Santé&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;5&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Family&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Famille&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;6&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Active labour market programmes&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Politiques actives du marché du travail&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;7&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Unemployment&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Chômage&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;8&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Housing&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Logement&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;9&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Other social policy areas&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Autres domaines de politique sociale&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;90&quot; HasMetadata=&quot;false&quot; HasData=&quot;1&quot; HasChild=&quot;0&quot; IsDisplayed=&quot;true&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Total&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Total&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;TYPEXP&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Type of Expenditure&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Type de dépense&lt;/Name&gt;&lt;Member Code=&quot;0&quot; HasMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Total&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Total&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1&quot; HasMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Cash benefits&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations en espèces&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2&quot; HasMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Benefits in kind&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations en nature&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;TYPROG&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Type of Programme&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Type de programme&lt;/Name&gt;&lt;Member Code=&quot;0&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Total&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Total&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;111&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Old age - Pension&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Vieillesse - Pensions&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;112&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Old age - Early retirement pension&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Vieillesse - Pension de retraite anticipée&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;113&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Old age - Other cash benefits&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Vieillesse - Autres prestations en espèces&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;121&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Old age - Residential care / Home-help services&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Vieillesse - Hébergement collectif avec soins / Aide à domicile&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;122&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Old age - Other benefits in kind&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Vieillesse - Autres prestations en nature&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;211&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Survivors - Pension&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Survie - Pensions&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;212&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Survivors - Other cash benefits&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Survie - Autres prestations en espèces&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;221&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Survivors - Funeral expenses&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Survie - Frais funéraires&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;222&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Survivors - Other benefits in kind&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Survie - Autres prestations en nature&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;311&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Incapacity related - Disability pensions&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations liées à l'incapacité - Pensions d'invalidité&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;312&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Incapacity related - Pensions (occupational injury and disease)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations liées à l'incapacité - Pensions (accidents du travail et maladies professionnelles)&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;313&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Incapacity related - Paid sick leave (occupational injury and disease)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations liées à l'incapacité - Congé payé de maladie (accidents du travail et maladies professionnelles)&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;314&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Incapacity related - Paid sick leave (other sickness daily allowances)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations liées à l'incapacité - Congé payé de maladie (indemnités journalières pour autres maladies)&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;315&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Incapacity related - Other cash benefits&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations liées à l'incapacité - Autres prestations en espèces&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;321&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Incapacity related - Residential care / Home-help services&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations liées à l'incapacité - Hébergement collectif avec soins / Aide à domicile&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;322&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Incapacity related - Rehabilitation services&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations liées à l'incapacité - Services de réadaptation&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;323&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Incapacity related - Other benefits in kind&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Prestations liées à l'incapacité - Autres prestations en nature&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;511&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Family - Family allowances&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Famille - Allocations familiales&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;512&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Family - Maternity and parental leave&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Famille - Congé de maternité et congé parental&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;513&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Family - Other cash benefits&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Famille - Autres prestations en espèces&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;521&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Family - Early childhood education and care (ECEC)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Famille - Education et à l'accueil des jeunes enfants (EAJE)&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;522&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Family - Home help / Accomodation&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Famille - Aide à domicile / Hébergement&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;523&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Family - Other benefits in kind&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Famille - Autres prestations en nature&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;601&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Active labour market programmes - PES and Administration&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Politiques actives du marché du travail - SPE et administration&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;602&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Active labour market programmes - Training&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Politiques actives du marché du travail - Formation professionnelle&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;603&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Active labour market programmes - Job Rotation and Job Sharing&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Politiques actives du marché du travail - Rotation dans l'emploi et partage du travail&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;604&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Active labour market programmes - Employment Incentives&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Politiques actives du marché du travail - Incitations à l'emploi&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;605&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Active labour market programmes - Supported Employment and Rehabilitation&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Politiques actives du marché du travail - Emploi protégé et réadaptation&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;606&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Active labour market programmes - Direct Job Creation&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Politiques actives du marché du travail - Création directe d'emplois&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;607&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Active labour market programmes - Start-Up Incentives&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Politiques actives du marché du travail - Aides à la création d'entreprises&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;711&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Unemployment - Unemployment compensation / severance pay&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Chômage - Indemnisation du chômage / indemnités de licenciement&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;712&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Unemployment- Early retirement for labour market reasons&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Chômage - Retraite anticipée pour motifs liés au marché du travail&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;821&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Housing - Housing assistance&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Logement - Aide au logement&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;822&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Housing - Other benefits in kind&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Logement - Autres prestations en nature&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;911&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Other social policy areas - Income maintenance&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Autres domaines de politique sociale - Garantie de revenus&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;912&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Other social policy areas - Other cash benefits&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Autres domaines de politique sociale - Autres prestations en espèces&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;921&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Other social policy areas - Social assistance&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Autres domaines de politique sociale - Aide sociale&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;922&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Other social policy areas - Other benefits in kind&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Autres domaines de politique sociale - Autres prestations en nature&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;UNIT&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Measure&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Mesure&lt;/Name&gt;&lt;Member Code=&quot;NCUR&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;At current prices in national currency, in millions&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Aux prix courants, en monnaie nationale, en millions&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NCST&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;At constant prices (2005) in national currency, in millions&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Aux prix constants (2005), en monnaie nationale, en millions&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PPPH&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Per head, at current prices and current PPPs, in US dollars&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Par habitant, aux prix courants et PPA courants, en dollars É-U&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PPPVH&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Per head, at constant prices (2005) and constant PPPs (2005), in US dollars&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Par habitant, aux prix constants (2005) et PPA constants (2005), en dollars É-U&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PCT_GDP&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot; IsDisplayed=&quot;true&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;In percentage of Gross Domestic Product&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;En pourcentage du produit intérieur brut&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PCT_GNI&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;In percentage of Gross National Income&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;En pourcentage du revenu national brut&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PCT_NNI&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;In percentage of Net National Income&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;En pourcentage du revenu national net&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PCT_GOV&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;In percentage of Total General Government Expenditure&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;En pourcentage des dépenses totales des administrations publiques&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;COUNTRY&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;LOCATION&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Country&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pays&lt;/Name&gt;&lt;Member Code=&quot;AUS&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Australia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Australie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;AUT&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Austria&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Autriche&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;BEL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Belgium&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Belgique&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CAN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Canada&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Canada&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CHL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Chile&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Chili&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CZE&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Czech Republic&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;République tchèque&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;DNK&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Denmark&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Danemark&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;EST&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Estonia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Estonie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;FIN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Finland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Finlande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;FRA&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;France&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;France&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;DEU&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Germany&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Allemagne&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;GRC&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Greece&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Grèce&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;HUN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Hungary&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Hongrie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ISL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Iceland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Islande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;IRL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Ireland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Irlande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ISR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Israel&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Israël&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ITA&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Italy&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Italie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;JPN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Japan&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Japon&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;KOR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Korea&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Corée&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;LUX&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Luxembourg&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Luxembourg&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;MEX&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Mexico&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Mexique&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NLD&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Netherlands&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pays-Bas&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NZL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;New Zealand&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Nouvelle-Zélande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NOR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Norway&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Norvège&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;POL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Poland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pologne&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PRT&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Portugal&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Portugal&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SVK&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Slovak Republic&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;République slovaque&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SVN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Slovenia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Slovénie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ESP&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Spain&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Espagne&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SWE&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Sweden&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Suède&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CHE&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Switzerland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Suisse&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;TUR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Turkey&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Turquie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;GBR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;United Kingdom&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Royaume-Uni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;USA&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;United States&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;États-Unis&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;OECD&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;OECD - Total&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;OCDE - Total&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;YEAR&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;TIME&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Year&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Année&lt;/Name&gt;&lt;Member Code=&quot;1980&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1980&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1980&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1985&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1985&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1985&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1990&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1990&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1990&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1995&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1995&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1995&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2000&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2000&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2000&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2005&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2005&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2005&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2009&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2009&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2009&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2010&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;true&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2010&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2010&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2011&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;true&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2011&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2011&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2012&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;true&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2012&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2012&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2013&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;true&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2013&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2013&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2014&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2014&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2014&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;WBOSInformations /&gt;&lt;Tabulation Axis=&quot;horizontal&quot;&gt;&lt;Dimension Code=&quot;YEAR&quot; CommonCode=&quot;TIME&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;vertical&quot;&gt;&lt;Dimension Code=&quot;COUNTRY&quot; CommonCode=&quot;LOCATION&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;page&quot;&gt;&lt;Dimension Code=&quot;SOURCE&quot; /&gt;&lt;Dimension Code=&quot;BRANCH&quot; /&gt;&lt;Dimension Code=&quot;TYPEXP&quot; /&gt;&lt;Dimension Code=&quot;TYPROG&quot; /&gt;&lt;Dimension Code=&quot;UNIT&quot; /&gt;&lt;/Tabulation&gt;&lt;Formatting&gt;&lt;Labels LocaleIsoCode=&quot;en&quot; /&gt;&lt;Power&gt;0&lt;/Power&gt;&lt;Decimals&gt;1&lt;/Decimals&gt;&lt;SkipEmptyLines&gt;true&lt;/SkipEmptyLines&gt;&lt;SkipEmptyCols&gt;false&lt;/SkipEmptyCols&gt;&lt;SkipLineHierarchy&gt;false&lt;/SkipLineHierarchy&gt;&lt;SkipColHierarchy&gt;false&lt;/SkipColHierarchy&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;/Formatting&gt;&lt;/DataTable&gt;&lt;Format&gt;&lt;ShowEmptyAxes&gt;true&lt;/ShowEmptyAxes&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;EnableSort&gt;true&lt;/EnableSort&gt;&lt;IncludeFlagColumn&gt;false&lt;/IncludeFlagColumn&gt;&lt;IncludeTimeSeriesId&gt;false&lt;/IncludeTimeSeriesId&gt;&lt;DoBarChart&gt;false&lt;/DoBarChart&gt;&lt;FreezePanes&gt;true&lt;/FreezePanes&gt;&lt;MaxBarChartLen&gt;65&lt;/MaxBarChartLen&gt;&lt;/Format&gt;&lt;Query&gt;&lt;AbsoluteUri&gt;http://stats.oecd.org//View.aspx?QueryId=&amp;amp;QueryType=Public&amp;amp;Lang=en&lt;/AbsoluteUri&gt;&lt;/Query&gt;&lt;/WebTableParameter&gt;</Data></Cell>
+   </Row>
+   <Row ss:Height="23.400000000000002">
+    <Cell ss:StyleID="s63" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Dataset:  Social Expenditure - Aggregated data</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m125682216"><Data ss:Type="String">Source</Data></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="m125682236"><Data ss:Type="String">Public</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m125682256"><Data ss:Type="String">Branch</Data></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="m125682276"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m125682296"><Data ss:Type="String">Type of Expenditure</Data></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="m125682316"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m271266672"><Data ss:Type="String">Type of Programme</Data></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="m271266692"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m271266712"><Data ss:Type="String">Measure</Data></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="m271266732"><Data ss:Type="String">In percentage of Gross Domestic Product</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m271266752"><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">1980</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">1985</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">1995</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s91" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[YEAR].[2012]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s91" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[YEAR].[2013]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s91" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[YEAR].[2014]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">2014</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Country</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Unit</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[AUS]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Australia</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bAUS%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">10.199999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">12.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">13.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">16.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">16.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[AUT]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Austria</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bAUT%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">26.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">26.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">26.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">27.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">27.9</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.4</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[BEL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Belgium</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bBEL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">24.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25.6</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">24.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25.6</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">29.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">28.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">29.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">30.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">30.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">30.7</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[CAN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Canada</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bCAN%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">13.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.600000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[CHL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bCHL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">9.8000000000000007</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">12.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">8.6999999999999993</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">11.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">10.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">10.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">10.199999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[CZE]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Czech Republic</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bCZE%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">14.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.600000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20.6</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[DNK]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Denmark</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bDNK%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">24.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">28.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">27.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">29.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">29.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">30.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">30.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">30.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">30.1</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[EST]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Estonia</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bEST%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">13.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">13.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.3</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[FIN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Finland</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bFIN%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">29.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">28.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">28.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">28.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">29.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">30.6</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">31</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[FRA]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">France</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bFRA%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">25.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.9</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">29.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">31.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">31.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">31.9</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[DEU]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Germany</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bDEU%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">26.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">27.6</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">26.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25.6</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25.8</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[GRC]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Greece</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bGRC%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">10.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">21.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">25.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">26.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[HUN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Hungary</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bHUN%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">24.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.6</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.1</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[ISL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Iceland</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bISL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">13.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.5</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[IRL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Ireland</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bIRL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">13.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">15.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[ISR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Israel</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bISR%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[ITA]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Italy</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bITA%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">24.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">27.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">27.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">27.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">28.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">28.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">28.6</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[JPN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Japan</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bJPN%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">10.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">11.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">11.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">14.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[KOR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Korea</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bKOR%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">2.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">3.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">4.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">6.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">9.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">9.6</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">10.199999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">10.4</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[LUX]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Luxembourg</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bLUX%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19.600000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.5</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[MEX]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Mexico</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bMEX%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">1.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">3.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">4.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">6.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">7.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">7.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">7.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">7.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[NLD]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Netherlands</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bNLD%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">25.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">25.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">21.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.7</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[NZL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">New Zealand</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bNZL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">16.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[NOR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Norway</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bNOR%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">17.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">21.9</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22.9</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">21.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">21.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">21.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[POL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Poland</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bPOL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">14.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.6</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[PRT]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Portugal</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bPRT%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">9.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">12.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">16.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.600000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">25.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">25.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">25.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">25.2</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[SVK]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Slovak Republic</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bSVK%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">16.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.399999999999999</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[SVN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Slovenia</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bSVN%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">5.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">21.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.9</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">23.7</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[ESP]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Spain</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bESP%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">15.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.600000000000001</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">26.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">26.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">26.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">27.1</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">27.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">26.8</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[SWE]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Sweden</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bSWE%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">31.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">29.4</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">27.9</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">27.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">27.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">28.1</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[CHE]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Switzerland</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bCHE%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">13.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">14.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">12.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">16.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.399999999999999</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[TUR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Turkey</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bTUR%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">3.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">3.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">5.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">5.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">9.6999999999999993</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">13.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">12.6</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">12.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">12.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">12.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">..</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[GBR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">United Kingdom</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bGBR%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">16.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">16.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">20.2</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.8</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">22.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.7</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[USA]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">United States</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell ss:StyleID="s93" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[%5bSOURCE%5d.%5b10%5d%2c%5bBRANCH%5d.%5b90%5d%2c%5bTYPEXP%5d.%5b0%5d%2c%5bTYPROG%5d.%5b0%5d%2c%5bUNIT%5d.%5bPCT_GDP%5d%2c%5bCOUNTRY%5d.%5bUSA%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">12.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">12.8</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">13.1</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">14.2</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">15.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.5</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19.3</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.7</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18.600000000000001</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">19.2</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s94" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=SOCX_AGG&amp;Coords=[COUNTRY].[OECD]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">OECD - Total</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">15.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">17.5</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.3</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">18.600000000000001</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">19.399999999999999</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.9</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.4</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.6</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.7</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">21.6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s98" ss:HRef="http://stats.oecd.org/index.aspx?DatasetCode=SOCX_AGG"><Data
+      ss:Type="String">Data extracted on 23 Oct 2015 08:49 UTC (GMT) from OECD.Stat</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <TopRowVisible>1</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
