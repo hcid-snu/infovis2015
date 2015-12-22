@@ -1,0 +1,51 @@
+svg { 
+	width: 1200px; 
+	height: 350px; 
+	border: 0px 
+	solid black; 
+}
+
+.axis text {
+	font-family: AppleGothic;
+	font-size: 7pt;
+}
+
+.axis path,
+.asis line {
+	fill: none;
+	stroke: black;
+}
+
+.axis_x line {
+	fill: none;
+	stroke: black;
+}
+
+.barName {
+	font-family: AppleGothic;
+	font-size: 6pt;
+	text-anchor: middle;
+}
+
+.barNum {
+	font-family: AppleGothic;
+	font-size: 7pt;
+	text-anchor: middle;
+}
+
+.ave path,
+.ave line {
+	fill: yellow;
+	stroke:yellow;
+}
+
+.ave_text {
+	font-family: AppleGothic;
+	font-size: 6pt;
+	text-anchor : middle;
+}
+
+
+.bar { 
+	fill : #ccc; 
+}

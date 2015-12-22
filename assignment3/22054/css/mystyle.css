@@ -1,0 +1,71 @@
+svg { 
+  width: 1400px; 
+  height: 600px; 
+  stroke: none;
+}
+
+.bar { 
+  fill : #7D6655; 
+}
+
+.bar2 { 
+  fill : #566D7E;
+
+}
+
+.bar:hover {
+  fill: rgb(61, 89, 171);
+
+}
+
+.bar2:hover {
+  fill: rgb(0, 139, 0);
+}
+
+.d3-tip {
+  line-height: 1;
+  font: 9pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 7.5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 3.5px;
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 9px;
+  width: 100%;
+  line-height: 0.5;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.barNum {
+	font: 7pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-anchor: middle;
+}
+
+.axis text {
+	font: 8pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.barName {
+	font: 7pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-anchor: middle; 
+}

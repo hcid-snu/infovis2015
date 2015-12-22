@@ -374,6 +374,7 @@ header .header-content .header-content-inner p {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+		min-width: 120px;
 }
 
 .btn-default:hover,
@@ -509,4 +510,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+image-center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
