@@ -1,0 +1,37 @@
+.municipality {
+  fill: silver;
+  stroke: #fff;
+}
+
+.municipality-label {
+  fill: none;
+  text-anchor: middle;
+	font: bold 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+.name { 
+	fill: none 
+}
+
+.show {
+	fill: black;
+	font: bold 4px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.active {
+	fill: #8B4513;
+}
+
+.nonSelected {
+	fill: white;
+}
+
+.fillTra{
+	fill: orange;
+}
+
+.fillNone{
+	fill: silver
+}
+

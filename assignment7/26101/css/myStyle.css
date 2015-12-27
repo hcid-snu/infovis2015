@@ -1,0 +1,54 @@
+html, body, #map {
+	width: 91%;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size: 20pt;
+	font-weight: 300;
+	letter-spacing: -2px;
+	margin: .3em 0 ;
+}
+
+.municipality {
+	fill: #40160D;
+	stroke: #fff;
+}
+.municipality-label {
+	fill: #fff;
+	text-anchor: middle;
+	font: bold 0px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.municipality.p0 { 
+	fill: #CBAAB8; 
+}
+
+.municipality.p1 { 
+	fill: #A1767C; 
+}
+
+.municipality.p2 { 
+	fill: #B06F85; 
+}
+
+.municipality.p3 { 
+	fill: #A35774; 
+}
+
+.municipality.p4 { 
+	fill: #A6505C; 
+}
+
+.municipality.p5 {
+	fill: #C2406D;
+}
+
+.municipality.p6 {
+	fill: #C20E5A;
+}
+
+.municipality.p7 {
+	fill: #FF016D;
+}

@@ -1,0 +1,77 @@
+{
+  "name": "healthcare",
+  "children" : [
+    {
+      "name": "region", 
+      "children": [
+        {
+          "name": "northeast",
+          "children": [
+            {"name": "CT", "size": 1.00},
+            {"name": "ME", "size": 0.93},
+            {"name": "MA", "size": 1.01},
+            {"name": "NH", "size": 0.99},
+            {"name": "RI", "size": 1.00},
+            {"name": "VT", "size": 0.99}
+          ]
+        }, 
+        {
+          "name": "midwest",
+          "children": [
+            {"name": "IL", "size": 1.00},
+            {"name": "IN", "size": 1.01},
+            {"name": "OH", "size": 1.01},
+            {"name": "MI", "size": 0.98},
+            {"name": "WI", "size": 0.94},
+            {"name": "IA", "size": 0.92},
+            {"name": "KS", "size": 0.99},
+            {"name": "MN", "size": 0.89},
+            {"name": "MO", "size": 0.96},
+            {"name": "NE", "size": 1.01},
+            {"name": "ND", "size": 0.87},
+            {"name": "SD", "size": 0.87}
+          ]
+        }, 
+        {
+          "name": "south",
+          "children": [
+            {"name": "DE", "size": 0.99},
+            {"name": "FL", "size": 1.03},
+            {"name": "GA", "size": 0.95},
+            {"name": "MD", "size": 0},
+            {"name": "NC", "size": 0.94},
+            {"name": "SC", "size": 0.97},
+            {"name": "VA", "size": 0.93},
+            {"name": "DC", "size": 0.99},
+            {"name": "WV", "size": 0.95},
+            {"name": "AL", "size": 0.97},
+            {"name": "KY", "size": 0.97},
+            {"name": "MS", "size": 0.96},
+            {"name": "TN", "size": 1.00},
+            {"name": "AR", "size": 0.98},
+            {"name": "LA", "size": 1.05},
+            {"name": "OK", "size": 0.93},
+            {"name": "TX", "size": 1.04}
+          ]
+        },
+        {
+          "name": "west",
+          "children": [
+            {"name": "AZ", "size": 0.94},
+            {"name": "CO", "size": 0.95},
+            {"name": "ID", "size": 0.94},
+            {"name": "MT", "size": 0.89},
+            {"name": "NV", "size": 1.04},
+            {"name": "NM", "size": 0.88},
+            {"name": "UT", "size": 0.96},
+            {"name": "WY", "size": 0.94},
+            {"name": "AL", "size": 0.97},
+            {"name": "CA", "size": 0.99},
+            {"name": "HI", "size": 0.88},
+            {"name": "OR", "size": 0.88}
+          ]
+        }
+      ]
+    }
+  ]
+}

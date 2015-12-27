@@ -1,0 +1,48 @@
+.municipality {
+  fill: silver;
+  stroke: #fff;
+}
+
+.municipality-label {
+  fill: white;
+  text-anchor: middle;
+  font: bold 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.municipality.p0 { 
+  fill: #fff7ec; 
+}
+
+.municipality.p1 { 
+  fill: #fee8c8; 
+}
+
+.municipality.p2 { 
+  fill: #fdd49e; 
+}
+
+.municipality.p3 { 
+  fill: #fdbb84; 
+}
+
+.municipality.p4 { 
+  fill: #fc8d59; 
+}
+
+.municipality.p5 { 
+  fill: #ef6548; 
+}
+
+.municipality.p6 { 
+  fill: #d7301f; 
+}
+
+.municipality.p7 { 
+  fill: #b30000; 
+}
+
+.municipality.p8 { 
+  fill: #7f0000;
+}
+
+/*http://colorbrewer2.org/*/

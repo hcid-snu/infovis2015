@@ -1,0 +1,44 @@
+{
+ "name": "Houston Astros",
+ "children": [
+  {
+   "name": "Pitchers",
+   "children": [
+		 {"name": "Dallas Keuchel", "size": "61000.0"},
+{"name": "Collin McHugh", "size": "39000.0"},
+{"name": "Lance McCullers", "size": "28000.0"},
+{"name": "Scott Feldman", "size": "10000.0"},
+{"name": "Roberto Hernandez", "size": "4000.0"},
+{"name": "Scott Kazmir", "size": "1000.0"},
+{"name": "Will Harris", "size": "5000.0"},
+{"name": "Mike Fiers", "size": "6000.0"},
+{"name": "Luke Gregerson", "size": "12000.0"},
+{"name": "Vincent Velasquez", "size": "10000.0"},
+{"name": "Pat Neshek", "size": "3000.0"},
+{"name": "Tony Sipp", "size": "10000.0"},
+{"name": "Josh Fields", "size": "13000.0"},
+{"name": "Chad Qualls", "size": "5000.0"},
+{"name": "Brett Oberholtzer", "size": "3000.0"}
+
+	 ]
+  },
+  {
+   "name": "Batters",
+   "children": [
+		 {"name": "Jose Altuve", "size": "43000.0"},
+{"name": "Luis Valbuena", "size": "12000.0"},
+{"name": "Colby Rasmus", "size": "28000.0"},
+{"name": "Chris Carter", "size": "3000.0"},
+{"name": "George Springer", "size": "37000.0"},
+{"name": "Carlos Correa", "size": "33000.0"},
+{"name": "Jason Castro", "size": "13000.0"},
+{"name": "Jake Marisnick", "size": "18000.0"},
+{"name": "Marwin Gonzalez", "size": "15000.0"},
+{"name": "Preston Tucker", "size": "3000.0"},
+{"name": "Jed Lowrie", "size": "10000.0"},
+{"name": "Hank Conger", "size": "5000.0"},
+{"name": "Carlos Gomez", "size": "9000.0"}
+	 ]
+  }
+ ]
+}

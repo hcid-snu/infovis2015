@@ -1,0 +1,22 @@
+body {
+	font: 10px sans-serif;
+}
+
+.node {
+  stroke-width: 1.5px;
+}
+
+.node text {
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.legend rect {
+	fill:white;
+	stroke:black;
+	opacity:0.8;
+}

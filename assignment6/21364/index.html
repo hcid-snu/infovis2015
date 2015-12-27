@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Yeji_2015 InfoVis_Assignment5</title>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/d3.v3.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+</head>
+<body>
+	<h1>2011년 4월 식단표</h1>
+	<p id="note">본문의 그래프는 2011년 4월의 개인 식단일기 자료를 이용하여 만들었습니다.</p>
+	<h2>날짜별 식사 유무 여부</h2>
+	<p id="note">*4/14: 생일</p>
+	<div id="heatmap"></div>
+	<h2>종류별 식단 섭취 비율</h2>
+	<p id="note">클릭하면 확대됩니다.</p>
+	<div id="legend">
+			<div id="g1"></div><p>분식</p>
+			<div id="g2"></div><p>일식</p>
+			<div id="g3"></div><p>양식</p>
+			<div id="g4"></div><p>기타</p>
+			<div id="g5"></div><p>한식</p>
+			<div id="g6"></div><p>과일</p>
+			<div id="g7"></div><p>음료</p>
+		</div>
+	<div id="tree"></div>
+	<div id="tree2"></div>
+	<script src="js/heatmap.js"></script>
+	<!--<script src="js/treemap.js"></script>-->
+	<script src="js/treemap2.js"></script>
+</body>
+</html>

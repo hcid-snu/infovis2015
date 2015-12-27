@@ -1,0 +1,45 @@
+var width = 800, height = 700
+
+var svg = d3.select("#map").append("svg")
+		.attr("width", width)
+		.attr("height", height)
+
+var seoul = svg.append("g").attr("id", "seoul")
+
+var projection = d3.geo.mercator()
+		.center([126.9895, 37.5651])
+		.scale(100000)
+		.translate([width/2, height/2])
+
+var path = d3.geo.path().projection(projection)
+
+d3.json("map/seoul_municipalities_topo_simple.json", function(error, data) {
+	
+	if (error) { return console.error(error) }
+	// console.log(data)
+	var features = topojson.feature(data, data.objects.seoul_municipalities_geo).features
+	// var features = topojson.feature(data, data.objects["seoul_municipalities_geo"]).features
+	// console.log(features)
+	
+	/*seoul.selectAll("path")
+			.data(features)
+			.enter()
+			.append("path")
+			.attr("class", function(d) {
+				// console.log(d.properties.code)
+				return "municipality c" + d.properties.code
+			})
+			.attr("d", path)
+			
+	seoul.selectAll("text")
+			.data(features)
+			.enter()
+			.append("text")
+			.attr("class", "municipality-label")
+			.attr("transform", function(d) { return "translate(" + path.centroid(d) + ")" })
+			.attr("dy", ".35em")
+			.text(function(d) { return d.properties.name })*/
+
+})
+		
+

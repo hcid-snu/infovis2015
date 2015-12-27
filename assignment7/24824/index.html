@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Week10 Example: Map2</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="http://d3js.org/topojson.v1.min.js" charset="utf-8"></script>
+		<script src="d3.legend.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+	</head>
+	<body>
+		<h1>주요 커피전문점 위치 시각화</h1>
+		<div>  본 시각화는 서울 시내의 커피전문점 4곳의 위치를 시각화 해본 것이다. 주요 커피점문점으로는 스타벅스, 커피빈, 카페베네, 이디아 4곳을 선정하였다. 데이터는 각 커피점문점 홈페이지의 매장 주소를 이용하였다. 다음지도 API를 이용하여 주소를 위도와 경도로 바꾸고, 이를 d3를 이용하여 시각화 해보았다. 본 시각화를 통해서 어떤 커피점문점이 어느지역구에 가장 많은지, 어느 곳에 위치하고 있는지를 살펴볼 수 있을 있을 것이다.
+		</div>
+		<ul>
+  			<li>강남구, 서초구, 중구, 종로구 등 주요 상권지역에 커피점문점이 밀집해 있음을 알 수 있다.</li>
+ 			<li>각 지역구를 나누는 경계선을 위주로 커피점문점이 분포하는 경향을 보인다.</li>
+ 			<li> 저렴한 가격을 내세우는 <FONT color = "blue"><B>이디야(파란색)</B></FONT> 커피전문점이 상대적으로 다른 커피전문점 보다 지역구의 편차 없이 분포하고 있음을 알 수 있다. </li>
+ 			<li> 커피전문점으로 가장 유명한 <FONT color = "darkgreen"><B>스타벅스(초록)</B></FONT> 은 주요 상권지역인 강남구, 서초구, 중구, 종로구 등 선택적으로 집중되어 있음을 알 수 있다.  </li>
+ 			<li> <FONT color = "orange"><B>카페베네(오랜지)</B></FONT> 도 규모는 적지만 전체적으로 균등하게 분포되어 있는 반면, <FONT color = "red"><B>커피빈(레드)</B></FONT> 은 특정 지역위주 (주요 상권지역)을 중심으로만 분포되어 이는 것을 확인 할 수 있다. </li>
+		</ul> 
+		<div id="map"></div>
+		<script src="js/mycode.js"></script>
+	</body>
+</html>

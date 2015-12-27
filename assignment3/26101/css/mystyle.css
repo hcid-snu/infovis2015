@@ -1,8 +1,19 @@
+html {
+  min-width: 1024;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.svg { 
+width: 320;
+height: 280;
+border: 1;
+solid black;
+}
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
-  width: 960px;
+  width: 1024px;
 }
 
 .axis text {
@@ -17,13 +28,24 @@ body {
 }
 
 .bar {
-  fill: steelblue;
+  fill: #ff9896;
   fill-opacity: .9;
+}
+
+.barNum { 
+  font-size: : 9;
+  text-anchor: middle;
+}
+
+.barName {
+  font-size: 9;
+  text-anchor: middle;
 }
 
 .x.axis path {
   display: none;
 }
+
 
 label {
   position: absolute;

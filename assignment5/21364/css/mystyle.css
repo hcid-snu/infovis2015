@@ -1,0 +1,97 @@
+path.link {
+  fill: none;
+  stroke: #6e6778;
+  stroke-width: 1.5px;
+}
+ 
+path.link.twofive {
+  opacity: 0.25;
+}
+ 
+path.link.fivezero {
+  opacity: 0.50;
+}
+ 
+path.link.sevenfive {
+  opacity: 0.75;
+}
+ 
+path.link.onezerozero {
+  opacity: 1.0;
+}
+ 
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+ 
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+h1 {
+    font: 28px "Helvetica-Neue", Helvetica, Arial, "돋움", sans-serif;
+    margin: 10px 0 0 0;
+}
+
+p {
+    font: 11px "Helvetica-Neue", Helvetica, Arial, "돋움", sans-serif;
+}
+
+p#source {
+	margin: 5px 0 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+div#legend {
+	position: absolute;
+	top: 80px;
+	left: 1000px;
+	border: 1px solid gray;
+	padding: 10px;
+	background-color: #fff;
+}
+
+div#g1 {
+	width: 10px;
+	height: 10px;
+	background-color: #0071bc;
+	-moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+div#g2 {
+	width: 10px;
+	height: 10px;
+	background-color: #269e70;
+	-moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+div#g3 {
+	width: 10px;
+	height: 10px;
+	background-color: #7ac94b;
+	-moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+div#g4 {
+	width: 10px;
+	height: 10px;
+	background-color: #fdf14d;
+	margin: 5px 0 0 0;
+	-moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}

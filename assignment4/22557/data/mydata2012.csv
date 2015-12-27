@@ -1,0 +1,5 @@
+carrier,nextYear,thisYear,preYear
+Vehicle-Pedestrian,10683,10892,10869
+Vehicle-Vehicle,27358,28537,28294
+VehicleOnly,1398,1399,1288
+Crossing,,1,

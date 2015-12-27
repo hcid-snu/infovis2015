@@ -1,0 +1,40 @@
+{
+ "name": "KensasCity Royals",
+ "children": [
+  {
+   "name": "Pitchers",
+   "children": [
+		 {"name": "Edinson Volquez", "size": "2600.0"},
+{"name": "Yordano Ventura", "size": "2700.0"},
+{"name": "Danny Duffy", "size": "1200.0"},
+{"name": "Chris Young", "size": "900.0"},
+{"name": "Johnny Cueto", "size": "1100.0"},
+{"name": "Kelvin Herrera", "size": "600.0"},
+{"name": "Wade Davis", "size": "2000.0"},
+{"name": "Ryan Madson", "size": "900.0"},
+{"name": "Franklin Morales", "size": "400.0"},
+{"name": "Kris Medlen", "size": "500.0"},
+{"name": "Luke Hochevar", "size": "100.0"},
+{"name": "Greg Holland", "size": "800.0"},
+{"name": "Jason Vargas", "size": "400.0"},
+{"name": "Joe Blanton", "size": "500.0"}
+	 ]
+  },
+  {
+   "name": "Batters",
+   "children": [
+		 {"name": "Eric Hosmer", "size": "3500.0"},
+{"name": "Alcides Escobar", "size": "1500.0"},
+{"name": "Kendrys Morales", "size": "2100.0"},
+{"name": "Mike Moustakas", "size": "3800.0"},
+{"name": "Lorenzo Cain", "size": "6600.0"},
+{"name": "Salvador Perez", "size": "1600.0"},
+{"name": "Alex Gordon", "size": "2800.0"},
+{"name": "Alex Rios", "size": "200.0"},
+{"name": "Ben Zobrist", "size": "1200.0"},
+{"name": "Paulo Orlando", "size": "1000.0"},
+{"name": "Jarrod Dyson", "size": "1800.0"}
+	 ]
+  }
+ ]
+}

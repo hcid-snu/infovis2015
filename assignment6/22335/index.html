@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
+	<title> Assignment 6. Making Treemap and Heatmap </title>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"> </script>
+	<style>
+	.nanum { font-family: 'Nanum Gothic'; font-size: 11px; line-height: 35px; }
+	.body { font-family: 'Nanum Gothic'; margin: auto; position: relative; }
+	.form { top: 10px; right: 10px; position: relative;}
+	.node { font-family: 'Nanum Gothic'; font-size: 11px; text-align: center; border: solid 1px white; overflow: hidden; position: absolute;}
+	</style>
+	</head>
+
+	<body>
+	<h1 class = "nanum"> <text style="font-size:30pt; font-weight:bold;"> 삼성그룹 계열사 주식 가치 비교 </text> 
+		<br> <text style="font-size:10pt; font-weight:normal;"> 트리맵을 이용해, 15년 11월 9일 기준 삼성그룹 계열사의 주가를 비교해보았다. <br>
+		삼성그룹은 건설 및 중공업, 금융, 서비스, 전자, 화학, 총 5가지 부문의 27개사로 구성되어 있으며, <br>
+		트리맵에서 제시된 박스의 넓이는 나머지와 비교해 각 계열사가 차지하는 주가의 크기를 보여준다. <br>  
+		단 여기에서 주가를 확인할 수 없었던 10개사는 그 값을 0으로 처리하였다. </text> </h1>
+	<form>
+	<label class = "nanum"> <input type="radio" name="mode" value="size" checked> 주가를 반영한 전체 범주에서의 비율 </label>
+	<label class = "nanum"> <input type="radio" name="mode" value="count"> 전체 범주에서의 비율 </label>
+	</form>
+	<script src="mycode.js"> </script>
+	</body>
+
+	<head>
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
+	<title> Assignment 6. Making Treemap and Heatmap </title>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"> </script>
+	<style>
+	.nanum { font-family: 'Nanum Gothic'; font-size: 11px; line-height: 35px; }
+	.rect.bordered { stroke: white; stroke-width: 2px; }
+	.text.mono { font-family: 'Nanum Gothic'; font-size: 11px; fill: white; }
+	</style>
+	</head>
+
+	<body>
+	<h1 class = "nanum"> <text style="font-size:30pt; font-weight:bold;"> 삼성그룹 계열사 주식 가치 변동 추이 </text> <br>
+	<text style="font-size:10pt; font-weight:normal;"> 히트맵을 이용해, 15년 8월, 9월 삼성물산, 삼성생명, 호텔신라, 삼성SDI, 삼성SDS의 주가 변동 추이를 나타내었다. <br>
+		이는 11월 9일 기준 주가가 100,000 - 150,000 에 포함되었던 5개사에 해당하며, <br>
+		주가를 확인할 수 없었던 8월의 둘째 주 금요일(8월 14일), 9월의 넷째 주 월요일, 화요일(9월 28일, 29일)은 그 값을 전날 주가로 처리하였다.
+	</text> </h1>
+	<div id="chart"> </div>
+	<div id="dataset-picker"> </div>
+	<script src="mycode2.js"> </script>
+	</body>
+</html>

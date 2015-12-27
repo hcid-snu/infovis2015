@@ -1,0 +1,23 @@
+rect.bordered {
+	stroke: #E6E6E6;
+	stroke-width:2px;   
+}
+
+text.mono {
+	font-size: 8pt;
+	font-family: Consolas, courier;
+	fill: #aaa;
+}
+
+text.axis {
+	fill: #000;
+}
+
+#description {
+	font: 15px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif ;
+	font-size: 22px;
+}

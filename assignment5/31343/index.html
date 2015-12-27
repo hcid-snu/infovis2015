@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Force-Directed Layout</title>
+    <script type="text/javascript" src="http://d3js.org/d3.v2.min.js?2.9.3"></script>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  </head>
+  <body>
+    <div id="explain">
+      <h1>인스타그램에서 내 친구들은 어떤 관계를 가지고 있을까?</h1>
+      <p>인스타그램에서 나를 제외한 내 친구들끼리의 관계만을 알고 싶다면?<br>먼저 나의 인스타그램 계정을 중심으로 두 단계까지 연결된 친구들 데이터를 수집한 후에,<br>(1) 나와 친구들 사이의 관계 (2) 관계없는 친구들의 관계를 삭제하고 친구들끼리의 네트워크를 구성.<br>노드를 선택하면 직접적인 관계가 있는 노드만이 하이라이팅 된다.
+      </p>
+    </div>
+
+    <button id="zoom_in">+</button>
+    <button id="zoom_out">-</button>
+    <div id="chart"></div>
+
+    <script src="js/mycode.js"></script>
+  </body>
+</html>

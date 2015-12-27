@@ -1,0 +1,23 @@
+.text {
+	font: 6px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .75;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.node .selected {
+  stroke: black;
+}
+
+.brush .extent {
+  fill-opacity: .1;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}

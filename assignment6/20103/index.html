@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+		@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+		body{font-family:나눔고딕, NanumGothic, 'Nanum Gothic',Nanumbarungothic,arial,verdana,sans-serif;}
+		</style>
+		<title>Consumption Heatmap</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+	</head>
+	<body>
+		<h1><span style="font-size:35px;font-style:normal;font-weight:bold;letter-spacing:3px;color:#DB4D41;">Schedule pattern  VS  Spending pattern?</span></h1>
+		<h1><span style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;color:#90281B;">InfoVis | Consumption Heatmap</span><span style="font-family:Helvetica;font-size:12px;font-style:normal;font-weight:normal;letter-spacing:4px;color:#90281B;"> 2015-20103 | GiYoon Kim </span></h1>
+		
+
+		<h2><span style="font-size:25px;font-style:normal;font-weight:bold;letter-spacing:5px;color:#257065;">1  |  과정 </span></h2>
+		<h3><span style="font-size:16px;font-style:normal;font-weight:normal;letter-spacing:2px;color:#257065;">평소 생활 패턴과 지출 패턴 간의 관계를 살펴보고자 하였다. <br>초기에는 일주일 간의 지출 시간대와 지출 금액 데이터를 이용하여 Heatmap을 만드는 것으로 시작하였는데, 이를 살펴보니 특정 시간대에 지출이 일어나는 것을 확인할 수 있었다. <br>그리고 이것이 스케줄과는 어떠한 관계가 있을지 궁금증이 들었다. 이를 보기 위해 스케줄과 지출 패턴을 함께 살펴보았다. <br>또한 스케줄이 달라지면 지출 패턴에도 변화가 있는지 살펴보기 위해 스케줄이 다른 두 시기(4월, 10월)의 데이터를 함께 보았다.<br> </span></h3>
+
+
+
+
+		<h2><span style="font-size:25px;font-style:normal;font-weight:bold;letter-spacing:5px;color:#257065;">2  |  4월 스케줄과 지출  </span></h2>
+		<h3><span style="font-size:16px;font-style:normal;font-weight:normal;letter-spacing:2px;color:#257065;">4월 스케줄 heatmap은 4월에 있던 주간의 고정적인 스케줄을 보여주고 있다. 수업, 미팅과 같은 고정적인 스케쥴이 있었던 시간은 와인색으로 표시하였다. <br>4월 지출 횟수 heatmap은 4월 한 달 동안의 지출 횟수를 해당 시간대에 누적하여 보여주고 있다. <br> 4월 지출 금액 heatmap은 4월 한 달 동안의 지출 금액을 해당 시간대에 누적하여 보여주고 있다. </span></h3>
+		<div id="dataset-picker2" style="position:absolute; left: 38px;"></div>
+		<div id="chart2"></div>	
+		<script src="js/mycode_sch.js"></script>	
+		
+
+
+		<h2><span style="font-size:25px;font-style:normal;font-weight:bold;letter-spacing:5px;color:#257065;">3  |  10월 스케줄과 지출  </span></h2>
+		<h3><span style="font-size:16px;font-style:normal;font-weight:normal;letter-spacing:2px;color:#257065;">10월 스케줄 heatmap은 10월에 있던 주간의 고정적인 스케줄을 보여주고 있다. 수업, 미팅과 같은 고정적인 스케쥴이 있었던 시간은 와인색으로 표시하였다. <br>10월 지출 횟수 heatmap은 10월 한 달 동안의 지출 횟수를 해당 시간대에 누적하여 보여주고 있다. <br> 10월 지출 금액 heatmap은 10월 한 달 동안의 지출 금액을 해당 시간대에 누적하여 보여주고 있다. <br>   </span></h3>
+		<div id="dataset-picker" style="position:absolute; left: 38px;"></div>
+		<div id="chart"></div>
+		<script src="js/mycode.js"></script>
+
+
+
+
+		<h2><span style="font-size:25px;font-style:normal;font-weight:bold;letter-spacing:5px;color:#257065;">4  |  결과 </span></h2>
+		<h3><span style="font-size:16px;font-style:normal;font-weight:normal;letter-spacing:2px;color:#257065;">스케줄과 지출 Heatmap을 통해 고정 스케줄을 전후로 지출이 많이 일어나는 것을 볼 수 있었다. 수업이나 미팅 전후로 음료 혹은 간식을 사러가는 평소의 습관을 데이터를 통해 확인할 수 있었다. <br> 작은 금액의 지출이 다양한 시간대에 불규칙적으로 나타났으며, 매일 점심 또는 저녁을 먹는 시간이 불규칙한 것을 알 수 있었다.<br> 대체로 저녁 시간의 지출 금액이 크며, 금요일 저녁에 큰 금액의 지출이 일어나는 것을 볼 수 있었다. <br> 스케줄이 다른 4월과 10월 간의 비교를 통해, 생활 패턴에 따라 시간대에 따른 지출 횟수의 분포가 달라지는 것을 확인할 수 있었다.</span></h3>
+
+
+	</body>
+</html>

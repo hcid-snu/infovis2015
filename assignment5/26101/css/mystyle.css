@@ -1,0 +1,32 @@
+.node{
+	stroke-width: 1.5px;
+}
+
+.node text {
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif
+}
+
+.link {
+	stroke: #999;
+	stroke-opacity: .3;
+}
+
+html {
+  min-width: 1040px;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin: 1em auto 4em auto;
+  position: relative;
+  tab-size: 1;
+  width: 960px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: -3px;
+  margin: .3em 0 .1em 0;
+}
+

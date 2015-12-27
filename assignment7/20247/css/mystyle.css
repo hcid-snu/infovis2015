@@ -1,0 +1,39 @@
+html, body, #map {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.stations, .stations svg {
+  position: absolute;
+}
+
+.stations svg {
+  width: 60px;
+  height: 20px;
+  padding-right: 70px;
+  font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.stations circle {
+  fill: #F1948A;
+	stroke: #BA4A00;
+	stroke-width: 1px;
+  margin: 10px;
+  padding: 30px;
+}
+
+.title_text{
+	font: 25px "Trebuchet MS", Helvetica, sans-serif;
+	color: #5C6161;   
+	 -webkit-text-stroke: 0.5px #5C6161; 
+}
+
+.body_text {
+	font: 15px "Trebuchet MS", Helvetica, sans-serif;
+	fill: #5C6161;   
+	stroke: black;
+	stroke-width: 0.1;  
+	
+}

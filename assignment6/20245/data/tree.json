@@ -1,0 +1,185 @@
+{
+ "name": "Language",
+ "children": [
+  {
+   "name": "Chinese",
+   "children": [
+		 {"name": "Gan", "size": 20.6},
+		 {"name": "Hakka", "size": 30.1},
+		 {"name": "Huizhou", "size": 4.6},
+		 {"name": "Jinyu", "size": 45.0},
+		 {"name": "Mandarin", "size": 848},
+		 {"name": "Min Bei", "size": 10.3},
+		 {"name": "Min Dong", "size": 9.12},
+		 {"name": "Min Nan", "size": 46.6},
+		 {"name": "Min Zhong", "size": 3.10},
+		 {"name": "Pu-Xian", "size": 2.56},
+		 {"name": "Wu", "size": 77.2},
+		 {"name": "Xiang", "size": 36.0},
+		 {"name": "Yue", "size": 62.2}
+	 ]
+  },
+  {
+   "name": "Spanish",
+   "children": [
+		 {"name": "Spanish", "size": 399}
+	 ]
+  },
+  {
+   "name": "English",
+   "children": [
+		 {"name": "English", "size": 335}
+	 ]
+  },
+  {
+   "name": "Hindi",
+   "children": [
+		 {"name": "Hindi", "size": 260}
+	 ]
+  },
+  {
+   "name": "Arabic",
+   "children": [
+		 {"name": "Algerian Spoken", "size": 26.7},
+		 {"name": "Chadian Spoken", "size": 1.14},
+		 {"name": "Eastern Egyptian Bedawi Spoken", "size": 1.69},
+		 {"name": "Egyptian Spoken", "size": 55.0},
+		 {"name": "Gulf Spoken", "size": 5.34},
+		 {"name": "Hijazi Spoken", "size": 6.02},
+		 {"name": "Libyan Spoken", "size": 4.32},
+		 {"name": "Mesopotamian Spoken", "size": 15.1},
+		 {"name": "Moroccan Spoken", "size": 21.0},
+		 {"name": "Najdi Spoken", "size": 9.87},
+		 {"name": "North Levantine Spoken", "size": 14.8},
+		 {"name": "North Mesopotamian Spoken", "size": 6.30},
+		 {"name": "Omani Spoken", "size": 1.09},
+		 {"name": "Sa’idi Spoken", "size": 19.0},
+		 {"name": "Sanaani Spoken", "size": 7.60},
+		 {"name": "South Levantine Spoken", "size": 6.47},
+		 {"name": "Sudanese Spoken", "size": 16.9},
+		 {"name": "Ta’izzi-Adeni Spoken", "size": 7.08},
+		 {"name": "Tunisian Spoken", "size": 11.2}
+	 ]
+  },
+  {
+   "name": "Portuguese",
+   "children": [
+		 {"name": "Portuguese", "size": 203}
+	 ]
+  },
+  {
+   "name": "Bengali",
+   "children": [
+		 {"name": "Bengali", "size": 189}
+	 ]
+  },
+  {
+   "name": "Russian",
+   "children": [
+		 {"name": "Russian", "size": 166}
+	 ]
+  },
+  {
+   "name": "Japanese",
+   "children": [
+		 {"name": "Japanese", "size": 128}
+	 ]
+  },
+  {
+   "name": "Lahnda",
+   "children": [
+		 {"name": "Hindko, Northern", "size": 1.88},
+		 {"name": "Pahari-Potwari", "size": 2.50},
+		 {"name": "Punjabi, Western", "size": 62.6},
+		 {"name": "Saraiki", "size": 20.1}
+	 ]
+  },
+  {
+   "name": "Javanese",
+   "children": [
+		 {"name": "Javanese", "size": 84.3}
+	 ]
+  },
+  {
+   "name": "German, Standard",
+   "children": [
+		 {"name": "German, Standard", "size": 78.1}
+	 ]
+  },
+  {
+   "name": "Korean",
+   "children": [
+		 {"name": "Korean", "size": 77.2}
+	 ]
+  },
+  {
+   "name": "French",
+   "children": [
+		 {"name": "French", "size": 75.9}
+	 ]
+  },
+  {
+   "name": "Telugu",
+   "children": [
+		 {"name": "Telugu", "size": 74}
+	 ]
+  },
+  {
+   "name": "Marathi",
+   "children": [
+		 {"name": "Marathi", "size": 71.8}
+	 ]
+  },
+  {
+   "name": "Turkish",
+   "children": [
+		 {"name": "Turkish", "size": 70.9}
+	 ]
+  },
+  {
+   "name": "Tamil",
+   "children": [
+		 {"name": "Tamil", "size": 68.8}
+	 ]
+  },
+  {
+   "name": "Vietnamese",
+   "children": [
+		 {"name": "Vietnamese", "size": 67.8}
+	 ]
+  },
+  {
+   "name": "Urdu",
+   "children": [
+		 {"name": "Urdu", "size": 64.0}
+	 ]
+  },
+  {
+   "name": "Italian",
+   "children": [
+		 {"name": "Italian", "size": 63.8}
+	 ]
+  },
+  {
+   "name": "Malay",
+   "children": [
+		 {"name": "Banjar", "size": 3.50},
+		 {"name": "Indonesian", "size": 23.2},
+		 {"name": "Malay", "size": 15.8},
+		 {"name": "Malay, Central", "size": 1.59},
+		 {"name": "Malay, Jambi", "size": 1.00},
+		 {"name": "Malay, Kedah", "size": 2.60},
+		 {"name": "Malay, Pattani", "size": 1.00},
+		 {"name": "Minangkabau", "size": 5.53},
+		 {"name": "Musi", "size": 3.10}
+	 ]
+  },
+  {
+   "name": "Persian",
+   "children": [
+		 {"name": "Persian, Iranian", "size": 47.4},
+		 {"name": "Dari", "size": 9.60}
+	 ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "name": "2014 GDP",
+ "children": [
+  {
+   "name": "Americas",
+   "children": [
+		 {"name": "United States", "size": 174163},
+		 {"name": "Canada", "size": 17938},
+		 {"name": "Brazil", "size": 22441},
+		 {"name": "Mexico", "size": 12959},
+		 {"name": "Argentina", "size": 5362}
+	 ]
+  },
+  {
+   "name": "AsiaPacific",
+   "children": [
+		 {"name": "China", "size": 103554},
+		 {"name": "Japan", "size": 47698},
+		 {"name": "India", "size": 20478},
+		 {"name": "Australia", "size": 14825},
+		 {"name": "Korea", "size": 14495},
+		 {"name": "Indonesia", "size": 8561},
+		 {"name": "Saudi Arabia", "size": 7779},
+		 {"name": "Turkey", "size": 8133},
+		 {"name": "Taiwan", "size": 5055},
+		 {"name": "United Arab Emirates", "size": 4164},
+		 {"name": "Iran", "size": 4027}
+	 ]
+  },
+  {
+   "name": "Europe",
+   "children": [
+		 {"name": "Germany", "size": 38205},
+		 {"name": "France", "size": 29023},
+		 {"name": "United Kingdom", "size": 28476},
+		 {"name": "Italy", "size": 21293},
+		 {"name": "Russia", "size": 20573},
+		 {"name": "Spain", "size": 14005},
+		 {"name": "Netherlands", "size": 8804},
+		 {"name": "Switzerland", "size": 6790},
+		 {"name": "Sweden", "size": 5591},
+		 {"name": "Poland", "size": 5522},
+		 {"name": "Belgium", "size": 5278},
+		 {"name": "Norway", "size": 5116},
+		 {"name": "Austria", "size": 4361}
+	 ]
+  }
+ ]
+}

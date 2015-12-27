@@ -1,0 +1,73 @@
+{
+ "name": "My People",
+ "children": [
+  {
+   "name": "Highschool",
+   "children": [
+		 {"name": "은실", "size": 85},
+		 {"name": "뭉갱", "size": 90},
+		 {"name": "채링", "size": 100},
+		 {"name": "버라", "size": 55},
+		 {"name": "유리", "size": 40},
+		 {"name": "은이", "size": 35},
+		 {"name": "쇼니", "size": 28},
+		 {"name": "소정이", "size": 57},
+		 {"name": "인담이", "size": 12},
+		 {"name": "미뇽이", "size": 19},
+		 {"name": "은혜", "size" : 21},
+		 {"name": "소담", "size": 12},
+		 {"name": "권다", "size": 18},
+		 {"name": "윤미", "size": 32}
+	 ]
+  },
+  {
+   "name": "University",
+   "children": [
+		 {"name": "윤됴이", "size": 49},
+		 {"name": "아름", "size": 56},
+		 {"name": "지예", "size": 46},
+		 {"name": "배정", "size": 16},
+		 {"name": "창주", "size": 54},
+		 {"name": "염쇼", "size": 42},
+		 {"name": "혜징", "size": 46},
+		 {"name": "세미", "size": 37},
+		 {"name": "더지", "size": 25},
+		 {"name": "재혁", "size": 24},
+		 {"name": "한준", "size": 92}
+	 ]
+  },
+  {
+   "name": "Canada",
+   "children": [
+		 {"name": "싸조", "size": 30},
+		 {"name": "Amanda", "size": 28},
+		 {"name": "수지", "size": 27},
+		 {"name": "Jay", "size": 30},
+		 {"name": "Emina", "size": 19},
+		 {"name": "Alysha", "size": 26},
+		 {"name": "Tim", "size": 17},
+		 {"name": "보람", "size": 26},
+		 {"name": "Alex", "size": 25},
+		 {"name": "Gil", "size": 18},
+		 {"name": "Julie", "size": 23},
+		 {"name": "명석", "size": 20}
+	 ]
+  },
+  {
+   "name": "Lab",
+   "children": [
+		 {"name": "동욱옹", "size": 10},
+		 {"name": "민석옹", "size": 9},
+		 {"name": "재문", "size": 8},
+		 {"name": "동현", "size": 9},
+		 {"name": "창래", "size": 10},
+		 {"name": "현경", "size": 12},
+		 {"name": "승원", "size": 5},
+		 {"name": "해석", "size": 7},
+		 {"name": "택범", "size": 6},
+		 {"name": "민호", "size": 10},
+		 {"name": "윤진", "size": 2}
+	 ]
+  }     
+ ]
+}

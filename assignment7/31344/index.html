@@ -1,0 +1,37 @@
+<!-- sohyun's treemap visualization
+	 source of data: 
+	 http://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>InfoVis Assignment #7</title>
+		<script type="text/javascript" src="d3.v3.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://d3js.org/queue.v1.min.js"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+	</head>
+	<body>
+		<h1>U.S. Poverty Level - By State and County</h1>	
+		<p> *지도에 마우스를 올리면 카운티 이름과 빈곤 레벨을 볼 수 있습니다.*
+		<p>
+		다음은 미국 농림청 경제연구부처(United States Department of Agriculture - Economic Research Service에서 발행한 2013년도 카운티-레벨(county-level) 데이터셋 중 '빈곤(poverty)'를 시각화한 것이다. '빈곤'에 대한 것은 추정치(estimates)로서, 미국 통계청(U.S. Census Bureau)의 소규모 지역 임금 및 빈곤 통계 (Small Area Income and Poverty Estimate; SAIPE) 프로그램에 근거한 것이다. SAIPE는 학군(school districts), 카운티(counties), 주(states)단위로 데이터가 기록되며, 이 프로그램의 목적은 연방 프로그램 및 연방 펀드 예산을 각 행정 구역에 분배하게 되는 등의 상황에서 각 지역의 임금과 빈곤의 추정치에 대한 가장 업데이트된 통계 현황을 제공하기 위함이다. 2013년도 추정치는 2014년 12월 공개되었다. 이 데이터는 American Community Survey와의 통합된 데이터로서 데이터의 일관성(consistency) 및 신뢰성(reliability)을 확보하고자 하였다. 단, 이 통계 자료는 여러 해에 걸친 통계보다는 현재 상황을 더 잘 반영하는 것으로 보인다.
+		<br>
+		(자료출처: http://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx)
+		<p>다음 시각화를 보면, 미국내 가장 빈곤한 지역은 켄터키주(KY)를 비롯하여 남부 지역(미주리(MS), 알라바마(AL), 조지아(GA)), 그리고 서쪽으로는 뉴멕시코주(NM) 및 아리조나주(AZ), 마지막으로 북쪽으로는 사우스 다코타주(SD)에 밀집하여 있음을 알 수 있다. 미국 내 가장 빈곤한 카운티는 사우스 다코타 주의 Sanborn County로, 지역 내 과반(55.1%)이 빈곤층에 속해 있음을 알 수 있다. 재미있는 것은 주별로도 차이가 있겠지만, 주 내에서도 전체적으로 모두 빈곤하거나, 모두 빈곤하지 않다기보다는 빈곤한 카운티와 그렇지 않은 카운티가 고루 섞여 있으며, 국내 양극화 현상 뿐만 아니라 주 내에서도 양극화 현상이 발생하고 있음을 확인할 수 있었다는 것이다. 추후 이 데이터를 미국 주별 주력 산업 및 자원 분포 현황과 함께 비교하여 살펴보면 인과관계에 대한 인사이트도 발견할 수 있을 것으로 기대된다. 
+		</p> 
+		<div id="map">
+  			<div id="map-legend">
+    		<br>
+    		<div class="title"><strong><i>Estimated Percent of People of All Ages in Poverty, USDA 2013</i></strong>
+      			<div class="title">0% . . . . . . . . . . . . . . . . . . . 55%</div>
+    			</div>
+  			</div>
+		</div>		
+		<script src="js/mycode.js"></script>
+	</body
+</html>

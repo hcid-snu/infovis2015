@@ -1,0 +1,23 @@
+html, body, #map {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.stores, .stores svg {
+  position: absolute;
+}
+
+.stores svg {
+  width: 60px;
+  height: 20px;
+  padding-right: 100px;
+  font: bold 12px "Poiret One", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.stores circle {
+  fill: rgba(255,0,0,0.65);
+	stroke: black;
+	stroke-width: 0.5px;
+}

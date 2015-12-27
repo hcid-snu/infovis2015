@@ -1,0 +1,239 @@
+{
+ "name": "MUSIC",
+ "children": [
+
+  {
+   "name": "더바이브엔터",
+   "col": "#fffa6d",
+   "children": [
+		 {"name": "포맨", "size": 1, "con":30}
+	 ]
+  },
+
+
+  {
+   "name": "RBW",
+   "col": "#efedf5",
+   "children": [
+     {"name": "마마무", "size": 1, "con":30}
+   ]
+  },
+
+  {
+   "name": "젤리피쉬엔터",
+   "col": "#dadaeb",
+   "children": [
+     {"name": "박효신", "size": 2, "con":30}
+   ]
+  },
+
+
+  {
+   "name": "필굿뮤직",
+   "col": "#bcbddc",
+   "children": [
+     {"name": "윤미래", "size": 2, "con":30}
+   ]
+  },
+
+
+  {
+   "name": "후크엔터테이먼트",
+   "col": "#9e9ac8",
+   "children": [
+     {"name": "이승기", "size": 2, "con":30}
+   ]
+  },
+
+
+
+  {
+   "name": "일리네어레코즈",
+   "col": "#807dba",
+   "children": [
+     {"name": "Beenzino", "size": 2, "con":30}
+   ]
+  },
+
+
+  {
+   "name": "FNC 엔터",
+   "col": "#A5FCFF",
+   "children": [
+     {"name": "AOA", "size": 3, "con":30}
+   ]
+  },
+
+
+  {
+   "name": "에이팝엔터",
+   "col": "#FFAF0D",
+   "children": [
+     {"name": "가인", "size": 3, "con":30}
+   ]
+  },
+
+
+
+  {
+   "name": "MMO",
+   "col": "#c7e9c0",
+   "children": [
+     {"name": "박보람", "size": 4, "con":30}
+   ]
+  },
+
+
+
+  {
+   "name": "청춘뮤직",
+   "col": "#a1d99b",
+   "children": [
+     {"name": "버스커버스커", "size": 4, "con":30}
+   ]
+  },
+
+
+
+  {
+   "name": "큐브엔터",
+   "col": "#E8946A",
+   "children": [
+     {"name": "4minute", "size": 5, "con":30}
+   ]
+  },
+
+
+
+  {
+   "name": "안테나뮤직",
+   "col": "#41ab5d",
+   "children": [
+     {"name": "정승환", "size": 4, "con":30}
+   ]
+  },
+
+
+
+
+  {
+   "name": "YNB 엔터",
+   "col": "#1f77b4",
+   "children": [
+     {"name": "노을", "size": 10, "con":30}
+   ]
+  },
+
+
+
+  {
+   "name": "인넥스트트렌드",
+   "col": "#ff7f0e",
+   "children": [
+     {"name": "나얼", "size": 10, "con":30}
+   ]
+  },
+
+
+  {
+   "name": "웰메이드 예당/예당엔터",
+   "col": "#d62728",
+   "children": [
+     {"name": "MC몽", "size": 5, "con":30},
+     {"name": "EXID", "size": 15, "con":60}
+   ]
+  },
+
+
+  {
+   "name": "로엔엔터",
+   "col": "#8c564b",
+   "children": [
+		 {"name": "아이유", "size": 6, "con":30},
+		 {"name": "정승환", "size": 1, "con":30},
+		 {"name": "정승환,박윤하", "size": 5, "con":30}
+	 ]
+  },
+
+
+  {
+   "name": "스타쉽엔터",
+   "col": "#17becf",
+   "children": [
+		 {"name": "매드클라운", "size": 9, "con":30},
+		 {"name": "소유", "size": 4, "con":30},
+		 {"name": "케이윌", "size": 1, "con":30},
+		 {"name": "씨스타", "size": 1, "con":30}
+	 ]
+  },
+
+  {
+   "name": "아메바컬쳐",
+   "col": "#bcbd22",
+   "children": [
+		 {"name": "Zion.T", "size": 11, "con":60},
+		 {"name": "프라이머리", "size": 2, "con":30},
+		 {"name": "정승환,박윤하", "size": 5, "con":30}
+	 ]
+  },
+
+
+  {
+   "name": "에이큐브엔터",
+   "col": "#ff9896",
+   "children": [
+		 {"name": "APink", "size": 5, "con":30},
+		 {"name": "허각", "size": 7, "con":30},
+		 {"name": "허각,정인", "size": 2, "con":30}
+	 ]
+  },
+
+
+  {
+   "name": "JYP 엔터",
+   "col": "#f70add",
+   "children": [
+		 {"name": "백아연", "size": 3, "con":30},
+		 {"name": "박진영", "size": 7, "con":30},
+		 {"name": "미쓰에이", "size": 8, "con":30},
+		 {"name": "15&", "size": 4, "con":30}
+	 ]
+  },
+
+
+  {
+   "name": "SM 엔터",
+   "col": "#FF0A61",
+   "children": [
+		 {"name": "규현", "size": 4, "con":30},
+		 {"name": "보아(BoA)", "size": 2, "con":30},
+		 {"name": "샤이니(SHINee)", "size": 2, "con":30},
+		 {"name": "엑소(EXO)", "size": 8, "con":60}
+	 ]
+  },
+
+  {
+   "name": "YG 엔터",
+   "col": "#e3ff0d",
+   "children": [
+		 {"name": "GDXTAEYANG", "size": 3, "con":30},
+		 {"name": "지누션", "size": 4, "con":30},
+		 {"name": "BIGBANG", "size": 25, "con":120}
+	 ]
+  },
+
+  {
+   "name": "CJ E&M",
+   "col": "#2945FF",
+   "children": [
+		 {"name": "다비치", "size": 16, "con":120},
+		 {"name": "제시 (Jessi), 치타, 강남", "size": 5, "con":30},
+		 {"name": "지민 (AOA), 슬옹", "size": 5, "con":30},
+		 {"name": "지민 (AOA), 아이언", "size": 8, "con":30},
+		 {"name": "치타", "size": 2, "con":30},
+		 {"name": "치타, 에일리", "size": 3, "con":30},
+		 {"name": "키썸 (Kisum), San E, 태완", "size": 2, "con":30}
+	 ]
+  }
+ ]
+}

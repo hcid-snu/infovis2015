@@ -1,0 +1,41 @@
+.node {
+  stroke-width: 1.5px;
+ 
+}
+
+.node_click {
+	
+	 stroke-width: 1.5px;
+	 stroke: #FFFFFF;
+}
+
+.node text {
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	fill: #5C6161;   
+	stroke: black;
+	stroke-width: 0.1;       
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.legend {                                                  
+  font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  fill: #5C6161;                             
+} 
+
+.desc_text {
+	font: 15px "Trebuchet MS", Helvetica, sans-serif;
+	fill: #5C6161;   
+	stroke: black;
+	stroke-width: 0.1;  
+	
+}
+
+.title_text{
+	font: 25px "Trebuchet MS", Helvetica, sans-serif;
+	color: #5C6161;   
+	 -webkit-text-stroke: 0.5px #5C6161; 
+}

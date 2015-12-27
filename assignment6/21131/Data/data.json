@@ -1,0 +1,85 @@
+{
+ "name": "65 degrees",
+ "children": [
+  {
+   "name": "espresso",
+   "children": [
+     {"name": "espresso", "size": 3000},
+     {"name": "espresso macchiato", "size": 3500},
+     {"name": "espresso conpanna", "size": 3500},
+     {"name": "americano", "size": 3500},
+     {"name": "cafe latte", "size": 4000},
+     {"name": "cappuccino", "size": 4000},
+     {"name": "cafe mocha", "size": 4500},
+     {"name": "caramel macchiato", "size": 4500},
+     {"name": "affogato", "size": 5500}
+   ]
+  },
+  {
+   "name": "special latte",
+   "children": [
+      {"name": "green tea latte", "size": 4500},
+      {"name": "vanilla chai latte", "size": 5000},
+      {"name": "sweet potato latte", "size": 5000},
+      {"name": "chocolate latte", "size": 4500},
+      {"name": "mint chocolate latte", "size": 5000},
+      {"name": "ice strawberry latte", "size": 5500}
+   ]
+  },
+  {
+   "name": "milk tea",
+   "children": [
+     {"name": "royal milk tea", "size": 4500},
+     {"name": "strawberry milk tea", "size": 4500}
+   ]
+  },
+  {
+   "name": "organic tea",
+   "children": [
+     {"name": "earlgrey", "size": 4500},
+     {"name": "chamomile", "size": 4500},
+     {"name": "peppermint rooibos", "size": 5000},
+     {"name": "blueberry rooibos", "size": 5000}
+   ]
+  },
+    {
+   "name": "fruit juice",
+   "children": [
+     {"name": "strawberry", "size": 5000},
+     {"name": "banana", "size": 5500},
+     {"name": "tomato", "size": 5500},
+     {"name": "kiwi", "size": 5500},
+     {"name": "orange", "size": 5500},
+     {"name": "grapefruit", "size": 6000},
+     {"name": "apple carrot", "size": 6000}
+   ]
+  },
+      {
+   "name": "icecream shake",
+   "children": [
+     {"name": "vanilla shake", "size": 5500},
+     {"name": "strawberry shake", "size": 5500},
+     {"name": "mocha shake", "size": 5500},
+     {"name": "cookie and mocha shake", "size": 6000},
+     {"name": "chocolate shake", "size": 6000},
+     {"name": "cheesecakeshake", "size": 6000}
+   ]
+  },
+  {
+   "name": "bread",
+   "children": [
+     {"name": "plain bagel", "size": 3000},
+     {"name": "onion bagel", "size": 3000},
+     {"name": "blueberry bagel", "size": 3000},
+     {"name": "kaya toast", "size": 3000}
+   ]
+  },
+    {
+   "name": "salad",
+   "children": [
+     {"name": "fried chicken salad", "size": 11000},
+     {"name": "ricota chees salad", "size": 11000}
+   ]
+  }
+ ]
+}

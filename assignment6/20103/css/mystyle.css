@@ -1,0 +1,32 @@
+rect.bordered {
+	stroke: #E6E6E6;
+	stroke-width:2px;   
+}
+
+text.mono {
+	font-size: 9pt;
+	font-family: Consolas, courier;
+	fill: #aaa;
+}
+
+text.axis-workweek {
+	fill: #000;
+}
+
+text.axis-worktime {
+	fill: #000;
+}
+
+h2 {
+	border-bottom: #257065 4px solid;
+	width: 100%;
+	line-height: 2;
+    margin: 0 0 20px;
+}
+
+
+/*
+		#chart  { position:static; float:right; top:20px; right:30px }
+		#chart2  { position:static; float:right; top:20px; right:30px }
+		#dataset-picker { position:static; float:right; top:20px; right:30px }
+		#dataset-picker2 { position:static; float:right; top:20px; right:30px }*/

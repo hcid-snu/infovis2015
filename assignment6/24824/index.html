@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+
+    svg {
+      font: 13px sans-serif;
+      font-weight: bold;
+    }
+
+    #chart {
+      width: 960px;
+      height: 500px;
+      background: #ddd;
+    }
+
+    text {
+      pointer-events: none;
+    }
+
+    .grandparent text {
+      font-weight: bold;
+      fill: white;
+    }
+
+    rect {
+      fill: none;
+      stroke: #fff;
+    }
+
+    rect.parent,
+    .grandparent rect {
+      stroke-width: 2px;
+    }
+
+    .grandparent rect {
+      fill: slategray;
+    }
+
+    .grandparent:hover rect {
+      fill: #ee9700;
+    }
+
+    .children rect.parent,
+    .grandparent rect {
+      cursor: pointer;
+    }
+
+    .children rect.parent {
+      fill: #bbb;
+      fill-opacity: 0.4;
+    }
+
+    .children:hover rect.child {
+      fill: #bbb;
+    }
+
+  </style>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body ng-app="app">
+
+  <div class="container">
+
+    <h1>어떤 전공을 가진 학생들이 정보 비주얼라이제이션 수강할까?</h1>
+   
+    <div> 본 정보 시각화는 정보 비주얼라이제이션을 수강하는 학생들의 전공을 트리맵(treemap)으로 표현해 본 것이다.</div>
+    <div> 학과를 클릭해보면 현재 전공별로 어떤 학생이 있는지 알 수 있다. </div>
+    <div> * 본 데이터는 ETL의 "전체 사용자 정보"에서 수집하였습니다.</div>
+    <div> * Fall 2014 데이터는 임의로 작성하였습니다. </div>
+
+    <div ng-controller="treemapCtrl">
+    <div class="form-horizontal">
+      <form class="form-group">
+
+        <label for="year-select" class="col-sm-2 control-label">학기 :</label>
+        <div class="col-sm-2">
+          <select ng-model="year" id="year-select" class="form-control">
+            <option value="2013">Fall 2015</option>
+            <option value="2014">Fall 2014</option>
+
+          </select>
+        </div>
+  
+      </form>
+
+    </div>
+   <div> 
+    학과 버튼을 누르면 처음으로 되돌아옵니다.  
+    </div>
+    <treemap></treemap>
+
+    </div>
+
+  </div>
+
+
+  <script src="jquery.min.js"></script>
+  <script src="d3.min.js"></script>
+  <script src="angular.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+  <script>
+
+    var app = angular
+      .module('app', [
+  
+      ]);
+
+    app.controller('treemapCtrl', ['$scope', function($scope) {
+
+      var yrToSrc = {'2015' : 'data/data2015.json',
+                    '2014' : 'data/data2014.json',
+                     '2013' : 'data/data2013.json'};
+
+      $scope.year = '2013';
+      $scope.dataUrl = yrToSrc[$scope.year];
+
+      // Watch for changes to year, update the dataUrl.
+      $scope.$watch('year', function() {
+        $scope.dataUrl = yrToSrc[$scope.year];
+      });
+
+    }]);
+
+    app.directive('treemap', function () {
+
+      return {
+        template: '<div></div>',
+        restrict: 'E',
+        link: function postLink(scope, element, attrs) {
+
+          clearTreeMap();
+
+          if(angular.isDefined(scope.dataUrl)) {
+              drawTreeMap(scope.dataUrl);
+          }
+          
+          scope.$watch('dataUrl', function(newVal, oldVal) {
+            console.log("Inside watch! dataUrl newVal: ", newVal, " oldVal: ", oldVal);
+
+            if(angular.isDefined(newVal) && newVal !== oldVal) {
+              console.log("Redrawing tree map!");
+              clearTreeMap();
+              drawTreeMap(newVal);
+            }
+
+          });
+
+          function clearTreeMap() {
+            element.html("");
+          }
+
+          function drawTreeMap(dataUrl) {
+
+            if(!angular.isDefined(dataUrl)) { return; }
+
+            var margin = {top: 20, right: 0, bottom: 0, left: 0},
+                width = 960,
+                height = 500 - margin.top - margin.bottom,
+                formatNumber = d3.format(",d"),
+                transitioning;
+
+            var x = d3.scale.linear()
+                .domain([0, width])
+                .range([0, width]);
+
+            var y = d3.scale.linear()
+                .domain([0, height])
+                .range([0, height]);
+
+            var color = d3.scale.linear().range(['#147814','white','#52E252','white','#3DFF92','white','#0466FF','white','#2827FF','white','#FFD732','white','#C73399','white','#CD0000','white','#FF9100','white']).domain([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]);
+
+
+            var treemap = d3.layout.treemap()
+                .children(function(d, depth) { return depth ? null : d._children; })
+                .sort(function(a, b) { return a.value - b.value; })
+                .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
+                .round(false);
+
+            var svg = d3.select(element[0]).append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.bottom + margin.top)
+                .style("margin-left", -margin.left + "px")
+                .style("margin.right", -margin.right + "px")
+              .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    
+
+            var grandparent = svg.append("g")
+                .attr("class", "grandparent");
+
+
+            grandparent.append("rect")
+                .attr("y", -margin.top)
+                .attr("width", width)
+                .attr("height", margin.top);
+
+            grandparent.append("text")
+                .attr("x", 6)
+                .attr("y", 6 - margin.top)
+                .attr("dy", ".75em");
+
+
+            d3.json(dataUrl, function(root) {
+
+              initialize(root);
+              accumulate(root);
+              layout(root);
+              display(root);
+              
+              function initialize(root) {
+                root.x = root.y = 0;
+                root.dx = width;
+                root.dy = height;
+                root.depth = 0;
+              }
+
+              function accumulate(d) {
+                return (d._children = d.children)
+                    ? d.value = d.children.reduce(function(p, v) { return p + accumulate(v); }, 0)
+                    : d.value;
+              }
+
+              function layout(d) {
+                if (d._children) {
+                  treemap.nodes({_children: d._children});
+                  d._children.forEach(function(c) {
+                    c.x = d.x + c.x * d.dx;
+                    c.y = d.y + c.y * d.dy;
+                    c.dx *= d.dx;
+                    c.dy *= d.dy;
+                    c.parent = d;
+                    layout(c);
+                  });
+                }
+              }
+
+              function display(d) {
+
+                grandparent
+                    .datum(d.parent)
+                    .on("click", transition)
+                  .select("text")
+                    .text(name(d));
+
+                var g1 = svg.insert("g", ".grandparent")
+                    .datum(d)
+                    .attr("class", "depth");
+
+                var g = g1.selectAll("g")
+                    .data(d._children)
+                  .enter().append("g");
+
+                g.filter(function(d) { return d._children; })
+                    .classed("children", true)
+                    .on("click", transition);
+
+                g.selectAll(".child")
+                    .data(function(d) { return d._children || [d]; })
+                  .enter().append("rect")
+                    .attr("class", "child")
+                    .style("fill", function(d) { return color(d.change / 100 || 0); })
+                    .call(rect);
+
+                g.append("rect")
+                    .attr("class", "parent")
+                    .call(rect)
+                  .append("title")
+                    .text(function(d) { return formatNumber(d.value); });
+
+                g.append("text")
+                    .attr("dy", ".75em")
+                    .text(function(d) { return d.name + "\n"+ d.major + "\n"})
+                    .call(text1);
+
+         
+
+                function transition(d) {
+
+                  if (transitioning || !d) return;
+                  transitioning = true;
+
+                  var g2 = display(d),
+                      t1 = g1.transition().duration(750),
+                      t2 = g2.transition().duration(750);
+
+                  x.domain([d.x, d.x + d.dx]);
+                  y.domain([d.y, d.y + d.dy]);
+
+                  svg.style("shape-rendering", null);
+
+                  svg.selectAll(".depth").sort(function(a, b) { return a.depth - b.depth; });
+
+                  g2.selectAll("text").style("fill-opacity", 0);
+
+
+                  t1.selectAll("text").call(text).style("fill-opacity", 0);
+                  t2.selectAll("text").call(text).style("fill-opacity", 1);
+                  t1.selectAll("rect").call(rect);
+                  t2.selectAll("rect").call(rect);
+
+  
+                  t1.remove().each("end", function() {
+                    svg.style("shape-rendering", "crispEdges");
+                    transitioning = false;
+                  });
+                }
+
+                return g;
+              }
+
+              function text(text) {
+                text.attr("x", function(d) { return x(d.x) + 10; })
+                    .attr("y", function(d) { return y(d.y) + 10; });
+              }
+
+              function text1(text) {
+                text.attr("x", function(d) { return x(d.x) + 15; })
+                    .attr("y", function(d) { return y(d.y) + 15; });
+              }
+
+              function rect(rect) {
+                rect.attr("x", function(d) { return x(d.x); })
+                    .attr("y", function(d) { return y(d.y); })
+                    .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
+                    .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); });
+              }
+
+              function name(d) {
+                return d.parent
+                    ? name(d.parent) + " - " + d.name
+                    : d.name;
+              }
+
+            });
+
+          }
+            
+
+        },
+        replace: true
+      };
+    });
+  </script>
+</body>

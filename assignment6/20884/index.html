@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Homework6</title>
+		<link href='http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+	</head>
+	<body>
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+		<h1>Heatmap : Rice Dataset</h1>
+		<div id="dataset-picker"></div>
+		<script src="js/mycode.js"></script>
+		<div id="description">
+This heatmap is to represent the clustering result of gene expression dataset of rice. For both normal and drought-resistant rice phenotypes, gene expression values are measured at 0, 1, 6 hours after drought stress. 
+Genes are clustered according to the label of log fold change (gene exp. value of drought-resistant rice divided by that of normal rice). The labels for log fold change is as follows:<br>
+C - consistant<br>
+U - up-regulated (log fold change above 1)<br>
+D - down-regulated (log fold change below -1)<br> 
+Label is assigned for each time point and a combination of three labels (for three time points) corresponds a cluster.
+Heatmap above shows log fold changes of 25 representative genes in cluster CCD and CUU.
+ </div>
+	</body>
+</html>

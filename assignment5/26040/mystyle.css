@@ -1,0 +1,22 @@
+
+.node {
+	stroke-width: 1.5px;
+}
+
+.node text {
+	stroke: ;
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif , black;
+}
+
+.link {
+	stroke: #999;
+	stroke-opacity: .6;
+}
+
+#ref {
+	margin :; 1px 10px 1px 10px;
+}
+
+.ref{
+	display : inline-block ;
+}

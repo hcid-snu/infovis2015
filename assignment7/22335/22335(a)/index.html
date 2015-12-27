@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
+		<title> Assignment 7. Making Map </title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"> </script>
+		<script src="http://d3js.org/d3.geo.projection.v0.min.js"> </script>
+		<style>
+			.nanum { font-family: 'Nanum Gothic'; font-size: 10px; line-height: 25px;}
+			svg { width: 1000px; height: 700px; border: 1px solid white; background-color: white; }
+			path { stroke: gray; stroke-width: 0.5px; fill: white; }
+		</style>
+	</head>
+	<body>
+		<h1 class="nanum"> <text style="font-size:25pt; font-weight:bold;"> The Countries that I've Traveled </text> <br> 
+			<text style="font-size:10pt; font-weight:normal;"> 지구본 위에 지금까지 여행한, 그리고 앞으로 여행하고 싶은 나라를 표시하였다. <br>
+			구체적으로 여행한 곳은 짙은 색으로, 여행하고 싶은 곳은 옅은 색으로 구분해두었다. </text> <br>
+			</h1>
+		<svg id="myGraph">
+			<defs>
+			<radialGradient id="grad" cx="0.55" cy="0.55" r="0.75" fx="0.25" fy="0.25">
+			<stop offset="0%" stop-color="#D9E5FF"/>
+			<stop offset="100%" stop-color="#B4B4B4"/>
+			</radialGradient>
+			</defs>
+		</svg>
+		<script src="mycode.js"> </script>
+	</body>
+</html>

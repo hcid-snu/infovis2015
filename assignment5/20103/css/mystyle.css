@@ -1,0 +1,43 @@
+.node {
+  stroke-width: 1.5px;
+}
+
+.node text {
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+
+
+
+
+.d3-tip {
+  line-height: 1;
+  font: 9pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 7.5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 3.5px;
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 9px;
+  width: 100%;
+  line-height: 0.5;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}

@@ -1,0 +1,68 @@
+rect.bordered {
+	stroke: #E6E6E6;
+	stroke-width:2px;   
+}
+
+text.mono {
+	font-size: 9pt;
+	font-family: Consolas, courier;
+	fill: #aaa;
+}
+
+text.mono2 {
+	font: 10px "Trebuchet MS", Helvetica, sans-serif;
+		fill: #5C6161;   
+}
+
+text.axis-workweek {
+	fill: #000;
+}
+
+text.axis-worktime {
+	fill: #000;
+}
+
+.title_text{
+	font: 25px "Trebuchet MS", Helvetica, sans-serif;
+	color: #5C6161;   
+	 -webkit-text-stroke: 0.5px #5C6161; 
+}
+
+.body_text {
+	font: 15px "Trebuchet MS", Helvetica, sans-serif;
+	fill: #5C6161;   
+	stroke: black;
+	stroke-width: 0.1;  
+	
+}
+
+.result_text_1 {
+	font: bold 35px Verdana, Geneva, sans-serif;
+	fill: #229954;   
+	stroke: #229954; 
+	stroke-width: 0.5;  	
+}
+
+.result_text_2 {
+	font: bold 35px Verdana, Geneva, sans-serif;
+	fill: #F1C40F;   
+	stroke: #F1C40F;   
+	stroke-width: 0.5;  	
+}
+.result_text_3 {
+	font: bold 35px Verdana, Geneva, sans-serif;
+	fill: #CB4335;   
+	stroke: #CB4335;   
+	stroke-width: 0.5;  	
+}
+.venue_text {
+	font: 15px "Trebuchet MS", Helvetica, sans-serif;
+	fill: #5C6161;   
+	stroke: #5C6161;   
+	stroke-width: 0.5;  	
+}
+.score_text {
+	font: 20px "Trebuchet MS", Helvetica, sans-serif;
+	fill: #5C6161;   
+
+}

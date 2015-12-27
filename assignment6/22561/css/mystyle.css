@@ -1,0 +1,20 @@
+#chart svg {
+	border: 1px solid #ccc;
+}
+
+rect.bordered {
+	stroke: #eaeaea;
+	stroke-width:2px;   
+}
+
+text.title {
+	font-size: 14pt;
+	font-family: Consolas, courier;
+	fill: #888;
+}
+
+text.mono {
+	font-size: 9pt;
+	font-family: Consolas, courier;
+	fill: #000;
+}

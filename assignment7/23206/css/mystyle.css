@@ -1,0 +1,31 @@
+.municipality {
+  fill: silver;
+  stroke: #F6F6F6;
+}
+
+.municipality-label {
+  fill: #8C8C8C;
+  text-anchor: middle;
+	font: bold 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.municipality.p0 { 
+	fill: #ffffd9; 
+}
+
+.municipality.p1 { 
+	fill: #edf8b1; 
+}
+
+.municipality.p2 { 
+	fill: #c7e9b4; 
+}
+
+.municipality.p3 { 
+	fill: #7fcdbb; 
+}
+
+.municipality.p4 { 
+	fill: #41b6c4; 
+}
+

@@ -1,0 +1,34 @@
+{
+ "name": "South Korea",
+ "children": [
+  {
+   "name": "special city and regional city",
+   "children": [
+		 {"name": "Seoul", "size": 605},
+		 {"name": "Busan", "size": 766},
+		 {"name": "Daegu", "size": 885},
+		 {"name": "Incheon", "size": 1041},
+		 {"name": "Gwangju", "size": 501},
+		 {"name": "Daejeon", "size": 539},
+		 {"name": "Ulsan", "size": 1057}
+	 ]
+  },
+  {
+   "name": "Province",
+   "children": [
+		 {"name": "Gyeonggi", "size": 10183},
+		 {"name": "Gangwon", "size": 16874},
+		 {"name": "Chungcheong", "size": 16061},
+		 {"name": "Jeonra", "size": 20145},
+		 {"name": "Gyeongsang", "size": 29557}
+	 ]
+  },
+  {
+   "name": "Self-governing region",
+   "children": [
+		 {"name": "Sejong", "size": 465},
+		 {"name": "Jeju", "size": 1848}
+	 ]
+  }
+ ]
+}

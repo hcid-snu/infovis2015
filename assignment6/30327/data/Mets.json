@@ -1,0 +1,39 @@
+{
+ "name": "NewYork Mets",
+ "children": [
+  {
+   "name": "Pitchers",
+   "children": [
+		 {"name": "Bartolo Colon", "size": "2500.0"},
+{"name": "Jacob deGrom", "size": "5200.0"},
+{"name": "Matt Harvey", "size": "4400.0"},
+{"name": "Jon Niese", "size": "900.0"},
+{"name": "Noah Syndergaard", "size": "3100.0"},
+{"name": "Jeurys Familia", "size": "1600.0"},
+{"name": "Carlos Torres", "size": "400.0"},
+{"name": "Sean Gilmartin", "size": "900.0"},
+{"name": "Hansel Robles", "size": "200.0"},
+{"name": "Dillon Gee", "size": "300.0"},
+{"name": "Logan Verrett", "size": "200.0"},
+{"name": "Steven Matz", "size": "600.0"},
+{"name": "Erik Goeddel", "size": "500.0"}
+	 ]
+  },
+  {
+   "name": "Batters",
+   "children": [
+		 {"name": "Curtis Granderson", "size": "5100.0"},
+{"name": "Lucas Duda", "size": "3100.0"},
+{"name": "Daniel Murphy", "size": "2500.0"},
+{"name": "Wilmer Flores", "size": "1900.0"},
+{"name": "Juan Lagares", "size": "1000.0"},
+{"name": "Ruben Tejada", "size": "1000.0"},
+{"name": "Travis d'Arnaud", "size": "2300.0"},
+{"name": "Kevin Plawecki", "size": "200.0"},
+{"name": "Yoenis Cespedes", "size": "2700.0"},
+{"name": "Michael Conforto", "size": "2100.0"},
+{"name": "David Wright", "size": "900.0"}
+	 ]
+  }
+ ]
+}

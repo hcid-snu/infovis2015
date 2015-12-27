@@ -1,0 +1,40 @@
+{
+ "name": "Chicago Cubs",
+ "children": [
+  {
+   "name": "Pitchers",
+   "children": [
+		 {"name": "Jake Arrieta", "size": "7300.0"},
+{"name": "Jon Lester", "size": "5000.0"},
+{"name": "Kyle Hendricks", "size": "3400.0"},
+{"name": "Jason Hammel", "size": "2400.0"},
+{"name": "Travis Wood", "size": "1300.0"},
+{"name": "Hector Rondon", "size": "1600.0"},
+{"name": "Pedro Strop", "size": "1100.0"},
+{"name": "Dan Haren", "size": "300.0"},
+{"name": "Justin Grimm", "size": "600.0"},
+{"name": "Jason Motte", "size": "500.0"},
+{"name": "Clayton Richard", "size": "400.0"},
+{"name": "James Russell", "size": "100.0"},
+{"name": "Tsuyoshi Wada", "size": "300.0"},
+{"name": "Edwin Jackson", "size": "300.0"}
+	 ]
+  },
+  {
+   "name": "Batters",
+   "children": [
+		 {"name": "Anthony Rizzo", "size": "5500.0"},
+{"name": "Dexter Fowler", "size": "3200.0"},
+{"name": "Kris Bryant", "size": "6500.0"},
+{"name": "Starlin Castro", "size": "800.0"},
+{"name": "Addison Russell", "size": "2900.0"},
+{"name": "Chris Coghlan", "size": "3300.0"},
+{"name": "Jorge Soler", "size": "100.0"},
+{"name": "Miguel Montero", "size": "2000.0"},
+{"name": "Kyle Schwarber", "size": "1900.0"},
+{"name": "Chris Denorfia", "size": "800.0"},
+{"name": "David Ross", "size": "100.0"}
+	 ]
+  }
+ ]
+}

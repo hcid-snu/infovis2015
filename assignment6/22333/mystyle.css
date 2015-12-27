@@ -1,0 +1,22 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 1000px;
+}
+
+form {
+  position: absolute;
+  right: 28px;
+  top: 400px;
+}
+
+.node {
+  border: solid 2px black;
+  font: 11px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-weight:bold;
+  overflow: hidden;
+  position: absolute;
+	text-align: center;
+  word-wrap: break-word;
+}

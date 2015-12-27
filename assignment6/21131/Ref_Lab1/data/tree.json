@@ -1,0 +1,57 @@
+{
+ "name": "Shakespeare",
+ "children": [
+  {
+   "name": "Comedies",
+   "children": [
+		 {"name": "All's Well That Ends Well", "size": 23009},
+		 {"name": "As You Like It", "size": 21690},
+		 {"name": "Comedy of Errors", "size": 14701},
+		 {"name": "Love's Labour's Lost", "size": 21459},
+		 {"name": "Measure for Measure", "size": 21780},
+		 {"name": "Merchant of Venice", "size": 21291},
+		 {"name": "Merry Wives of Windsor", "size": 21845},
+		 {"name": "Midsummer Night's Dream", "size": 16511},
+		 {"name": "Much Ado about Nothing", "size": 21157},
+		 {"name": "Taming of the Shrew", "size": 21055},
+		 {"name": "Tempest", "size": 16633},
+		 {"name": "Twelfth Night", "size": 19837},
+		 {"name": "Two Gentlemen of Verona", "size": 17129},
+		 {"name": "Winter's Tale", "size": 24914}
+	 ]
+  },
+  {
+   "name": "Histories",
+   "children": [
+		 {"name": "Henry IV, Part I", "size": 24579},
+		 {"name": "Henry IV, Part II", "size": 25689},
+		 {"name": "Henry V", "size": 24629},
+		 {"name": "Henry VI, Part I", "size": 21607},
+		 {"name": "Henry VI, Part II", "size": 25439},
+		 {"name": "Henry VI, Part III", "size": 24294},
+		 {"name": "Henry VIII", "size": 24629},
+		 {"name": "King John", "size": 20772},
+		 {"name": "Pericles", "size": 18579},
+		 {"name": "Richard II", "size": 22423},
+		 {"name": "Richard III", "size": 29278}
+	 ]
+  },
+  {
+   "name": "Tragedies",
+   "children": [
+		 {"name": "Antony and Cleopatra", "size": 24905},
+		 {"name": "Coriolanus", "size": 27589},
+		 {"name": "Cymbeline", "size": 27565},
+		 {"name": "Hamlet", "size": 30557},
+		 {"name": "Julius Caesar", "size": 19703},
+		 {"name": "King Lear", "size": 26145},
+		 {"name": "Macbeth", "size": 17121},
+		 {"name": "Othello", "size": 26450},
+		 {"name": "Romeo and Juliet", "size": 24545},
+		 {"name": "Timon of Athens", "size": 18216},
+		 {"name": "Titus Andronicus", "size": 20743},
+		 {"name": "Troilus and Cressida", "size": 26089}
+	 ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+h1 {
+	font-family: perpetua, serif;
+	font-size: 20pt;
+}
+
+path.link {
+  fill: none;
+  stroke: dimgray;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #605874;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.group1 { /*House of Escalus*/
+	fill: goldenrod ! important;
+}
+
+.group2 { /*House of Capulet*/
+	fill: firebrick ! important;
+}
+
+.group3 { /*House of Montague*/
+	fill: darkslateblue ! important;
+}
+
+.group4 { /*Others*/
+	fill: rosybrown ! important;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}

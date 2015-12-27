@@ -1,0 +1,29 @@
+svg { 
+  var width = 1000,
+      height = 800
+
+  var svg = d3.select("body").append("svg")
+      .attr("width", width)
+      .attr("height", height)
+
+  var color = d3.scale.category10()
+
+  var force = d3.layout.force()
+      .gravity(.05)		// 노드 간의 중력
+      .distance(130)	// 노드 간의 기본 거리
+      .charge(-1200)		// 서로 밀치고 당기는 힘
+      .size([width, height])
+}
+
+.node {
+  stroke-width: 1.5px;
+}
+
+.node text {
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}

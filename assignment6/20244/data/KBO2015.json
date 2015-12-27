@@ -1,0 +1,203 @@
+{
+	"id": 1,
+	"name": "Teams",
+	"children": [	
+		{
+			"id": 2,
+			"name": "Samsung Lions",
+			"children": [
+				{"id": 3, "name": "Sang-su Kim", "size": 3.2, "WAR": 2.08},
+				{"id": 4, "name": "Tea-wan Kim", "size": 1.05, "WAR": "-0.11"},
+				{"id": 5, "name": "Sok-min Park", "size": 4.7, "WAR": 7.05},
+				{"id": 6, "name": "Han-yi Park", "size": 4.5, "WAR": 2.11},
+				{"id": 7, "name": "Chang-min Sim", "size": 1, "WAR": 1.10},
+				{"id": 8, "name": "Ji-man An", "size": 7.5, "WAR": 2.04},
+				{"id": 9, "name": "Sung-hwan Yun", "size": 8, "WAR": 4.97},
+				{"id": 10, "name": "Seung-yuop Lee", "size": 9, "WAR": 3.30},
+				{"id": 11, "name": "Ji-young Lee", "size": 1.5, "WAR": 0.55},
+				{"id": 12, "name": "Chang-yong Lim", "size": 5, "WAR": 2.13},
+				{"id": 13, "name": "Won-sam Jang", "size": 7.5, "WAR": 0.88},
+				{"id": 14, "name": "Dong-chan Cho", "size": 4, "WAR": "-"},
+				{"id": 15, "name": "Kab-yong Jin", "size": 2.5, "WAR": 0.52},
+				{"id": 16, "name": "Woo-chan Cha", "size": 3, "WAR": 3.66},
+				{"id": 17, "name": "Tae-in Chae", "size": 3.3, "WAR": 2.09},
+				{"id": 18, "name": "Hyoung-woo Choi", "size": 6, "WAR": 5.28}
+			]
+		},
+		{
+			"id": 80, 
+			"name": "Hanwha Eagles",
+			"children": [
+				{"id": 81, "name": "Hyuk Kwon", "size": 4.5, "WAR": 0.08},
+				{"id": 82, "name": "Kyeong-eon Kim", "size": 1.5, "WAR": 3.34},
+				{"id": 83, "name": "Tae-kyun Kim", "size": 15, "WAR": 5.30},
+				{"id": 84, "name": "Il-young Ma", "size": 1.5, "WAR": "-0.03"},
+				{"id": 85, "name": "Jung-jin Park", "size": 2, "WAR": 1.34},
+				{"id": 86, "name": "Young-soo Bae", "size": 5.5, "WAR": "-0.45"},
+				{"id": 87, "name": "Kwang-min Song", "size": 1.1, "WAR": "-0.17"},
+				{"id": 88, "name": "Eun-beom Song", "size": 4.5, "WAR": 0.63},
+				{"id": 89, "name": "Chang-sik Song", "size": 1, "WAR": "-0.86"},
+				{"id": 90, "name": "Young-myung Ahn", "size": 1.55, "WAR": 0.82},
+				{"id": 91, "name": "Kyu-jin Yun", "size": 1.2, "WAR": 0.94},
+				{"id": 92, "name": "Yong-kyu Lee", "size": 7, "WAR": 4.41},
+				{"id": 93, "name": "Keun-woo Jeong", "size": 7, "WAR": 4.41},
+				{"id": 94, "name": "In-sung Cho", "size": 4, "WAR": 0.24},
+				{"id": 95, "name": "Jin-haeng Choi", "size": 1.5, "WAR": 2.70},
+				{"id": 96, "name": "Sang-hoon Han", "size": 2, "WAR": "-0.27"}
+			]
+		},
+		{
+			"id": 32, 
+			"name": "Doosan Bears",
+			"children": [
+				{"id": 33, "name": "Jae-ho Kim", "size": 1.67, "WAR": 2.93},
+				{"id": 34, "name": "Hyun-soo Kim", "size": 7.5, "WAR": 6.13},
+				{"id": 35, "name": "Kyeong-eun No", "size": 2.3, "WAR": "-0.29"},
+				{"id": 36, "name": "Byeong-heon Min", "size": 2.8, "WAR": 1.94},
+				{"id": 37, "name": "Eui-ji Yang", "size": 2, "WAR": 5.51},
+				{"id": 38, "name": "Jae-won Oh", "size": 4, "WAR": 1.85},
+				{"id": 39, "name": "Hyun-taek Oh", "size": 1.1, "WAR": 0.41},
+				{"id": 40, "name": "Hui-kwan Yu", "size": 2, "WAR": 3.67},
+				{"id": 41, "name": "Myung-jun Yun", "size": 1.07, "WAR": 0.23},
+				{"id": 42, "name": "Jae-woo Lee", "size": 1, "WAR": "-0.44"},
+				{"id": 43, "name": "Hyung-seung Lee", "size": 1.55, "WAR": 1.22},
+				{"id": 44, "name": "Min-seok Jang", "size": 1, "WAR": "-0.51"},
+				{"id": 45, "name": "Won-jun Jang", "size": 10, "WAR": 3.24},
+				{"id": 46, "name": "Soo-bin Jung", "size": 2.2, "WAR": 1.34},
+				{"id": 47, "name": "Sung-heon Hong", "size": 4, "WAR": 0.01}
+			]
+		},
+		{
+			"id": 97, 
+			"name": "KIA Tigers",
+			"children": [
+				{"id": 98, "name": "Byung-hyun Kim", "size": 2, "WAR": 0.18},
+				{"id": 99, "name": "Won-seop Kim", "size": 1.5, "WAR": 1.27},
+				{"id": 100, "name": "Joo-chan Kim", "size": 5, "WAR": 2.51},
+				{"id": 101, "name": "Jin-woo Kim", "size": 1.5, "WAR": 0.14},
+				{"id": 102, "name": "Tae-young kim", "size": 1.08, "WAR": 0.48},
+				{"id": 103, "name": "Ji-wan Na", "size": 2.5, "WAR": 0.58},
+				{"id": 104, "name": "Ki-nam Park", "size": 1, "WAR": 0.16},
+				{"id": 105, "name": "Jae-eung Seo", "size": 1.2, "WAR": 0.24},
+				{"id": 106, "name": "Jong-kil Shin", "size": 1.2, "WAR": "-0.23"},
+				{"id": 107, "name": "Hyun-jong Yang", "size": 4, "WAR": 3.72},
+				{"id": 108, "name": "Bum-ho Lee", "size": 4, "WAR": 3.68},
+				{"id": 109, "name": "Il-mok Cha", "size": 1.5, "WAR": "-0.21"},
+				{"id": 110, "name": "Young-pil Choi", "size": 1.3, "WAR": 0.06}
+			]
+		},
+		{
+			"id": 60, 
+			"name": "SK Wyverns",
+			"children": [
+				{"id": 61, "name": "Kwang-hyun Kim", "size": 6, "WAR": 4.11},
+				{"id": 62, "name": "Sung-hyun Kim", "size": 1.4, "WAR": 1.80},
+				{"id": 63, "name": "Joo-hwan Na", "size": 2, "WAR": "-0.22"},
+				{"id": 64, "name": "Jae-sang Park", "size": 1.6, "WAR": 0.12},
+				{"id": 65, "name": "Jung-kwon Park", "size": 4, "WAR": 1.30},
+				{"id": 66, "name": "Jin-man Park", "size": 1.5, "WAR": 0.32},
+				{"id": 67, "name": "Hee-soo Park", "size": 1.7, "WAR": 2.54},
+				{"id": 68, "name": "Kil-hyun Yun", "size": 2.2, "WAR": 0.35},
+				{"id": 69, "name": "Hee-sang Yun", "size": 1.35, "WAR": 1.11},
+				{"id": 70, "name": "Dae-soo Lee", "size": 3.5, "WAR": 0.00},
+				{"id": 71, "name": "Myung-ki Lee", "size": 1, "WAR": 0.99},
+				{"id": 72, "name": "Jae-young Lee", "size": 1.5, "WAR": "-0.04"},
+				{"id": 73, "name": "Jae-won Lee", "size": 1.75, "WAR": 1.76},
+				{"id": 74, "name": "Hoon Lim", "size": 1.05, "WAR": "-0.46"},
+				{"id": 75, "name": "Sang-ho Jung", "size": 2.3, "WAR": 1.44},
+				{"id": 76, "name": "Woo-ram Jung", "size": 4, "WAR": 2.59},
+				{"id": 77, "name": "Dong-hwa Cho", "size": 3, "WAR": 0.16},
+				{"id": 78, "name": "Byung-yong Chae", "size": 2.2, "WAR": 0.19},
+				{"id": 79, "name": "Jung Choi", "size": 10, "WAR": 3.19}
+			]
+		},
+		{
+			"id": 48, 
+			"name": "Nexen Heroes",
+			"children": [
+				{"id": 49, "name": "Min-sung Kim", "size": 2, "WAR": 2.20},
+				{"id": 50, "name": "Jung-kil Ma", "size": 1.4, "WAR": "-0.04"},
+				{"id": 51, "name": "Sung-hyun Moon", "size": 1.1, "WAR": 0.39},
+				{"id": 52, "name": "Byung-ho Park", "size": 7, "WAR": 8.96},
+				{"id": 53, "name": "Geon-chang Seo", "size": 3, "WAR": 1.89},
+				{"id": 54, "name": "Seung-rak Son", "size": 5.3, "WAR": 1.11},
+				{"id": 55, "name": "Shin-young Song", "size": 1.5, "WAR": 0.52},
+				{"id": 56, "name": "Jae-young Oh", "size": 1.1, "WAR": "-0.13"},
+				{"id": 57, "name": "Han-joon Yoo", "size": 2.8, "WAR": 6.90},
+				{"id": 58, "name": "Taek-keun Lee", "size": 7, "WAR": 2.63},
+				{"id": 59, "name": "Hyun-hee Han", "size": 2.3, "WAR": 2.42}
+			]
+		},
+		{
+			"id": 126, 
+			"name": "LG Twins",
+			"children": [
+				{"id": 127, "name": "Je-gook Ryu", "size": 2.3, "WAR": 1.14},
+				{"id": 128, "name": "Yong-taik Park", "size": 8, "WAR": 2.91},
+				{"id": 129, "name": "Jung-keun Bong", "size": 4.5, "WAR": 0.20},
+				{"id": 130, "name": "Ju-in Son", "size": 1.6, "WAR": "-1.04"},
+				{"id": 131, "name": "Ji-woong Yoon", "size": 1.55, "WAR": 1.28},
+				{"id": 132, "name": "Ji-hwan Oh", "size": 1.6, "WAR": 2.87},
+				{"id": 133, "name": "Kyu-min Woo", "size": 3, "WAR": 4.48},
+				{"id": 134, "name": "Won-sang Yoo", "size": 1.2, "WAR": "-0.06"},
+				{"id": 135, "name": "Dong-hyun Lee", "size": 3, "WAR": 1.19},
+				{"id": 136, "name": "Byung-kyu Lee", "size": 8, "WAR": "-0.78"},
+				{"id": 137, "name": "Byung-kyu Lee", "size": 2.6, "WAR": 1.06},
+				{"id": 138, "name": "Jin-young Lee", "size": 6, "WAR": "-0.20"},
+				{"id": 139, "name": "Sung-hoon Jung", "size": 5, "WAR": 1.33},
+				{"id": 140, "name": "Kyung-chul Choi", "size": 1.3, "WAR": "-0.29"}
+			]
+		},
+		{
+			"id": 141, 
+			"name": "KT Wiz",
+			"children": [
+				{"id": 141, "name": "Sang-hyun Kim", "size": 1.6, "WAR": 1.58},
+				{"id": 142, "name": "Sa-yul Kim", "size": 2, "WAR": "-0.18"},
+				{"id": 143, "name": "Kyeong-soo Park", "size": 2.3, "WAR": 4.68},
+				{"id": 144, "name": "Ki-hyuk Park", "size": 1.5, "WAR": 0.78},
+				{"id": 145, "name": "Dae-hyung Lee", "size": 3, "WAR": 1.51},
+				{"id": 146, "name": "Sung-ho Jang", "size": 1, "WAR": 0.52}
+			]
+		},
+		{
+			"id": 111, 
+			"name": "Lotte Giants",
+			"children": [
+				{"id": 112, "name": "Min-ho Kang", "size": 10, "WAR": 7.03},
+				{"id": 113, "name": "Young-sik Kang", "size": 3, "WAR": 0.34},
+				{"id": 114, "name": "Sung-bae Kim", "size": 1.7, "WAR": 0.45},
+				{"id": 115, "name": "Seung-hoi Kim", "size": 1.9, "WAR": 0.52},
+				{"id": 116, "name": "Jong-yoon Park", "size": 2, "WAR": "-2.16"},
+				{"id": 117, "name": "Ah-seop Son", "size": 5, "WAR": 3.34},
+				{"id": 118, "name": "Seung-jun Song", "size": 3.4, "WAR": 2.20},
+				{"id": 119, "name": "Myung-woo Lee", "size": 1.55, "WAR": 0.42},
+				{"id": 120, "name": "Jae-cheol Lim", "size": 1.5, "WAR": "-0.51"},
+				{"id": 121, "name": "Tae-hyun Chong", "size": 5, "WAR": 0.22},
+				{"id": 122, "name": "Jae-hun Chung", "size": 3.5, "WAR": "-0.05"},
+				{"id": 123, "name": "Hoon Jung", "size": 1.45, "WAR": 2.88},
+				{"id": 124, "name": "Jun-seok Choi", "size": 4, "WAR": 5.05},
+				{"id": 125, "name": "Jae-gyun Hwang", "size": 3.1, "WAR": 3.35}
+			]
+		},
+		{
+			"id": 19,
+			"name": "NC Dinos",
+			"children": [
+				{"id": 20, "name": "Jong-ho Kim", "size": 1.15, "WAR": 1.03},
+				{"id": 21, "name": "Jin-sung Kim", "size": 1.05, "WAR": 0.28},
+				{"id": 22, "name": "Tae-goon Kim", "size": 1.35, "WAR": 0.25},
+				{"id": 23, "name": "Sung-beom Na", "size": 2.2, "WAR": 4.46},
+				{"id": 24, "name": "Chang-min Mo", "size": 1.4, "WAR": 0.76},
+				{"id": 25, "name": "Min-han Son", "size": 1.2, "WAR": 2.05},
+				{"id": 26, "name": "Si-hun Son", "size": 4, "WAR": 0.85},
+				{"id": 27, "name": "Seung-ho Lee", "size": 3.5, "WAR": 0.01},
+				{"id": 28, "name": "Jae-hak Lee", "size": 1.8, "WAR": 1.91},
+				{"id": 29, "name": "Jong-wook Lee", "size": 5, "WAR": 0.84},
+				{"id": 30, "name": "Ho-joon Lee", "size": 4.5, "WAR": 2.19},
+				{"id": 31, "name": "Young-hoon Cho", "size": 1, "WAR": 1.00}
+				
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+ "name": "Kanye West",
+ "children": [
+  {
+   "name": "My Beautiful Dark Twisted Fantasy(2010)",
+   "children": [
+		 {"name": "Dark Fantasy", "size": 281},
+		 {"name": "Gorgeous", "size": 358},
+		 {"name": "Power", "size": 292},
+		 {"name": "All of the Lights (Interlude)", "size": 62},
+		 {"name": "All of the Lights", "size": 300},
+		 {"name": "Monster", "size": 379},
+		 {"name": "So Appalled", "size": 398},
+		 {"name": "Devil in a New Dress", "size": 352},
+		 {"name": "Runaway", "size": 548},
+		 {"name": "Hell of a Life", "size": 328},
+		 {"name": "Blame Game", "size": 470},
+		 {"name": "Lost in the World", "size": 256},
+		 {"name": "Who Will Survive in America", "size": 98},
+		 {"name": "See Me Now", "size": 364}
+	   ]
+  },
+  {
+   "name": "Watch the Throne(2011)",
+   "children": [
+		 {"name": "Otis", "size": 178},
+		 {"name": "Gotta Have it", "size": 140},
+		 {"name": "New Day", "size": 272},
+		 {"name": "That`s My Bitch", "size": 202},
+		 {"name": "Welcome to the Jungle", "size": 174},
+		 {"name": "Who Gon Stop Me", "size": 256},
+		 {"name": "Murder to Excellence", "size": 301},
+		 {"name": "Made in America", "size": 292},
+		 {"name": "Why I Love You", "size": 201},
+		 {"name": "Illest Motherf**ker Alive", "size": 503},
+		 {"name": "H.A.M", "size": 275},
+		 {"name": "Primetime", "size": 199},
+		 {"name": "The Joy", "size": 318}
+	 ]
+  },
+  {
+   "name": "Yeezus(2013)",
+   "children": [
+		 {"name": "On Sight", "size": 156},
+		 {"name": "Black Skinhead", "size": 188},
+		 {"name": "I am a God", "size": 231},
+		 {"name": "New Slaves", "size": 256},
+		 {"name": "Hold My Liquor", "size": 327},
+		 {"name": "I`m in it", "size": 235},
+		 {"name": "Blood on the Leaves", "size": 359},
+		 {"name": "Guilt Trip", "size": 243},
+		 {"name": "Send it Up", "size": 178},
+		 {"name": "Bound 2", "size": 229}		 
+	 ]
+  }
+ ]
+}

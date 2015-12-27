@@ -1,0 +1,39 @@
+{
+ "name": "LA Dodgers",
+ "children": [
+  {
+   "name": "Pitchers",
+   "children": [
+		 {"name": "Clayton Kershaw", "size": "8600.0"},
+{"name": "Zack Greinke", "size": "5900.0"},
+{"name": "Brett Anderson", "size": "1700.0"},
+{"name": "Mike Bolsinger", "size": "1200.0"},
+{"name": "Carlos Frias", "size": "400.0"},
+{"name": "Alex Wood", "size": "600.0"},
+{"name": "Juan Nicasio", "size": "900.0"},
+{"name": "Yimi Garcia", "size": "800.0"},
+{"name": "Kenley Jansen", "size": "1700.0"},
+{"name": "Pedro Baez", "size": "1100.0"},
+{"name": "J.P. Howell", "size": "300.0"},
+{"name": "Chris Hatcher", "size": "400.0"}
+	 ]
+  },
+  {
+   "name": "Batters",
+   "children": [
+		 {"name": "Adrian Gonzalez", "size": "3000.0"},
+{"name": "Joc Pederson", "size": "2800.0"},
+{"name": "Jimmy Rollins", "size": "200.0"},
+{"name": "Howie Kendrick", "size": "2100.0"},
+{"name": "Andre Ethier", "size": "2900.0"},
+{"name": "Justin Turner", "size": "4000.0"},
+{"name": "Yasmani Grandal", "size": "2300.0"},
+{"name": "Yasiel Puig", "size": "1500.0"},
+{"name": "Scott Van Slyke", "size": "1200.0"},
+{"name": "Enrique Hernandez", "size": "1700.0"},
+{"name": "A.J. Ellis", "size": "1400.0"},
+{"name": "Carl Crawford", "size": "400.0"}
+	 ]
+  }
+ ]
+}

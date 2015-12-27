@@ -1,0 +1,36 @@
+html, body, #map {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font: 24px "돋움", sans-serif;
+  font-weight: 800;
+  margin: 10px 10px 0 0;
+}
+
+p {
+  font: 12px "돋움", sans-serif;
+  margin-top: 10px;
+
+}
+
+.stations, .stations svg {
+  position: absolute;
+}
+
+.stations svg {
+  width: 60px;
+  height: 20px;
+  padding-right: 100px;
+  font: 12px sans-serif;
+  font-weight: 800;
+}
+
+.stations circle {
+  fill: orangered;
+  stroke: red;
+  stroke-width: 1.5px;
+}

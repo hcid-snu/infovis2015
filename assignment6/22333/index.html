@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Week9 Example: Treemap</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="mystyle.css" />
+	</head>
+	<body>
+		<h1>2015 상반기 가요 차트 정리(2015.01~06)</h1>
+
+<br>
+
+<h3>1. 개요</h3>
+<br>
+2015년 상반기 가요계를 정리하기 위해
+<a href="http://www.melon.com/chart/" target="_blank">멜론차트(클릭)</a>순위를 바탕으로 TreeMap을 구성하였습니다.
+<br>
+<br>
+기준은 2015년 1월부터 6월사이 주간 차트 1위부터 10위까지로 설정하였으며, 그룹은 소속사를 기준으로 나누었습니다.
+
+<br>
+수집은 크게 2가지 방향으로
+<b> 1. 10위 내 머무른 주의 합(괄호 안의 수) 2. 해당 기간내 10위권에 진입한 곡의 수 </b>
+ 로 나누었습니다.
+<br>
+<i>(다만, 언프리티 랩스타와 같은 음악 프로그램 음원은 해당 앨범 발매 기획사를 기준으로 설정하였습니다)</i>
+<br>
+분석 내용은 아래 차트와 같습니다.
+<br>
+<br>
+<br>
+
+<h3>2. 차트</h3>
+		<form>
+		  <label><input type="radio" name="mode" value="size" checked> 차트 유지 기간</label>
+		  <label><input type="radio" name="mode" value="count"> 차트 진입 곡수</label>
+		</form>
+		<script src="mycode.js"></script>
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;
+<span style="background-color:#fffa6d">더바이브엔터</span>
+<span style="background-color:#efedf5">RBW</span>
+<span style="background-color:#dadaeb">젤리피쉬엔터</span>
+<span style="background-color:#bcbddc">필굿뮤직</span>
+<span style="background-color:#9e9ac8">후크엔터</span>
+<span style="background-color:#807dba">일리네어레코즈</span>
+<span style="background-color:#A5FCFF">FNC엔터</span>
+<span style="background-color:#FFAF0D">에이팝엔터</span>
+<span style="background-color:#c7e9c0">MMO</span>
+<span style="background-color:#a1d99b">청춘뮤직</span>
+<span style="background-color:#E8946A">큐브엔터</span>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;
+<span style="background-color:#41ab5d">안테나뮤직</span>
+<span style="background-color:#1f77b4">YNB엔터</span>
+<span style="background-color:#ff7f0e">인넥스트트렌드</span>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;
+<span style="background-color:#d62728">웰메이드예당/예당엔터</span>
+<span style="background-color:#8c564b">로엔엔터</span>
+<span style="background-color:#17becf">스타쉽엔터</span>
+<span style="background-color:#bcbd22">아메바컬쳐</span>
+<span style="background-color:#ff9896">에이큐브엔터</span>
+<span style="background-color:#f70add">JYP엔터</span>
+<span style="background-color:#FF0A61">SM엔터</span>
+<span style="background-color:#e3ff0d">YG엔터</span>
+<span style="background-color:#2945FF">CJ E&M</span>
+<br>
+&nbsp;&nbsp;&nbsp;<i>(예당 엔터와 웰메이드 예당은 자회사 관계)</i>
+<br>
+<br>
+
+<h3>3. 분석결과</h3>
+1) 상반기 가장 인기 있었던 가수들 : BIGBANG(25주), 다비치(16주), EXID(15주), ZION.T(11주) 나얼-노을(각각 10주)
+<br>
+2) 상반기 차트 유지율이 컸던 기획사 : CJ E&M, YG, JYP
+<br>&nbsp;&nbsp;&nbsp;<i>(CJ E&M은 언프리티 랩스타 영향)</i>
+<br>
+3) 상반기 차트 진입 가수가 다양했던 기획사 : CJ E&M, JYP, SM, 스타쉽
+<br>&nbsp;&nbsp;&nbsp;<i>(CJ E&M은 언프리티 랩스타 영향)</i>
+<br>
+4) 상반기 가장 많은 곡을 차트에 올린 가수 : 빅뱅(YG 엔터), 다비치(CJ E&M)
+<br>
+5) 한명 이상의 가수가 차트에 오른 기획사 : 웰메이드예당/예당엔터, 로엔엔터, 스타쉽엔터, 아메바컬쳐, 에이큐브엔터, JYP엔터, SM엔터, YG엔터, CJ E&M
+<br>&nbsp;&nbsp;&nbsp;<i>(나머지 기획사는 1명의 가수만 차트 진입)</i>
+
+<br>
+6) 5번 기획사 별 대표가수 : CJ E&M(다비치, 언프리티 랩스타), SM(엑소), YG(BIG BANG), 예당(EXID), 아메바컬쳐(Zion.T), 스타쉽(매드클라운), JYP(미쓰에이), 로엔(아이유), 에이큐브(허각)
+<br>
+7) 기간 내 최단기간 차트 유지(1주) : 케이윌, 마마무, 포맨
+<br>&nbsp;&nbsp;&nbsp;<i>(씨스타는 6월까지이므로 산정에서 제외)</i>
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
+	</body>
+</html>
+

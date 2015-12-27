@@ -1,0 +1,40 @@
+{
+ "name": "Toronto Bluejays",
+ "children": [
+  {
+   "name": "Pitchers",
+   "children": [
+		 {"name": "R.A. Dickey", "size": "2000.0"},
+{"name": "Mark Buehrle", "size": "2100.0"},
+{"name": "Marco Estrada", "size": "1800.0"},
+{"name": "Drew Hutchison", "size": "1500.0"},
+{"name": "Aaron Sanchez", "size": "300.0"},
+{"name": "David Price", "size": "2700.0"},
+{"name": "Roberto Osuna", "size": "1300.0"},
+{"name": "Liam Hendriks", "size": "1500.0"},
+{"name": "Brett Cecil", "size": "1400.0"},
+{"name": "Aaron Loup", "size": "300.0"}
+	 ]
+  },
+  {
+   "name": "Batters",
+   "children": [
+		{"name": "Josh Donaldson", "size": "8700.0"},
+{"name": "Jose Bautista", "size": "4500.0"},
+{"name": "Kevin Pillar", "size": "4300.0"},
+{"name": "Edwin Encarnacion", "size": "4500.0"},
+{"name": "Russell Martin", "size": "3500.0"},
+{"name": "Ryan Goins", "size": "1500.0"},
+{"name": "Chris Colabello", "size": "800.0"},
+{"name": "Justin Smoak", "size": "600.0"},
+{"name": "Jose Reyes", "size": "1000.0"},
+{"name": "Ben Revere", "size": "300.0"},
+{"name": "Devon Travis", "size": "2300.0"},
+{"name": "Dioner Navarro", "size": "500.0"},
+{"name": "Ezequiel Carrera", "size": "200.0"},
+{"name": "Troy Tulowitzki", "size": "1400.0"},
+{"name": "Danny Valencia", "size": "700.0"}
+	 ]
+  }
+ ]
+}

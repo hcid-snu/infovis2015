@@ -1,0 +1,85 @@
+html, body, #map {
+width  = 1000;
+height = 1000;
+
+
+.municipality.p0 { 
+	fill: #1f77b4; 
+}
+
+.municipality.p1 { 
+	fill: #aec7e8; 
+}
+
+.municipality.p2 { 
+	fill: #ff7f0e; 
+}
+
+.municipality.p3 { 
+	fill: #ffbb78; 
+}
+
+.municipality.p4 { 
+	fill: #2ca02c; 
+}
+
+.municipality.p5 { 
+	fill: #98df8a; 
+}
+
+.municipality.p6 { 
+	fill: #d62728; 
+}
+
+.municipality.p7 { 
+	fill: #ff9896; 
+}
+
+.municipality.p8 { 
+	fill: #9467bd;
+}
+.municipality.p9 { 
+	fill: #c5b0d5;
+}
+.municipality.p10 { 
+	fill: #8c564b;
+}
+.municipality.p11 { 
+	fill: #49c94;
+}
+.municipality.p12 { 
+	fill: #e377c2;
+}
+.municipality.p13 { 
+	fill: #f7b6d2;
+}
+.municipality.p14 { 
+	fill: #7f7f7f;
+}
+.municipality.p15 { 
+	fill: #c7c7c7;
+}
+.municipality.p16 { 
+	fill: #bcbd22;
+}
+.municipality.p17 { 
+	fill: #dbdb8d;
+}
+.municipality.p18 { 
+	fill: #17becf;
+}
+.municipality.p19 { 
+	fill: #9edae5;
+}
+.municipality.p20 { 
+	fill: #if77b4;
+}
+.municipality.p21 { 
+	fill: #aec7e8;
+}
+.municipality.p22 { 
+	fill: #ff7f0e;
+}
+.municipality.p23 { 
+	fill: #ffbb78;
+}

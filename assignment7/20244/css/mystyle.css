@@ -1,0 +1,53 @@
+.submunicipality {
+  fill: silver;
+  stroke: #000;
+}
+
+.submunicipality-label {
+  fill: rgb(0,0,0);
+  stroke-width: 0.5px;
+  stroke: rgb(200,200,200);
+  text-anchor: middle;
+	font: bold 8px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.submunicipality.p0 { 
+	fill: rgb(247,251,250); 
+}
+
+.submunicipality.p1 { 
+	fill: rgb(222,235,247);
+}
+
+.submunicipality.p2 { 
+	fill: rgb(198,219,239); 
+}
+
+.submunicipality.p3 { 
+	fill: rgb(158,202,225);
+}
+
+.submunicipality.p4 { 
+	fill: rgb(107,174,214); 
+}
+
+.submunicipality.p5 { 
+	fill: rgb(66,146,198);
+}
+
+.submunicipality.p6 { 
+	fill: rgb(33,113,181); 
+}
+
+.submunicipality.p7 { 
+	fill: rgb(8,81,156);
+}
+
+.submunicipality.p8 { 
+	fill: rgb(8,48,107);
+}
+
+.submunicipality.p9 { 
+	stroke-opacity: 0;
+	fill-opacity: 0;
+}

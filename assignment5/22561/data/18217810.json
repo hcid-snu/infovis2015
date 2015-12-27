@@ -1,0 +1,18 @@
+{
+	"nodes": [
+		{"name":"18217810","group":0},
+		{"name":"17997214","group":-1},
+		{"name":"209655447","group":-1},
+		{"name":"297211894","group":2},
+		{"name":"363660361","group":2},
+		{"name":"466885568","group":2}
+	], "links": [
+		{"source":0,"target":1,"value":2},
+		{"source":0,"target":2,"value":1},
+		{"source":0,"target":3,"value":1},
+		{"source":0,"target":4,"value":1},
+		{"source":0,"target":5,"value":1},
+		{"source":3,"target":4,"value":1},
+		{"source":3,"target":5,"value":1}
+	]
+}

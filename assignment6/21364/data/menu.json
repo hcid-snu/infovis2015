@@ -1,0 +1,94 @@
+{
+  "name": "메뉴",
+  "children": [
+    {
+      "name": "과일",
+      "children": [
+        {"name": "사과", "size": 21},
+        {"name": "귤", "size": 4},
+        {"name": "딸기", "size": 5}
+      ]
+    },
+    {
+      "name": "한식",
+      "children": [
+        {"name": "낙지수제비", "size": 1},
+        {"name": "찜닭", "size": 1},
+        {"name": "밥", "size": 7},
+        {"name": "양파덮밥", "size": 1},
+        {"name": "김치볶음밥", "size": 1},
+        {"name": "김치치즈볶음밥", "size": 1},
+        {"name": "전주비빔밥", "size": 1},
+        {"name": "집밥", "size": 1},
+        {"name": "닭도리탕", "size": 3},
+        {"name": "잡채", "size": 2},
+        {"name": "사라다", "size": 1},
+        {"name": "불고기", "size": 1},
+        {"name": "돼지김치두루치기", "size": 2},
+        {"name": "김밥", "size": 2},
+        {"name": "계란찜", "size": 1},
+        {"name": "김치전", "size": 1},
+        {"name": "계란말이", "size": 1}
+      ]
+    },
+    {
+      "name": "일식",
+      "children": [
+        {"name": "수제벤또", "size": 1},
+        {"name": "야끼소바", "size": 1},
+        {"name": "자루소바", "size": 1},
+        {"name": "우동", "size": 1},
+        {"name": "볶음우동", "size": 1},
+        {"name": "연어롤", "size": 1}
+      ]
+    },
+    {
+      "name": "양식",
+      "children": [
+        {"name": "토스트", "size": 4},
+        {"name": "쿼티치즈파운드버거세트", "size": 1},
+        {"name": "크로크무슈", "size": 2},
+        {"name": "햄치즈 샌드위치", "size": 1},
+        {"name": "아마트리치아타 파스타", "size": 1},
+        {"name": "크림스프", "size": 1},
+        {"name": "연어샐러드", "size": 1},
+        {"name": "식빵", "size": 1},
+        {"name": "파스타", "size": 1}
+      ]
+    },
+    {
+      "name": "분식",
+      "children": [
+        {"name": "떡볶이", "size": 4},
+        {"name": "라면볶음", "size": 1}
+      ]
+    },
+    {
+      "name": "음료",
+      "children": [
+        {"name": "홍삼액", "size": 14},
+        {"name": "토마토주스", "size": 12},
+        {"name": "코코아", "size": 1},
+        {"name": "미숫가루", "size": 12},
+        {"name": "우유", "size": 14},
+        {"name": "키위토마토주스", "size": 2},
+        {"name": "복분자즙", "size": 1},
+        {"name": "딸기주스", "size": 1}
+      ]
+    },
+    {
+      "name": "기타",
+      "children": [
+        {"name": "치킨", "size": 3},
+        {"name": "호두과자", "size": 5},
+        {"name": "순대", "size": 1},
+        {"name": "케이크", "size": 3},
+        {"name": "뷔페", "size": 1},
+        {"name": "타르트", "size": 1},
+        {"name": "롤케익", "size": 1},
+        {"name": "파닭", "size": 2},
+        {"name": "샤브샤브", "size": 1}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.margin-center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.municipality {
+  fill: silver;
+  stroke: #fff;
+  stroke-width: 0.5px;
+}
+
+.municipality:hover {
+	fill-opacity:0.5;
+}
+
+.municipality.p0 { 
+	fill: rgb(247,251,255); 
+}
+
+.municipality.p1 { 
+	fill: rgb(222,235,247); 
+}
+
+.municipality.p2 { 
+	fill: rgb(198,219,239); 
+}
+
+.municipality.p3 { 
+	fill: rgb(158,202,225); 
+}
+
+.municipality.p4 { 
+	fill: rgb(107,174,214); 
+}
+
+.municipality.p5 { 
+	fill: rgb(66,146,198); 
+}
+
+.municipality.p6 { 
+	fill: rgb(33,113,181); 
+}
+
+.municipality.p7 { 
+	fill: rgb(8,81,156); 
+}
+
+.municipality.p8 { 
+	fill: rgb(8,48,107);
+}

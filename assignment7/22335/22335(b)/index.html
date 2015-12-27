@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
+		<title> Assignment 7. Making Map </title>
+		<script src="http://d3js.org/d3.v3.min.js">	</script>
+		<script src="http://d3js.org/topojson.v1.min.js"> </script>
+		<script src="http://d3js.org/queue.v1.min.js"></script>
+		<style>
+		.nanum { font-family: 'Nanum Gothic'; font-size: 10px; line-height: 25px;}
+		.municipality { fill: white; stroke: white; }
+		.municipality-label { font-family: 'Nanum Gothic'; font-size: 10px; font-weight: bold; text-anchor: middle; fill: black; }
+		.municipality.p0 { fill: #D6D1D0; }
+		.municipality.p1 { fill: #D6D1C8; }
+		.municipality.p2 { fill: #BC8590; }
+		.municipality.p3 { fill: #B46181; }
+		.municipality.p4 { fill: #89335D; }
+		</style>
+	</head>
+	<body>
+		<h1 class="nanum"> <text style="font-size:25pt; font-weight:bold;"> The Areas that I've Often Visited </text> <br>
+		<text style="font-size:10pt; font-weight:normal;"> 서울 시내 25개의 구를 자주 방문하는 순으로 표시하였다. <br> 
+		그 결과 관악구, 동작구, 마포구, 서초구, 용산구, 중구, 6개의 구에 자주 방문했던 것으로 나타났다. </text> </h1>
+		<div id="map1"> </div>
+		<script src="mycode1.js"> </script>
+	</body>
+</html>

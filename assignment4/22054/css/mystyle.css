@@ -1,26 +1,30 @@
-svg { 
-	border: 1px 
-	solid black; 
+svg {
+	border: 1px
+	solid black;
 }
 
 body {
-  font: 10px sans-serif;
+	font: 11px sans-serif;
 }
 
 .axis path,
 .axis line {
   fill: none;
-  stroke: #000;
+  stroke: black;
   shape-rendering: crispEdges;
 }
 
 .x.axis path {
-  stroke: #000;
+  stroke: #black;
+  shape-rendering: crispEdges;
 }
 
 .line {
   fill: none;
   stroke: steelblue;
-  stroke-width: 1px;
+  stroke-width: 3px;
 }
 
+.datapoint: hover {
+	fill: steelblue;
+}

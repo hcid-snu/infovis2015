@@ -1,0 +1,62 @@
+.municipality {
+	fill: silver;
+	stroke: #fdd;
+}
+
+.municipality-label {
+	fill: silver;
+	text-anchor: middle;
+	font: 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-shadow: 1px 1px #8c8c8c;	
+}
+
+.food-label {
+	fill: black;
+	text-anchor: left;
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-shadow: 1px 1px #ffffff;
+}
+
+.visit-label {
+  	fill: black;
+  	text-anchor: left;
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-shadow: 1px 1px #ffffff;
+}
+
+
+.municipality.p0 { 
+	fill: rgb(247,251,255); 
+}
+
+.municipality.p1 { 
+	fill: rgb(222,235,247); 
+}
+
+.municipality.p2 { 
+	fill: rgb(198,219,239); 
+}
+
+.municipality.p3 { 
+	fill: rgb(158,202,225); 
+}
+
+.municipality.p4 { 
+	fill: rgb(107,174,214); 
+}
+
+.municipality.p5 { 
+	fill: rgb(66,146,198); 
+}
+
+.municipality.p6 { 
+	fill: rgb(33,113,181); 
+}
+
+.municipality.p7 { 
+	fill: rgb(8,81,156); 
+}
+
+.municipality.p8 { 
+	fill: rgb(8,48,107);
+}

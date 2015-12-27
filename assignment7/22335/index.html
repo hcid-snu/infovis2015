@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
+		<title> Assignment 7. Making Map </title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"> </script>
+		<script src="http://d3js.org/topojson.v1.min.js" charset="utf-8"> </script>
+		<style>
+		.nanum { font-family: 'Nanum Gothic'; font-size: 10px; line-height: 25px;}
+		.municipality { fill: #D6D1D0; stroke: white; }
+		.municipality-label { font-family: 'Nanum Gothic'; font-size: 10px; font-weight: bold; text-anchor: middle; fill: black; }
+		.active { fill: #BC8590; }
+		#places { fill: none; }
+		.show { font-family: 'Nanum Gothic'; font-size: 3px; font-weight: bold; fill: #89335D; }
+		</style>
+	</head>
+	<body>
+		<h1 class="nanum"> <text style="font-size:25pt; font-weight:bold;"> My Favorite Restaurants in Top Six Areas </text> <br> 
+			<text style="font-size:10pt; font-weight:normal;"> 자주 방문하는 것으로 나타난 관악구, 동작구, 마포구, 서초구, 용산구, 중구, 6개의 구를 중심으로 <br>
+				추천할 만한 맛집을 각각 2개씩 선정해보았다. (맛집을 보기 위해서는 해당 구를 클릭!)</text> </h1>
+		<div id="map2"> </div>
+		<script src="mycode2.js"> </script>
+	</body>
+</html>
+
