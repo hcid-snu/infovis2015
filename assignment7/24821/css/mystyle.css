@@ -1,0 +1,79 @@
+h1 {
+	font-family: 'Open Sans', sans-serif;
+  text-align: center
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 960px;
+  height: 800px;
+  margin-top: 10px;
+  text-align: center
+
+}
+
+#title {
+  text-align: center;
+  padding-bottom: 60px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.q0-9 { fill:#fff7f3; }
+.q1-9 { fill:#fde0dd; }
+.q2-9 { fill:#fcc5c0; }
+.q3-9 { fill:#fa9fb5; }
+.q4-9 { fill:#f768a1; }
+.q5-9 { fill:#dd3497; }
+.q6-9 { fill:#ae017e; }
+.q7-9 { fill:#7a0177; }
+.q8-9 { fill:#49006a; }
+
+.d3-tip {
+  line-height: 1;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 12px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+#map-legend{
+  text-align: center; 
+}
+
+
+
+

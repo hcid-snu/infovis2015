@@ -1,0 +1,21 @@
+types,date,freq
+Car vs. Person,2014,11118
+Car vs. Person,2013,10683
+Car vs. Person,2012,10892
+Car vs. Person,2011,10869
+Car vs. Person,2010,10783
+Car vs. Car,2014,28201
+Car vs. Car,2013,27358
+Car vs. Car,2012,28537
+Car vs. Car,2011,28294
+Car vs. Car,2010,29579
+Car Alone,2014,1473
+Car Alone,2013,1398
+Car Alone,2012,1399
+Car Alone,2011,1288
+Car Alone,2010,1300
+Total,2014,40792
+Total,2013,39439
+Total,2012,40828
+Total,2011,40451
+Total,2010,41662

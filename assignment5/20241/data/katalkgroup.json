@@ -451,7 +451,7 @@
 		    {"source":32,"target":18,"value":1},
 		    {"source":32,"target":19,"value":1},		    
 		    {"source":32,"target":20,"value":1},
-		    {"source":32,"target":21,"value":2}
+		    {"source":32,"target":21,"value":2},
 			{"source":32,"target":23,"value":1},		    
 			{"source":32,"target":24,"value":1},
 			{"source":32,"target":25,"value":1},	
@@ -999,9 +999,6 @@
 		    {"source":80,"target":7,"value":1},
 		    {"source":80,"target":8,"value":1},
 		    {"source":80,"target":9,"value":1},
-		    {"source":80,"target":79,"value":3},
-		
-
-
-     ]
+		    {"source":80,"target":79,"value":3}
+		        ]
 }

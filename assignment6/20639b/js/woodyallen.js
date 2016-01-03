@@ -20,7 +20,7 @@ d3.json("data/woodyallenfilm.json", function(error, root) {
   if (error) throw error;
 
   var node = div.datum(root).selectAll(".node")
-      .data(woodyallenfilm.nodes)
+      .data(treemap.nodes)
     	.enter().append("div")
       .attr("class", "node")
       .call(position)
@@ -33,7 +33,7 @@ d3.json("data/woodyallenfilm.json", function(error, root) {
         : function(d) { return d.size }
 
     node
-        .data(woodyallenfilm.value(value).nodes)
+        .data(treemap.value(value).nodes)
       	.transition()
         .duration(1500)
         .call(position)

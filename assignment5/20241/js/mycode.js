@@ -13,7 +13,7 @@ var force = d3.layout.force()
     .charge(-100)		
     .size([width, height])
 
-d3.json("data/katalkgroup2.json", function(error, graph) {
+d3.json("data/katalkgroup.json", function(error, graph) {
   force
       .nodes(graph.nodes)
       .links(graph.links)

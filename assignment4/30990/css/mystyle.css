@@ -1,0 +1,26 @@
+body {
+	font:13px sans-serif;
+}
+
+
+svg {
+  padding: 10px 0 0 10px;
+}
+
+
+.arc {
+  stroke: #fff;
+}
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2.4;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;

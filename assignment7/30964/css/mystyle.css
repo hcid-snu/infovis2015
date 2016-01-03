@@ -1,0 +1,46 @@
+.background {
+	fill: gray;
+}
+
+.municipality {
+  fill: gray;
+  stroke: #585858;
+}
+
+.municipality-label {
+  fill: black;
+  text-anchor: middle;
+	font: bold 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.municipality.p0 { fill: #ffffff; }
+
+.municipality.p1 { fill: #ffe5e5; }
+
+.municipality.p2 { fill: #ffcccc; }
+
+.municipality.p3 { fill: #ffb3b3; }
+
+.municipality.p4 { fill: #ff9999; }
+
+.municipality.p5 { fill: #ff8080; }
+
+.municipality.p6 { fill: #ff6666; }
+
+.municipality.p7 { fill: #ff4d4d; }
+
+.municipality.p8 { fill: #ff3333; }
+
+.municipality.p9 { fill: #ff1a1a; }
+
+.municipality.p10 { fill: #ff0000; }
+
+.municipality.p11 { fill: #e60000; }
+
+.municipality.p12 { fill: #cc0000; }
+
+.municipality.p13 { fill: #b30000; }
+
+.municipality.p14 { fill: #990000; }
+
+.municipality.p15 { fill: #800000; }

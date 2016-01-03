@@ -1,0 +1,54 @@
+svg { 
+	width: 940px; 
+	height: 550px; 
+	border: 1px 
+	solid black;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.bar { 
+	fill : #ccc; 
+}
+
+.barNum {
+	font: 7pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.axis text {
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+}
+
+.barName {
+	font: 7pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-anchor: middle;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+label {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+}
+

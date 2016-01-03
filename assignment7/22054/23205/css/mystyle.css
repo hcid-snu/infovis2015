@@ -1,0 +1,60 @@
+rect:hover {  fill:blue; }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+
+
+.municipality {
+  fill: silver;
+  stroke: #fff;
+}
+
+.municipality-label {
+  fill: white;
+  text-anchor: middle;
+	font: bold 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.municipality.p0 { 
+	fill: #ffffd9; 
+}
+
+.municipality.p1 { 
+	fill: #edf8b1; 
+}
+
+.municipality.p2 { 
+	fill: #c7e9b4; 
+}
+
+.municipality.p3 { 
+	fill: #7fcdbb; 
+}
+
+.municipality.p4 { 
+	fill: #41b6c4; 
+}
+
+.municipality.p5 { 
+	fill: #1d91c0; 
+}
+
+.municipality.p6 { 
+	fill: #225ea8; 
+}
+
+.municipality.p7 { 
+	fill: #253494; 
+}
+
+.municipality.p8 { 
+	fill: #081d58;
+}

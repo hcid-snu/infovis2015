@@ -25,7 +25,8 @@ var svg = d3.select("body").append("svg")
     .attr("height", height);
 
 queue()
-    .defer(d3.json, "http://bl.ocks.org/mbostock/raw/4090846/us.json")
+    // .defer(d3.json, "http://bl.ocks.org/mbostock/raw/4090846/us.json")
+		.defer(d3.json, "data/us.json")
     .defer(d3.csv, "data/poverty.csv", function(d) {
       if (d.id % 1000 != 0) {
         rateById.set(d.id, +d.poverty);
